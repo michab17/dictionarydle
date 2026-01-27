@@ -1,0 +1,839 @@
+[
+   {
+      "meta":{
+         "id":"discipline:1",
+         "uuid":"209fd58c-4e36-4634-b767-ccd0df28821d",
+         "sort":"052641000",
+         "src":"collegiate",
+         "section":"alpha",
+         "stems":[
+            "disciplinal",
+            "discipline",
+            "disciplines"
+         ],
+         "offensive":false
+      },
+      "hom":1,
+      "hwi":{
+         "hw":"dis*ci*pline",
+         "prs":[
+            {
+               "mw":"ˈdi-sə-plən",
+               "sound":{
+                  "audio":"discip09",
+                  "ref":"c",
+                  "stat":"1"
+               }
+            }
+         ]
+      },
+      "fl":"noun",
+      "def":[
+         {
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"1 a",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}control gained by {d_link|enforcing|enforce} obedience or order "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"struggled to maintain {wi}discipline{\/wi} in the classroom"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ],
+                  [
+                     "sense",
+                     {
+                        "sn":"b",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}behavior in accordance with rules {bc}orderly conduct "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"The troops were praised for their dedication and {wi}discipline{\/wi}."
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ],
+                  [
+                     "sense",
+                     {
+                        "sn":"c",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}{sx|self-control||} "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"lacked the {wi}discipline{\/wi} to practice regularly"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"2",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}{sx|punishment||} "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"was responsible for meting out {wi}discipline{\/wi}"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"3",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}an activity that one engages in regularly to train or improve oneself "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"… keep the {wi}discipline{\/wi} of putting money toward your savings regularly.",
+                                    "aq":{
+                                       "source":"{it}Motley Fool{\/it}"
+                                    }
+                                 },
+                                 {
+                                    "t":"Practicing running at this marathon pace … will be good {wi}discipline{\/wi}.",
+                                    "aq":{
+                                       "auth":"Mary Jennings"
+                                    }
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"4",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}a subject that is taught {bc}a field of study "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"academic {wi}disciplines{\/wi}"
+                                 }
+                              ]
+                           ]
+                        ],
+                        "sdsense":{
+                           "sd":"also",
+                           "dt":[
+                              [
+                                 "text",
+                                 "{bc}an area or division of an activity or profession "
+                              ],
+                              [
+                                 "vis",
+                                 [
+                                    {
+                                       "t":"Across the Games, around 10,500 athletes competed in 48 sports {wi}disciplines{\/wi}.",
+                                       "aq":{
+                                          "auth":"Aliza Chasan"
+                                       }
+                                    }
+                                 ]
+                              ]
+                           ]
+                        }
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"5",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}a rule or system of rules {d_link|governing|govern} conduct or activity "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"following the {wi}disciplines{\/wi} of priesthood"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"6",
+                        "sls":[
+                           "obsolete"
+                        ],
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}{sx|instruction||}"
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "uros":[
+         {
+            "ure":"dis*ci*plin*al",
+            "prs":[
+               {
+                  "mw":"ˈdi-sə-plə-nᵊl",
+                  "sound":{
+                     "audio":"discip10",
+                     "ref":"c",
+                     "stat":"1"
+                  }
+               }
+            ],
+            "fl":"adjective"
+         }
+      ],
+      "quotes":[
+         {
+            "t":"Sir Robert Peel is credited with creating the first modern police force, the bobbies, in London, in 1829, but the transformation of law enforcement, and especially forensic science, into a professional {qword}discipline{\/qword} was a haphazard affair.",
+            "aq":{
+               "auth":"Jeffrey Toobin",
+               "source":"{it}New Yorker{\/it}",
+               "aqdate":"7 May 2007"
+            }
+         },
+         {
+            "t":"So the next fall I went to Hampshire College and began studying under Herbert Bernstein. Without him, I would never have become a scientist. He shamed me into doing the hard work necessary to be able not just to talk about math and physics but to calculate. Without that {qword}discipline{\/qword}, my story would have been very different …",
+            "aq":{
+               "auth":"Lee Smolin",
+               "source":"{it}Curious Minds{\/it}",
+               "aqdate":"(2004) 2005"
+            }
+         },
+         {
+            "t":"Pragmatism became America's most important contribution to the life of the mind in the 20th century. Filtered through scores of later interpreters, it percolated across a broad segment of academic culture and influenced {qword}disciplines{\/qword} as diverse as literary criticism and legal theory.",
+            "aq":{
+               "auth":"Theo Anderson",
+               "source":"{it}Wilson Quarterly{\/it}",
+               "aqdate":"Summer 2007"
+            }
+         },
+         {
+            "t":"He stood erect, his bearing patrician, his dress impeccable. His face was stern and his pale eyes unsmiling behind his trifocals, like a man who had been called from important duties in the principal's office to administer {qword}discipline{\/qword} to an unruly classroom.",
+            "aq":{
+               "auth":"Nick Taylor",
+               "source":"{it}Laser{\/it}",
+               "aqdate":"2000"
+            }
+         }
+      ],
+      "et":[
+         [
+            "text",
+            "Middle English, \"chastisement, system of ordered conduct, instruction, branch of learning,\" borrowed from Anglo-French & Latin; Anglo-French, borrowed from Latin {it}disciplīna{\/it} \"teaching, instruction, branch of study, orderly conduct based on moral training\" (Medieval Latin, \"chastisement, scourging\"), from {it}discipulus{\/it} \"pupil, learner\" + {it}-īna,{\/it} suffix denoting a place or practice (from noun derivative of feminine of {it}-īnus{\/it} {et_link|-ine:1|-ine:1}) {ma}{mat|disciple|}{\/ma}"
+         ]
+      ],
+      "date":"13th century{ds||2||}",
+      "shortdef":[
+         "control gained by enforcing obedience or order",
+         "behavior in accordance with rules : orderly conduct",
+         "self-control"
+      ]
+   },
+   {
+      "meta":{
+         "id":"discipline:2",
+         "uuid":"3ff371d5-5d8d-400f-bed9-e630ede39e7d",
+         "sort":"052642000",
+         "src":"collegiate",
+         "section":"alpha",
+         "stems":[
+            "discipline",
+            "disciplined",
+            "discipliner",
+            "discipliners",
+            "disciplines",
+            "disciplining"
+         ],
+         "offensive":false
+      },
+      "hom":2,
+      "hwi":{
+         "hw":"discipline"
+      },
+      "fl":"verb",
+      "ins":[
+         {
+            "ifc":"-plined",
+            "if":"dis*ci*plined"
+         },
+         {
+            "ifc":"-plin*ing",
+            "if":"dis*ci*plin*ing"
+         }
+      ],
+      "def":[
+         {
+            "vd":"transitive verb",
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"1",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}to punish or {d_link|penalize|penalize} as a means of enforcing obedience and perfecting moral character "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"debates about the proper way to {wi}discipline{\/wi} a child"
+                                 },
+                                 {
+                                    "t":"was {wi}disciplined{\/wi} for misbehaving in class"
+                                 },
+                                 {
+                                    "t":"a player repeatedly {wi}disciplined{\/wi} by the league"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"2",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}to train or develop by instruction and exercise especially in {d_link|self-control|self-control} "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"I'm trying to {wi}discipline{\/wi} myself to exercise each morning."
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ],
+               [
+                  [
+                     "sense",
+                     {
+                        "sn":"3 a",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}to bring (a group) under control "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"{wi}discipline{\/wi} troops"
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ],
+                  [
+                     "sense",
+                     {
+                        "sn":"b",
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}to {d_link|impose|impose} order upon "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"Serious writers {wi}discipline{\/wi} and refine their writing styles."
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "uros":[
+         {
+            "ure":"dis*ci*plin*er",
+            "fl":"noun"
+         }
+      ],
+      "syns":[
+         {
+            "pl":"synonyms",
+            "pt":[
+               [
+                  "text",
+                  "{sc}punish{\/sc} {sc}chastise{\/sc} {sc}castigate{\/sc} {sc}chasten{\/sc} {sc}discipline{\/sc} {sc}correct{\/sc} mean to inflict a penalty on in requital for wrongdoing. {sc}punish{\/sc} implies subjecting to a penalty for wrongdoing. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}punished{\/it} for stealing"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}chastise{\/sc} may apply to either the infliction of corporal punishment or to verbal censure or denunciation. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}chastised{\/it} his son for neglecting his studies"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}castigate{\/sc} usually implies a severe, typically public censure. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"an editorial {it}castigating{\/it} the entire city council"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}chasten{\/sc} suggests any affliction or trial that leaves one humbled or subdued. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}chastened{\/it} by a landslide election defeat"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}discipline{\/sc} implies a punishing or chastening in order to bring under control. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"parents must {it}discipline{\/it} their children"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}correct{\/sc} implies punishing aimed at reforming an offender. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"the function of prison is to {it}correct{\/it} the wrongdoer"
+                     }
+                  ]
+               ]
+            ]
+         },
+         {
+            "pl":"synonyms",
+            "pt":[
+               [
+                  "text",
+                  "{sc}teach{\/sc} {sc}instruct{\/sc} {sc}educate{\/sc} {sc}train{\/sc} {sc}discipline{\/sc} {sc}school{\/sc} mean to cause to acquire knowledge or skill. {sc}teach{\/sc} applies to any manner of imparting information or skill so that others may learn. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}taught{\/it} us a lot about our planet"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}instruct{\/sc} suggests methodical or formal teaching. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}instructs{\/it} raw recruits in military drill"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}educate{\/sc} implies development of the mind. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"more things than formal schooling serve to {it}educate{\/it} a person"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}train{\/sc} stresses instruction and drill with a specific end in view. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}trained{\/it} foreign pilots to operate the new aircraft"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}discipline{\/sc} implies training in habits of order and precision. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"a {it}disciplined{\/it} mind"
+                     }
+                  ]
+               ],
+               [
+                  "text",
+                  " {sc}school{\/sc} implies training or disciplining especially in what is hard to master. "
+               ],
+               [
+                  "vis",
+                  [
+                     {
+                        "t":"{it}schooled{\/it} the horse in five gaits"
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "quotes":[
+         {
+            "t":"Volunteers have to undergo a program to {qword}discipline{\/qword} the mind and cleanse the soul.",
+            "aq":{
+               "auth":"Aparism Ghosh",
+               "source":"{it}Time{\/it}",
+               "aqdate":"4 July 2005"
+            }
+         },
+         {
+            "t":"The Army {qword}disciplined{\/qword} seven men for the incident, penalties ranging from pay-cuts and loss of rank to dismissal from the Rangers and return to the rank-and-file Army.",
+            "aq":{
+               "auth":"Gary Smith",
+               "source":"{it}Sports Illustrated{\/it}",
+               "aqdate":"11 Sept. 2006"
+            }
+         },
+         {
+            "t":"The teacher then took me to the principal's office. There, the principal attempted to {qword}discipline{\/qword} me with an old Catholic school technique called \"paddling\" …",
+            "aq":{
+               "auth":"Lalo Gomez",
+               "source":"{it}Undoing Time{\/it}",
+               "aqdate":"2001"
+            }
+         }
+      ],
+      "et":[
+         [
+            "text",
+            "Middle English {it}disciplinen{\/it} \"to subject to chastisement, educate,\" borrowed from Anglo-French & Late Latin; Anglo-French {it}discipliner,{\/it} borrowed from Late Latin {it}disciplīnāre{\/it} \"to teach\" (Medieval Latin, \"to punish, scourge\"), derivative of Latin {it}disciplīna{\/it} \"teaching, {et_link|discipline:1|discipline:1}\""
+         ]
+      ],
+      "date":"14th century{ds||1||}",
+      "shortdef":[
+         "to punish or penalize as a means of enforcing obedience and perfecting moral character",
+         "to train or develop by instruction and exercise especially in self-control",
+         "to bring (a group) under control"
+      ]
+   },
+   {
+      "meta":{
+         "id":"self-discipline",
+         "uuid":"fd7e8aac-7e70-4df6-976e-b5fe035be4e5",
+         "sort":"212263000",
+         "src":"collegiate",
+         "section":"alpha",
+         "stems":[
+            "self-discipline",
+            "self-disciplines"
+         ],
+         "offensive":false
+      },
+      "hwi":{
+         "hw":"self-dis*ci*pline",
+         "prs":[
+            {
+               "mw":"ˌself-ˈdi-sə-plən",
+               "sound":{
+                  "audio":"selfdi01",
+                  "ref":"c",
+                  "stat":"1"
+               }
+            }
+         ]
+      },
+      "fl":"noun",
+      "def":[
+         {
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}correction or regulation of oneself for the sake of improvement"
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "date":"1612",
+      "shortdef":[
+         "correction or regulation of oneself for the sake of improvement"
+      ]
+   },
+   {
+      "meta":{
+         "id":"multidiscipline",
+         "uuid":"743c867e-91ea-455c-a1db-9c2b5f498b1e",
+         "sort":"144780000",
+         "src":"collegiate",
+         "section":"alpha",
+         "stems":[
+            "multi-discipline",
+            "multidiscipline"
+         ],
+         "offensive":false
+      },
+      "hwi":{
+         "hw":"mul*ti*dis*ci*pline",
+         "prs":[
+            {
+               "mw":"ˌməl-tē-ˈdi-sə-plən",
+               "sound":{
+                  "audio":"multidiscipline_1",
+                  "ref":"owl",
+                  "stat":"1"
+               }
+            },
+            {
+               "mw":"-ˌtī-"
+            }
+         ]
+      },
+      "fl":"adjective",
+      "def":[
+         {
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}combining or involving more than one {d_link|discipline|discipline:1} or field of study {bc}{sx|multidisciplinary||} "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"… leadership challenges in a {wi}multidiscipline{\/wi} department …",
+                                    "aq":{
+                                       "source":"{it}AAG Abstracts{\/it}"
+                                    }
+                                 },
+                                 {
+                                    "t":"A $20,000 grant … helped the staff develop a large, {wi}multidiscipline{\/wi} area divided into areas focusing on science, technology, math, language arts, art, music and engineering …",
+                                    "aq":{
+                                       "auth":"Jill Cueni-Cohen et al."
+                                    }
+                                 },
+                                 {
+                                    "t":"The system is designed to support {wi}multidiscipline{\/wi} classroom use, change the table height to adapt to a particular activity, integrate the latest teaching technology, meet ADA requirements, and decrease the size required for science classrooms.",
+                                    "aq":{
+                                       "source":"{it}Science Activities{\/it}"
+                                    }
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "date":"1935",
+      "shortdef":[
+         "combining or involving more than one discipline or field of study : multidisciplinary"
+      ]
+   },
+   {
+      "meta":{
+         "id":"subdiscipline",
+         "uuid":"04f0da53-90be-4038-8eff-0bd0e8872061",
+         "sort":"232060000",
+         "src":"collegiate",
+         "section":"alpha",
+         "stems":[
+            "sub-discipline",
+            "sub-disciplines",
+            "subdiscipline",
+            "subdisciplines"
+         ],
+         "offensive":false
+      },
+      "hwi":{
+         "hw":"sub*dis*ci*pline",
+         "prs":[
+            {
+               "mw":"ˌsəb-ˈdi-sə-plən",
+               "sound":{
+                  "audio":"subdiscipline_1",
+                  "ref":"owl",
+                  "stat":"1"
+               }
+            }
+         ]
+      },
+      "vrs":[
+         {
+            "vl":"or less commonly",
+            "va":"sub-dis*ci*pline"
+         }
+      ],
+      "fl":"noun",
+      "ins":[
+         {
+            "il":"plural",
+            "if":"sub*dis*ci*plines"
+         },
+         {
+            "il":"also",
+            "if":"sub-dis*ci*plines"
+         }
+      ],
+      "def":[
+         {
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}a {d_link|discipline|discipline:1} (such as an academic discipline) that is part of a broader discipline "
+                           ],
+                           [
+                              "vis",
+                              [
+                                 {
+                                    "t":"Organic chemistry is a {wi}subdiscipline{\/wi} of chemistry."
+                                 },
+                                 {
+                                    "t":"The management of programmers is a discipline unto itself. There are {wi}subdisciplines{\/wi} that deal with how coders communicate.",
+                                    "aq":{
+                                       "auth":"Paul Ford"
+                                    }
+                                 }
+                              ]
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "date":"1912",
+      "shortdef":[
+         "a discipline (such as an academic discipline) that is part of a broader discipline"
+      ]
+   }
+]

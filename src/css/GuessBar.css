@@ -1,0 +1,26 @@
+.guess-display {
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  margin: 2rem auto;
+  
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  
+  background-color: #1a1a1a;
+  border: 2px solid #646cff;
+  border-radius: 16px;
+  
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (prefers-color-scheme: light) {
+  .guess-display {
+    background-color: #f9f9f9;
+    border-color: #646cff;
+  }
+}

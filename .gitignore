@@ -29,6 +29,4 @@ Thumbs.db
 .env.local
 .env.*.local
 
-# editor stuff
-.vscode/
-.idea/
+notes.md
