@@ -1,0 +1,84 @@
+/* HintButton.css */
+
+.hint-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.hint-button {
+  background: var(--color-primary);
+  color: var(--color-text-on-dark);
+  border: none;
+  border-radius: 12px;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-lg);
+  min-width: 280px;
+  justify-content: center;
+}
+
+.hint-button:hover:not(.disabled) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+  background: var(--color-primary-hover);
+}
+
+.hint-button:active:not(.disabled) {
+  transform: translateY(0);
+}
+
+.hint-button.disabled {
+  background: var(--color-gray);
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.6;
+}
+
+.hint-button.all-used {
+  background: var(--color-light-darkest);
+}
+
+.hint-icon {
+  font-size: 24px;
+  animation: pulse 2s infinite;
+}
+
+.hint-button.disabled .hint-icon,
+.hint-button.all-used .hint-icon {
+  animation: none;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.hint-info {
+  font-size: 14px;
+  color: var(--color-text-on-light);
+  margin: 0;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .hint-button {
+    min-width: auto;
+    width: 90%;
+    padding: 14px 24px;
+    font-size: 16px;
+  }
+}

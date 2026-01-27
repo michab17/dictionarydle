@@ -2,67 +2,78 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* ===== DUOTONE COLOR SCHEME ===== */
+  /* Change these two colors to experiment with different combinations! */
+  --color-dark: #2c3e50;      /* Main dark color - used for headers, buttons, text */
+  --color-light: #bdc3c7;     /* Main light color - used for backgrounds, light text */
+  
+/* Derived colors - variations to match the navy/silver theme */
+--color-dark-hover: #1a252f;        /* Slightly darker for hovers */
+--color-dark-lighter: #34495e;      /* Lighter shade of dark */
+--color-dark-lightest: #4a5f7f;     /* Even lighter */
+
+--color-light-darker: #a5acb0;      /* Slightly darker light */
+--color-light-darkest: #95a5a6;     /* Much darker light */
+
+/* Semantic colors for easy reference */
+--color-background: var(--color-light);
+--color-primary: var(--color-dark);
+--color-primary-hover: var(--color-dark-hover);
+--color-text-on-dark: var(--color-light);
+--color-text-on-light: var(--color-dark);
+
+/* Additional accent colors - updated to complement navy/silver */
+--color-error: #e74c3c;             /* Brighter red for errors, low scores */
+--color-warning: #f39c12;           /* Warm orange for warnings, medium scores */
+--color-accent: #e67e22;            /* Burnt orange for special buttons like Ko-fi */
+
+/* Neutral colors */
+--color-white: #ffffff;
+--color-gray-lightest: #f9fafb;
+--color-gray-light: #ecf0f1;
+--color-gray: #95a5a6;
+--color-gray-dark: #7f8c8d;
+--color-text-primary: #2c3e50;
+
+/* Shadows (rgba values updated to match navy color) */
+--shadow-sm: 0 2px 4px rgba(44, 62, 80, 0.15);
+--shadow-md: 0 4px 8px rgba(44, 62, 80, 0.2);
+--shadow-lg: 0 8px 16px rgba(44, 62, 80, 0.3);
+--shadow-xl: 0 20px 60px rgba(44, 62, 80, 0.3);
+
+--overlay: rgba(44, 62, 80, 0.7);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: var(--color-background);
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--color-primary-hover);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

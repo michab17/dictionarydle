@@ -1,42 +1,119 @@
+/* Header.css */
+
 .app-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 1.25rem;
-  width: 100%;
-  box-sizing: border-box;
+  align-items: center;
+  padding: 20px 40px;
+  background: var(--color-primary);
+  box-shadow: var(--shadow-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
+  font-size: 32px;
+  font-weight: 800;
   margin: 0;
-  font-size: 1.5rem;
-}
-
-.nav {
-  display: flex;
+  color: var(--color-text-on-dark);
+  letter-spacing: -1px;
+  cursor: default;
 }
 
 .nav-list {
-  display: flex;
-  gap: 1rem;
   list-style: none;
+  display: flex;
+  gap: 16px;
   margin: 0;
   padding: 0;
   align-items: center;
 }
 
-.nav-list button,
-.nav-list a {
-  background: none;
-  border: none;
-  font: inherit;
+.nav-list li button,
+.nav-list li a {
+  background: rgba(179, 212, 202, 0.2);
+  color: var(--color-text-on-dark);
+  border: 2px solid rgba(179, 212, 202, 0.3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
   cursor: pointer;
+  transition: all 0.3s ease;
   text-decoration: none;
-  color: inherit;
-  padding: 0.5rem 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-.nav-list button:hover,
-.nav-list a:hover {
-  text-decoration: underline;
+.nav-list li button:hover,
+.nav-list li a:hover {
+  background: rgba(179, 212, 202, 0.3);
+  border-color: var(--color-text-on-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-list li button:active,
+.nav-list li a:active {
+  transform: translateY(0);
+}
+
+/* Special styling for Ko-fi link */
+.nav-list li:last-child a {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.nav-list li:last-child a:hover {
+  background: #d47765;
+  border-color: #d47765;
+  box-shadow: 0 4px 12px rgba(224, 141, 121, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 16px 24px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .logo {
+    font-size: 28px;
+  }
+
+  .nav-list {
+    gap: 12px;
+  }
+
+  .nav-list li button,
+  .nav-list li a {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .app-header {
+    padding: 12px 16px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .nav-list {
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-list li button,
+  .nav-list li a {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
 }

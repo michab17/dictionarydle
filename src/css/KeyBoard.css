@@ -1,0 +1,87 @@
+/* Keyboard.css */
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.keyboard button {
+  background: var(--color-primary);
+  color: var(--color-text-on-dark);
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  min-width: 48px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  text-transform: uppercase;
+}
+
+.keyboard button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background: var(--color-primary-hover);
+}
+
+.keyboard button:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Make DELETE and ENTER stand out with lighter shade */
+.keyboard-row button:last-child {
+  min-width: 80px;
+  background: var(--color-dark-lighter);
+}
+
+.keyboard-row button:last-child:hover {
+  background: var(--color-primary);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .keyboard {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .keyboard-row {
+    gap: 6px;
+  }
+
+  .keyboard button {
+    min-width: 40px;
+    padding: 12px 8px;
+    font-size: 14px;
+  }
+
+  .keyboard-row button:last-child {
+    min-width: 65px;
+  }
+}
+
+@media (max-width: 500px) {
+  .keyboard button {
+    min-width: 32px;
+    padding: 10px 6px;
+    font-size: 12px;
+  }
+
+  .keyboard-row button:last-child {
+    min-width: 55px;
+  }
+}

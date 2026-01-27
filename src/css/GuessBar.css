@@ -1,26 +1,95 @@
-.guess-display {
+/* GuessBar.css */
+
+.guess-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.current-guess-display {
+  background: var(--color-primary);
+  color: var(--color-text-on-dark);
+  padding: 20px 40px;
+  border-radius: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
   width: 100%;
   max-width: 500px;
-  padding: 2rem;
-  margin: 2rem auto;
-  
-  font-size: 2rem;
-  font-weight: 600;
   text-align: center;
-  
-  background-color: #1a1a1a;
-  border: 2px solid #646cff;
-  border-radius: 16px;
-  
-  min-height: 80px;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s ease;
+  min-height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@media (prefers-color-scheme: light) {
-  .guess-display {
-    background-color: #f9f9f9;
-    border-color: #646cff;
+.current-guess-display:empty::before {
+  content: "Start typing...";
+  color: rgba(179, 212, 202, 0.5);
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.previous-guesses {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.guess {
+  background: var(--color-white);
+  color: var(--color-text-on-light);
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid var(--color-primary);
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.guess::before {
+  content: '✗';
+  position: absolute;
+  left: 16px;
+  color: var(--color-error);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.guess:hover {
+  transform: translateX(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .guess-bar {
+    padding: 0 12px;
+  }
+
+  .current-guess-display {
+    font-size: 24px;
+    padding: 16px 24px;
+    min-height: 60px;
+  }
+
+  .guess {
+    font-size: 18px;
+    padding: 12px 20px;
   }
 }

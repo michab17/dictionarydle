@@ -1,3 +1,5 @@
+import '../css/Keyboard.css';
+
 interface KeyboardProps {
   onKeyPress: (key: string) => void;
 }

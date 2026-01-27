@@ -1,6 +1,10 @@
 import '../css/Header.css'
 
-function Header() {
+interface HeaderProps {
+  onHelpClick?: () => void;
+}
+
+function Header({ onHelpClick }: HeaderProps) {
   return (
     <header className="app-header">
         <h1 className="logo">Dictionary-dle</h1>
@@ -8,7 +12,7 @@ function Header() {
         <nav className="nav">
             <ul className="nav-list">
                 <li>
-                    <button>Help</button>
+                    <button onClick={onHelpClick}>Help</button>
                 </li>
                 <li>
                     <button>About Me</button>

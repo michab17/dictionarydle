@@ -1,3 +1,5 @@
+import '../css/Hints.css';
+
 type Hint =
   | number
   | string
@@ -13,7 +15,6 @@ function Hints({ hints }: HintsProps) {
     "Number of syllables", 
     "Parts of speech",
     "Synonyms",
-    "Antonyms",
     "Word used in a sentence",
     "Definition"
   ];
@@ -42,7 +43,7 @@ function Hints({ hints }: HintsProps) {
       {hints.length > 0 ? (
         formatHints(hints)
       ) : (
-        <p>No hints yet. Start guessing!</p>
+        <p>No hints yet. Click "Get Hint" when you need help!</p>
       )}
     </div>
   );

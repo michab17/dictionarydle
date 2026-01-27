@@ -1,0 +1,339 @@
+/* Modal.css */
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal Wrapper */
+.modal-wrapper {
+  animation: slideUp 0.3s ease-out;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Modal Content */
+.modal-content {
+  background: var(--color-white);
+  border-radius: 16px;
+  padding: 32px;
+  min-width: 400px;
+  max-width: 600px;
+  position: relative;
+  box-shadow: var(--shadow-xl);
+}
+
+@media (max-width: 500px) {
+  .modal-content {
+    min-width: auto;
+    width: 95vw;
+    padding: 24px;
+  }
+}
+
+/* Close Button */
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: var(--color-light-darkest);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.modal-close:hover {
+  background-color: var(--color-gray-light);
+  color: var(--color-primary);
+}
+
+/* Modal Title */
+.modal-title {
+  margin: 0 0 16px 0;
+  font-size: 32px;
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.lose-modal .modal-title {
+  color: var(--color-error);
+}
+
+/* Modal Message */
+.modal-message {
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-gray-dark);
+  margin-bottom: 24px;
+}
+
+/* Final Score Display */
+.final-score {
+  text-align: center;
+  margin: 24px 0;
+  padding: 24px;
+  background: var(--color-primary);
+  border-radius: 16px;
+  color: var(--color-text-on-dark);
+  box-shadow: var(--shadow-lg);
+}
+
+.final-score.lose {
+  background: var(--color-error);
+  color: var(--color-white);
+}
+
+.final-score-label {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.final-score-value {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Stats Container */
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 24px 0;
+  padding: 24px;
+  background-color: var(--color-gray-lightest);
+  border-radius: 12px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+.lose-modal .stat-value {
+  color: var(--color-error);
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--color-gray-dark);
+  margin-top: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Word Reveal */
+.word-reveal {
+  text-align: center;
+  font-size: 20px;
+  margin: 24px 0;
+  padding: 16px;
+  background-color: var(--color-gray-light);
+  border-radius: 8px;
+  color: var(--color-text-on-light);
+  font-weight: 600;
+}
+
+.word-reveal strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-gray-dark);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+/* Modal Actions */
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  flex: 1;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 150px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-share {
+  background-color: var(--color-dark-lighter);
+  color: var(--color-text-on-dark);
+}
+
+.btn-share:hover {
+  background-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* How To Play Modal Specific Styles */
+.howto-content {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.howto-section {
+  margin-bottom: 24px;
+}
+
+.howto-section h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--color-primary);
+}
+
+.howto-section p {
+  color: var(--color-gray-dark);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.howto-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.howto-section ul li {
+  padding: 8px 0;
+  padding-left: 24px;
+  position: relative;
+  color: var(--color-gray-dark);
+  line-height: 1.6;
+}
+
+.howto-section ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.howto-section ul li strong {
+  color: var(--color-primary);
+}
+
+/* Hint Progression */
+.hint-progression {
+  background-color: var(--color-gray-lightest);
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.hint-step {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.hint-step:last-child {
+  border-bottom: none;
+}
+
+.hint-number {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.hint-description {
+  color: var(--color-gray-dark);
+  font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .stats-container {
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .stat-value {
+    font-size: 36px;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hint-step {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}

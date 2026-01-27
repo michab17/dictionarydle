@@ -1,3 +1,5 @@
+import '../css/GuessBar.css';
+
 interface GuessBarProps {
   guesses: string[];
   currentGuess: string;
@@ -7,7 +9,7 @@ function GuessBar({ guesses, currentGuess }: GuessBarProps) {
   return (
     <div className="guess-bar">
       <div className="current-guess-display">
-        {currentGuess || "Start typing..."}
+        {currentGuess}
       </div>
       
       <div className="previous-guesses">
