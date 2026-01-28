@@ -67,23 +67,73 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [modalOpen, setModalOpen] = useState(false);
     const [modalType, setModalType] = useState<'win' | 'lose' | 'howToPlay' | null>(null);
     const [gameOver, setGameOver] = useState(false);
-
+    const [availableWords, setAvailableWords] = useState<string[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
-    // Function to fetch a random word from a word list
-    const getRandomWord = () => {
-        // You'll need a list of common words to randomly select from
-        // For now, here's a small sample - you can expand this
-        const commonWords = [
-            'discipline', 'example', 'knowledge', 'community', 'strategy',
-            'creative', 'balance', 'culture', 'develop', 'economy'
-        ];
-        return commonWords[Math.floor(Math.random() * commonWords.length)];
+    // Load words from file on component mount
+    useEffect(() => {
+        const loadWords = async () => {
+            try {
+                const response = await fetch('/uniqueWords.txt');
+                const text = await response.text();
+                const words = text.split('\n').map(w => w.trim()).filter(w => w.length > 0);
+                setAvailableWords(words);
+            } catch (error) {
+                console.error('Error loading words:', error);
+                setAvailableWords(['discipline', 'example', 'knowledge']);
+            }
+        };
+        
+        loadWords();
+    }, []);
+
+    // Get today's date as a string (YYYY-MM-DD)
+    const getTodayString = () => {
+        const today = new Date();
+        return today.toISOString().split('T')[0]; // "2025-01-27"
     };
 
-    // Function to fetch word data from Merriam-Webster
+    // Get word for today (deterministic - same for all users on same day)
+    const getWordForToday = () => {
+        if (availableWords.length === 0) return 'discipline';
+        
+        // Use today's date to calculate which word to use
+        // This ensures all users get the same word on the same day
+        const today = getTodayString();
+        const startDate = new Date('2026-01-27'); // Your game's start date
+        const currentDate = new Date(today);
+        const daysSinceStart = Math.floor((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
+        
+        // Pick word based on day number (cycles through all words)
+        const wordIndex = daysSinceStart % availableWords.length;
+        return availableWords[wordIndex];
+    };
+
+    // Call it when component mounts AND when words are loaded
+    useEffect(() => {
+        if (availableWords.length > 0) {
+            fetchWordData();
+        }
+    }, [availableWords.length]); // Only fetch when words are loaded
+
     const fetchWordData = async () => {
+        // Check if we already have today's word cached
+        const cachedData = localStorage.getItem('dailyWordData');
+        const today = getTodayString();
+        
+        if (cachedData) {
+            const parsed = JSON.parse(cachedData);
+            if (parsed.date === today) {
+                // Still the same day, use cached data
+                console.log('Using cached word for today');
+                setWordData(parsed.wordData);
+                setIsLoading(false);
+                return;
+            }
+        }
+        
+        // New day or no cache - fetch new word
         setIsLoading(true);
         setError(null);
         
@@ -97,9 +147,9 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
         }
         
         try {
-            const randomWord = getRandomWord();
+            const todaysWord = getWordForToday();
             const response = await fetch(
-                `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${randomWord}?key=${apiKey}`
+                `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${todaysWord}?key=${apiKey}`
             );
 
             if (!response.ok) {
@@ -109,7 +159,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             const data = await response.json();
             console.log('Merriam-Webster Response:', data);
             
-            // Check if we got a valid response (not suggestions)
             if (typeof data[0] === 'string') {
                 throw new Error('Word not found, got suggestions instead');
             }
@@ -123,79 +172,130 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             const partOfSpeech = entry.fl ? [entry.fl] : [];
             
             // Extract synonyms - check ALL entries, not just the first one
-            const synonymSet = new Set<string>();
-
-            data.forEach((entry: any) => {
-                if (!entry.syns) return;
-
-                entry.syns.forEach((group: any) => {
-                    group.pt.forEach((part: any) => {
-                        if (part[0] === "text") {
-                            const text = part[1];
-
-                            // Extract words inside {sc} ... {/sc}
-                            const matches = [...text.matchAll(/\{sc\}([^{}]+)\{\/sc\}/g)];
-
-                            matches.forEach(match => {
-                                const synonym = match[1].toLowerCase();
-
-                                // Ignore the word being defined
-                                if (synonym !== randomWord.toLowerCase()) {
-                                    synonymSet.add(synonym);
+            const synonyms: string[] = [];
+            data.forEach((entryItem: any) => {
+                if (entryItem.syns && entryItem.syns.length > 0) {
+                    entryItem.syns.forEach((synGroup: any) => {
+                        if (synGroup.pt) {
+                            synGroup.pt.forEach((item: any) => {
+                                if (item[0] === 'text' && typeof item[1] === 'string') {
+                                    const matches = item[1].match(/\{sc\}([^{]+)\{\/sc\}/g);
+                                    if (matches) {
+                                        matches.forEach((match: string) => {
+                                            const word = match.replace(/\{sc\}|\{\/sc\}/g, '');
+                                            if (word.toLowerCase() !== todaysWord.toLowerCase()) {
+                                                synonyms.push(word);
+                                            }
+                                        });
+                                    }
                                 }
                             });
                         }
                     });
-                });
+                }
             });
-
-            // Final list: unique + max 5
-            const uniqueSynonyms = Array.from(synonymSet).slice(0, 5);
             
-            // Extract example sentences
-            const sentences: string[] = [];
-            if (entry.def && entry.def[0]?.sseq) {
-                entry.def[0].sseq.forEach((sense: any) => {
-                    sense.forEach((item: any) => {
-                        if (item[1]?.dt) {
-                            item[1].dt.forEach((defItem: any) => {
-                                if (defItem[0] === 'vis' && defItem[1]) {
-                                    defItem[1].forEach((example: any) => {
-                                        if (example.t) {
-                                            // Remove curly braces markup
-                                            const cleanText = example.t.replace(/\{[^}]+\}/g, '');
-                                            const cleanerText = cleanText.toLowerCase().replace(randomWord.toLowerCase(), "_______")
-                                            sentences.push(cleanerText);
-                                        }
-                                    });
-                                }
-                            });
-                        }
-                    });
-                });
+            // If no synonyms found, use stems as fallback (alternate word forms)
+            let uniqueSynonyms = [...new Set(synonyms)].slice(0, 5);
+            if (uniqueSynonyms.length === 0 && entry.meta?.stems) {
+                uniqueSynonyms = entry.meta.stems
+                    .filter((stem: string) => stem.toLowerCase() !== todaysWord.toLowerCase())
+                    .slice(0, 5);
             }
             
-            // Extract definition
+            // Extract example sentences - from ALL definitions, not just the first
+            const sentences: string[] = [];
+            const wordStems = entry.meta?.stems || [todaysWord];
+
+            // Check all entries in the API response (noun, verb, etc.)
+            data.forEach((entryItem: any) => {
+                if (entryItem.def) {
+                    entryItem.def.forEach((defSection: any) => {
+                        if (defSection.sseq) {
+                            defSection.sseq.forEach((sense: any) => {
+                                sense.forEach((item: any) => {
+                                    if (item[1]?.dt) {
+                                        item[1].dt.forEach((defItem: any) => {
+                                            if (defItem[0] === 'vis' && defItem[1]) {
+                                                defItem[1].forEach((example: any) => {
+                                                    if (example.t) {
+                                                        let cleanText = example.t
+                                                            .replace(/\{wi\}/g, '')
+                                                            .replace(/\{\/wi\}/g, '')
+                                                            .replace(/\{it\}/g, '')
+                                                            .replace(/\{\/it\}/g, '')
+                                                            .replace(/\{bc\}/g, '')
+                                                            .trim();
+                                                        
+                                                        wordStems.forEach((stem: string) => {
+                                                            const regex = new RegExp(`\\b${stem}\\b`, 'gi');
+                                                            cleanText = cleanText.replace(regex, '_______');
+                                                        });
+                                                        
+                                                        if (cleanText.length > 10 && cleanText.includes('_______')) {
+                                                            sentences.push(cleanText);
+                                                        }
+                                                    }
+                                                });
+                                            }
+                                        });
+                                    }
+                                });
+                            });
+                        }
+                    });
+                }
+            });
+            
+            // Extract definition - IMPROVED VERSION
             let definition = '';
             if (entry.shortdef && entry.shortdef[0]) {
-                definition = entry.shortdef[0];
+                definition = entry.shortdef[0]
+                    .replace(/\s*:\s*such as\s*$/i, '') // Remove trailing ": such as"
+                    .replace(/\s*such as\s*$/i, '')      // Remove trailing "such as"
+                    .trim();
+            }
+            
+            // If definition is still poor quality or too short, try getting from full definition
+            if (!definition || definition.length < 15) {
+                if (entry.def && entry.def[0]?.sseq && entry.def[0].sseq[0]?.[0]?.[1]?.dt) {
+                    const defText = entry.def[0].sseq[0][0][1].dt
+                        .filter((item: any) => item[0] === 'text')
+                        .map((item: any) => item[1])
+                        .join(' ')
+                        .replace(/\{bc\}/g, '')
+                        .replace(/\{[^}]+\}/g, '')
+                        .replace(/\s*:\s*such as\s*$/i, '')
+                        .trim();
+                    
+                    if (defText.length > definition.length) {
+                        definition = defText;
+                    }
+                }
             }
             
             const transformedData: WordData = {
-                word: randomWord.toUpperCase(),
-                numOfLetters: randomWord.length,
+                word: todaysWord.toUpperCase(),
+                numOfLetters: todaysWord.length,
                 numOfSyllables: syllables,
                 definitions: {
                     1: {
                         partOfSpeech: partOfSpeech,
-                        synonym: uniqueSynonyms, // Limit to 5 synonyms
-                        sentence: sentences.slice(0, 3), // Limit to 3 examples
+                        synonym: uniqueSynonyms,
+                        sentence: sentences.slice(0, 3), // Take first 3 valid sentences
                         definition: definition
                     }
                 }
             };
             
             console.log('Transformed Data:', transformedData);
+            
+            // Cache the word data with today's date
+            localStorage.setItem('dailyWordData', JSON.stringify({
+                date: today,
+                wordData: transformedData
+            }));
+            
             setWordData(transformedData);
             
         } catch (error) {
@@ -207,10 +307,12 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
         }
     };
 
-    // Call it when component mounts
+    // Call when words are loaded
     useEffect(() => {
-        fetchWordData();
-    }, []);
+        if (availableWords.length > 0) {
+            fetchWordData();
+        }
+    }, [availableWords]);
 
     // Check if first time user and show how-to-play modal
     useEffect(() => {
@@ -406,3 +508,36 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
 }
 
 export default Game;
+
+
+// This is the old working synonym code
+
+ // Extract synonyms - check ALL entries, not just the first one
+// const synonymSet = new Set<string>();
+
+// data.forEach((entry: any) => {
+//     if (!entry.syns) return;
+
+//     entry.syns.forEach((group: any) => {
+//         group.pt.forEach((part: any) => {
+//             if (part[0] === "text") {
+//                 const text = part[1];
+
+//                 // Extract words inside {sc} ... {/sc}
+//                 const matches = [...text.matchAll(/\{sc\}([^{}]+)\{\/sc\}/g)];
+
+//                 matches.forEach(match => {
+//                     const synonym = match[1].toLowerCase();
+
+//                     // Ignore the word being defined
+//                     if (synonym !== todaysWord.toLowerCase()) {
+//                         synonymSet.add(synonym);
+//                     }
+//                 });
+//             }
+//         });
+//     });
+// });
+
+// // Final list: unique + max 5
+// const uniqueSynonyms = Array.from(synonymSet).slice(0, 5);
