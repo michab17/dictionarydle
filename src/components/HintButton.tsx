@@ -22,11 +22,17 @@ function HintButton({ onRequestHint, hintsUnlocked, maxHints, disabled}: HintBut
     return classes;
   };
 
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.currentTarget.blur(); // Remove focus from the button
+    onRequestHint();
+  };
+
   return (
     <div className="hint-button-container">
       <button 
+        type="button"
         className={getButtonClass()}
-        onClick={onRequestHint}
+        onClick={handleClick}
         disabled={disabled}
       >
         <span className="hint-icon">💡</span>

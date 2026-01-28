@@ -17,6 +17,7 @@ function Keyboard({ onKeyPress }: KeyboardProps) {
         <div key={i} className="keyboard-row">
           {row.map(key => (
             <button 
+              type="button"
               key={key}
               onClick={() => onKeyPress(key)}
               className={key === 'ENTER' || key === 'DELETE' ? 'special-key' : ''}
