@@ -126,7 +126,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             const parsed = JSON.parse(cachedData);
             if (parsed.date === today) {
                 // Still the same day, use cached data
-                console.log('Using cached word for today');
                 setWordData(parsed.wordData);
                 setIsLoading(false);
                 return;
@@ -157,7 +156,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             }
 
             const data = await response.json();
-            console.log('Merriam-Webster Response:', data);
             
             if (typeof data[0] === 'string') {
                 throw new Error('Word not found, got suggestions instead');
@@ -287,8 +285,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                     }
                 }
             };
-            
-            console.log('Transformed Data:', transformedData);
             
             // Cache the word data with today's date
             localStorage.setItem('dailyWordData', JSON.stringify({
