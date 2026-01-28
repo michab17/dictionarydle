@@ -43,7 +43,7 @@
 }
 
 /* Make DELETE and ENTER stand out with lighter shade */
-.keyboard-row button:last-child {
+.keyboard-row button.special-key {
   min-width: 80px;
   background: var(--color-dark-lighter);
 }

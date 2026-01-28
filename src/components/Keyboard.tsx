@@ -16,7 +16,11 @@ function Keyboard({ onKeyPress }: KeyboardProps) {
       {rows.map((row, i) => (
         <div key={i} className="keyboard-row">
           {row.map(key => (
-            <button key={key} onClick={() => onKeyPress(key)}>
+            <button 
+              key={key}
+              onClick={() => onKeyPress(key)}
+              className={key === 'ENTER' || key === 'DELETE' ? 'special-key' : ''}
+            >
               {key}
             </button>
           ))}
