@@ -14,7 +14,6 @@ const fakeData: WordData = {
   definitions: {
     1: {
       partOfSpeech: ["noun"],
-      synonym: ["control", "training", "order", "regulation", "self-control"],
       sentence: [
         "struggled to maintain ________ in the classroom",
         "The troops were praised for their dedication and ________.",
@@ -27,7 +26,6 @@ const fakeData: WordData = {
 
 interface Definition {
   partOfSpeech: string[];
-  synonym: string[];
   sentence: string[];
   definition: string;
 }
@@ -50,7 +48,7 @@ type Hint =
 const STARTING_SCORE = 1000;
 const GUESS_PENALTY = 100;
 const HINT_PENALTY = 100;
-const MAX_HINTS = 6;
+const MAX_HINTS = 5;
 
 interface GameProps {
     showHelpModal?: boolean;
@@ -169,38 +167,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             // Extract part of speech
             const partOfSpeech = entry.fl ? [entry.fl] : [];
             
-            // Extract synonyms - check ALL entries, not just the first one
-            const synonyms: string[] = [];
-            data.forEach((entryItem: any) => {
-                if (entryItem.syns && entryItem.syns.length > 0) {
-                    entryItem.syns.forEach((synGroup: any) => {
-                        if (synGroup.pt) {
-                            synGroup.pt.forEach((item: any) => {
-                                if (item[0] === 'text' && typeof item[1] === 'string') {
-                                    const matches = item[1].match(/\{sc\}([^{]+)\{\/sc\}/g);
-                                    if (matches) {
-                                        matches.forEach((match: string) => {
-                                            const word = match.replace(/\{sc\}|\{\/sc\}/g, '');
-                                            if (word.toLowerCase() !== todaysWord.toLowerCase()) {
-                                                synonyms.push(word);
-                                            }
-                                        });
-                                    }
-                                }
-                            });
-                        }
-                    });
-                }
-            });
-            
-            // If no synonyms found, use stems as fallback (alternate word forms)
-            let uniqueSynonyms = [...new Set(synonyms)].slice(0, 5);
-            if (uniqueSynonyms.length === 0 && entry.meta?.stems) {
-                uniqueSynonyms = entry.meta.stems
-                    .filter((stem: string) => stem.toLowerCase() !== todaysWord.toLowerCase())
-                    .slice(0, 5);
-            }
-            
             // Extract example sentences - from ALL definitions, not just the first
             const sentences: string[] = [];
             const wordStems = entry.meta?.stems || [todaysWord];
@@ -279,7 +245,6 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 definitions: {
                     1: {
                         partOfSpeech: partOfSpeech,
-                        synonym: uniqueSynonyms,
                         sentence: sentences.slice(0, 3), // Take first 3 valid sentences
                         definition: definition
                     }
@@ -410,12 +375,9 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 setHints(prev => [...prev, wordData.definitions[1].partOfSpeech])
                 break;
             case 4:
-                setHints(prev => [...prev, wordData.definitions[1].synonym])
-                break;
-            case 5:
                 setHints(prev => [...prev, wordData.definitions[1].sentence])
                 break;
-            case 6:
+            case 5:
                 setHints(prev => [...prev, wordData.definitions[1].definition])
                 break;
         }
@@ -504,36 +466,3 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
 }
 
 export default Game;
-
-
-// This is the old working synonym code
-
- // Extract synonyms - check ALL entries, not just the first one
-// const synonymSet = new Set<string>();
-
-// data.forEach((entry: any) => {
-//     if (!entry.syns) return;
-
-//     entry.syns.forEach((group: any) => {
-//         group.pt.forEach((part: any) => {
-//             if (part[0] === "text") {
-//                 const text = part[1];
-
-//                 // Extract words inside {sc} ... {/sc}
-//                 const matches = [...text.matchAll(/\{sc\}([^{}]+)\{\/sc\}/g)];
-
-//                 matches.forEach(match => {
-//                     const synonym = match[1].toLowerCase();
-
-//                     // Ignore the word being defined
-//                     if (synonym !== todaysWord.toLowerCase()) {
-//                         synonymSet.add(synonym);
-//                     }
-//                 });
-//             }
-//         });
-//     });
-// });
-
-// // Final list: unique + max 5
-// const uniqueSynonyms = Array.from(synonymSet).slice(0, 5);

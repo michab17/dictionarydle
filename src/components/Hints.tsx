@@ -14,14 +14,13 @@ function Hints({ hints }: HintsProps) {
     "Number of letters",
     "Number of syllables", 
     "Parts of speech",
-    "Synonyms",
     "Word used in a sentence",
     "Definition"
   ];
 
   const formatHints = (hints: any[]) => {
     return hints.map((hint, index) => {
-      // Check if hint is an array (like synonyms, antonyms, sentences)
+      // Check if hint is an array (like sentences)
       if (Array.isArray(hint)) {
         return (
           <div key={index} className="hint-item">

@@ -160,10 +160,6 @@ Play at: [your-url]`;
               <span className="hint-description">Number of letters, syllables & part of speech</span>
             </div>
             <div className="hint-step">
-              <span className="hint-number">Hint 2:</span>
-              <span className="hint-description">Synonyms</span>
-            </div>
-            <div className="hint-step">
               <span className="hint-number">Hint 3:</span>
               <span className="hint-description">Word used in a sentence</span>
             </div>
