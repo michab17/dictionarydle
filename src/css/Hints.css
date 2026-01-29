@@ -1,28 +1,26 @@
-/* Hints.css */
-
 .hints-container {
-  max-width: 800px;
+  max-width: 50rem;         /* 800px */
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.25rem;       /* 0 20px */
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;                /* 16px */
 }
 
 .hints-container > p {
   text-align: center;
   color: var(--color-text-on-light);
-  font-size: 16px;
+  font-size: 1rem;          /* 16px */
   font-style: italic;
-  padding: 20px;
+  padding: 1.25rem;         /* 20px */
 }
 
 .hint-item {
   background: var(--color-white);
-  border-radius: 12px;
-  padding: 20px 24px;
+  border-radius: 0.75rem;   /* 12px */
+  padding: 1.25rem 1.5rem;  /* 20px 24px */
   box-shadow: var(--shadow-md);
-  border-left: 4px solid var(--color-primary);
+  border-left: 0.25rem solid var(--color-primary); /* 4px */
   transition: all 0.3s ease;
   animation: slideIn 0.4s ease-out;
 }
@@ -30,7 +28,7 @@
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(1.25rem); /* 20px */
   }
   to {
     opacity: 1;
@@ -40,7 +38,7 @@
 
 .hint-item:hover {
   box-shadow: var(--shadow-lg);
-  transform: translateX(4px);
+  transform: translateX(0.25rem);   /* 4px */
 }
 
 /* Varied teal shades for each hint */
@@ -71,42 +69,42 @@
 .hint-item strong {
   display: block;
   color: var(--color-text-on-light);
-  font-size: 14px;
+  font-size: 0.875rem;      /* 14px */
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 8px;
+  letter-spacing: 0.03125rem; /* 0.5px */
+  margin-bottom: 0.5rem;    /* 8px */
   font-weight: 700;
 }
 
 .hint-item strong::before {
   content: '💡 ';
-  margin-right: 4px;
+  margin-right: 0.25rem;    /* 4px */
 }
 
 /* Hint content styling */
 .hint-item strong + * {
   color: var(--color-text-primary);
-  font-size: 16px;
+  font-size: 1rem;          /* 16px */
   line-height: 1.6;
   font-weight: 500;
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {   /* 768px */
   .hints-container {
-    padding: 0 12px;
-    gap: 12px;
+    padding: 0 0.75rem;     /* 0 12px */
+    gap: 0.75rem;           /* 12px */
   }
 
   .hint-item {
-    padding: 16px 20px;
+    padding: 1rem 1.25rem;  /* 16px 20px */
   }
 
   .hint-item strong {
-    font-size: 13px;
+    font-size: 0.8125rem;   /* 13px */
   }
 
   .hint-item strong + * {
-    font-size: 15px;
+    font-size: 0.9375rem;   /* 15px */
   }
 }

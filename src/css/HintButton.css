@@ -1,10 +1,8 @@
-/* HintButton.css */
-
 .hint-button-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;              /* 8px */
   width: 100%;
 }
 
@@ -12,22 +10,22 @@
   background: var(--color-primary);
   color: var(--color-text-on-dark);
   border: none;
-  border-radius: 12px;
-  padding: 16px 32px;
-  font-size: 18px;
+  border-radius: 0.75rem;   /* 12px */
+  padding: 1rem 2rem;       /* 16px 32px */
+  font-size: 1.125rem;      /* 18px */
   font-weight: 600;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;            /* 10px */
   transition: all 0.3s ease;
   box-shadow: var(--shadow-lg);
-  min-width: 280px;
+  min-width: 17.5rem;       /* 280px */
   justify-content: center;
 }
 
 .hint-button:hover:not(.disabled) {
-  transform: translateY(-2px);
+  transform: translateY(-0.125rem);   /* -2px */
   box-shadow: var(--shadow-xl);
   background: var(--color-primary-hover);
 }
@@ -48,7 +46,7 @@
 }
 
 .hint-icon {
-  font-size: 24px;
+  font-size: 1.5rem;        /* 24px */
   animation: pulse 2s infinite;
 }
 
@@ -67,18 +65,18 @@
 }
 
 .hint-info {
-  font-size: 14px;
+  font-size: 0.875rem;      /* 14px */
   color: var(--color-text-on-light);
   margin: 0;
   font-style: italic;
 }
 
 /* Responsive */
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {   /* 500px */
   .hint-button {
     min-width: auto;
     width: 90%;
-    padding: 14px 24px;
-    font-size: 16px;
+    padding: 0.875rem 1.5rem;  /* 14px 24px */
+    font-size: 1rem;           /* 16px */
   }
 }

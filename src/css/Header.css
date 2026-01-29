@@ -1,10 +1,8 @@
-/* Header.css */
-
 .app-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;      /* 20px 40px */
   background: var(--color-primary);
   box-shadow: var(--shadow-md);
   position: sticky;
@@ -13,18 +11,18 @@
 }
 
 .logo {
-  font-size: 32px;
+  font-size: 2rem;              /* 32px */
   font-weight: 800;
   margin: 0;
   color: var(--color-text-on-dark);
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;   /* -1px */
   cursor: default;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 16px;
+  gap: 1rem;                    /* 16px */
   margin: 0;
   padding: 0;
   align-items: center;
@@ -34,25 +32,25 @@
 .nav-list li a {
   background: rgba(179, 212, 202, 0.2);
   color: var(--color-text-on-dark);
-  border: 2px solid rgba(179, 212, 202, 0.3);
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 14px;
+  border: 0.125rem solid rgba(179, 212, 202, 0.3); /* 2px */
+  padding: 0.625rem 1.25rem;    /* 10px 20px */
+  border-radius: 0.5rem;        /* 8px */
+  font-size: 0.875rem;          /* 14px */
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem;   /* 0.5px */
 }
 
 .nav-list li button:hover,
 .nav-list li a:hover {
   background: rgba(179, 212, 202, 0.3);
   border-color: var(--color-text-on-dark);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.125rem); /* -2px */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15); /* 0 4px 8px */
 }
 
 .nav-list li button:active,
@@ -70,50 +68,50 @@
 .nav-list li:last-child a:hover {
   background: #d47765;
   border-color: #d47765;
-  box-shadow: 0 4px 12px rgba(224, 141, 121, 0.4);
+  box-shadow: 0 0.25rem 0.75rem rgba(224, 141, 121, 0.4); /* 0 4px 12px */
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {     /* 768px */
   .app-header {
-    padding: 16px 24px;
+    padding: 1rem 1.5rem;     /* 16px 24px */
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;                /* 16px */
   }
 
   .logo {
-    font-size: 28px;
+    font-size: 1.75rem;       /* 28px */
   }
 
   .nav-list {
-    gap: 12px;
+    gap: 0.75rem;             /* 12px */
   }
 
   .nav-list li button,
   .nav-list li a {
-    padding: 8px 16px;
-    font-size: 12px;
+    padding: 0.5rem 1rem;     /* 8px 16px */
+    font-size: 0.75rem;       /* 12px */
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {  /* 500px */
   .app-header {
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;    /* 12px 16px */
   }
 
   .logo {
-    font-size: 24px;
+    font-size: 1.5rem;        /* 24px */
   }
 
   .nav-list {
-    gap: 8px;
+    gap: 0.5rem;              /* 8px */
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .nav-list li button,
   .nav-list li a {
-    padding: 6px 12px;
-    font-size: 11px;
+    padding: 0.375rem 0.75rem; /* 6px 12px */
+    font-size: 0.6875rem;     /* 11px */
   }
 }

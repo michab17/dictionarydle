@@ -1,30 +1,28 @@
-/* GuessBar.css */
-
 .guess-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;             /* 20px */
   width: 100%;
-  max-width: 600px;
-  padding: 0 20px;
+  max-width: 37.5rem;       /* 600px */
+  padding: 0 1.25rem;       /* 0 20px */
 }
 
 .current-guess-display {
   background: var(--color-primary);
   color: var(--color-text-on-dark);
-  padding: 20px 40px;
-  border-radius: 16px;
-  font-size: 32px;
+  padding: 1.25rem 2.5rem;  /* 20px 40px */
+  border-radius: 1rem;      /* 16px */
+  font-size: 2rem;          /* 32px */
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;  /* 4px */
   text-transform: uppercase;
   width: 100%;
-  max-width: 500px;
+  max-width: 31.25rem;      /* 500px */
   text-align: center;
   box-shadow: var(--shadow-lg);
   transition: all 0.3s ease;
-  min-height: 70px;
+  min-height: 4.375rem;     /* 70px */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,30 +31,30 @@
 .current-guess-display:empty::before {
   content: "Start typing...";
   color: rgba(179, 212, 202, 0.5);
-  font-size: 20px;
-  letter-spacing: 2px;
+  font-size: 1.25rem;       /* 20px */
+  letter-spacing: 0.125rem; /* 2px */
   font-weight: 400;
 }
 
 .previous-guesses {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;             /* 12px */
   width: 100%;
-  max-width: 500px;
+  max-width: 31.25rem;      /* 500px */
 }
 
 .guess {
   background: var(--color-white);
   color: var(--color-text-on-light);
-  padding: 14px 24px;
-  border-radius: 12px;
-  font-size: 20px;
+  padding: 0.875rem 1.5rem; /* 14px 24px */
+  border-radius: 0.75rem;   /* 12px */
+  font-size: 1.25rem;       /* 20px */
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem; /* 2px */
   text-transform: uppercase;
   text-align: center;
-  border: 2px solid var(--color-primary);
+  border: 0.125rem solid var(--color-primary); /* 2px */
   transition: all 0.2s ease;
   position: relative;
   overflow: hidden;
@@ -65,31 +63,31 @@
 .guess::before {
   content: '✗';
   position: absolute;
-  left: 16px;
+  left: 1rem;               /* 16px */
   color: var(--color-error);
-  font-size: 20px;
+  font-size: 1.25rem;       /* 20px */
   font-weight: bold;
 }
 
 .guess:hover {
-  transform: translateX(-4px);
+  transform: translateX(-0.25rem); /* -4px */
   box-shadow: var(--shadow-md);
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {    /* 600px */
   .guess-bar {
-    padding: 0 12px;
+    padding: 0 0.75rem;     /* 0 12px */
   }
 
   .current-guess-display {
-    font-size: 24px;
-    padding: 16px 24px;
-    min-height: 60px;
+    font-size: 1.5rem;      /* 24px */
+    padding: 1rem 1.5rem;   /* 16px 24px */
+    min-height: 3.75rem;    /* 60px */
   }
 
   .guess {
-    font-size: 18px;
-    padding: 12px 20px;
+    font-size: 1.125rem;    /* 18px */
+    padding: 0.75rem 1.25rem; /* 12px 20px */
   }
 }

@@ -1,34 +1,32 @@
-/* ScoreDisplay.css */
-
 .score-display-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;              /* 8px */
   width: 100%;
 }
 
 .score-display {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 16px 32px;
-  border-radius: 12px;
+  gap: 0.75rem;             /* 12px */
+  padding: 1rem 2rem;       /* 16px 32px */
+  border-radius: 0.75rem;   /* 12px */
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: var(--shadow-md);
 }
 
 .score-label {
-  font-size: 16px;
+  font-size: 1rem;          /* 16px */
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem; /* 1px */
 }
 
 .score-value {
-  font-size: 36px;
+  font-size: 2.25rem;       /* 36px */
   font-weight: 700;
-  min-width: 100px;
+  min-width: 6.25rem;       /* 100px */
   text-align: right;
 }
 
@@ -56,23 +54,29 @@
 }
 
 @keyframes shake {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  75% { transform: translateX(5px); }
+  0%, 100% { 
+    transform: translateX(0); 
+  }
+  25% { 
+    transform: translateX(-0.3125rem);   /* -5px */
+  }
+  75% { 
+    transform: translateX(0.3125rem);    /* 5px */
+  }
 }
 
 .score-info {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 12px;
+  gap: 0.5rem;              /* 8px */
+  font-size: 0.75rem;       /* 12px */
   color: var(--color-text-on-light);
 }
 
 .info-item {
-  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;  /* 4px 8px */
   background-color: rgba(54, 140, 114, 0.15);
-  border-radius: 4px;
+  border-radius: 0.25rem;   /* 4px */
   font-weight: 500;
 }
 
@@ -81,22 +85,22 @@
 }
 
 /* Responsive */
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {   /* 500px */
   .score-display {
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;   /* 12px 24px */
   }
 
   .score-label {
-    font-size: 14px;
+    font-size: 0.875rem;       /* 14px */
   }
 
   .score-value {
-    font-size: 28px;
-    min-width: 80px;
+    font-size: 1.75rem;        /* 28px */
+    min-width: 5rem;           /* 80px */
   }
 
   .score-info {
-    font-size: 11px;
+    font-size: 0.6875rem;      /* 11px */
     flex-wrap: wrap;
     justify-content: center;
   }
