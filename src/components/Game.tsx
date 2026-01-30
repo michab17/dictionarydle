@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 const fakeData: WordData = {
   word: 'DISCIPLINE',
   numOfLetters: 10,
-  numOfSyllables: 3, // from "dis*ci*pline" - count the asterisks
   definitions: {
     1: {
       partOfSpeech: ["noun"],
@@ -33,7 +32,6 @@ interface Definition {
 interface WordData {
   word: string;
   numOfLetters: number;
-  numOfSyllables: number;
   definitions: {
     [key: number]: Definition;
   };
@@ -48,7 +46,7 @@ type Hint =
 const STARTING_SCORE = 1000;
 const GUESS_PENALTY = 100;
 const HINT_PENALTY = 100;
-const MAX_HINTS = 5;
+const MAX_HINTS = 4;
 
 interface GameProps {
     showHelpModal?: boolean;
@@ -203,15 +201,12 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 setHints([wordData.numOfLetters])
                 break;
             case 2:
-                setHints(prev => [...prev, wordData.numOfSyllables])
-                break;
-            case 3:
                 setHints(prev => [...prev, wordData.definitions[1].partOfSpeech])
                 break;
-            case 4:
+            case 3:
                 setHints(prev => [...prev, wordData.definitions[1].sentence])
                 break;
-            case 5:
+            case 4:
                 setHints(prev => [...prev, wordData.definitions[1].definition])
                 break;
         }

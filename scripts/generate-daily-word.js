@@ -1,4 +1,3 @@
-import 'dotenv/config';
 import fetch from 'node-fetch';
 import fs from 'fs/promises';
 import path from 'path';
@@ -6,9 +5,6 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Your API key - we'll use environment variable
-const API_KEY = process.env.VITE_MERRIAM_WEBSTER_API_KEY;
 
 // Load available words
 async function loadWords() {
@@ -33,10 +29,10 @@ function getWordForToday(availableWords) {
     return availableWords[wordIndex];
 }
 
-// Fetch word data from API
+// Fetch word data from Free Dictionary API
 async function fetchWordData(word) {
     const response = await fetch(
-        `https://www.dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${API_KEY}`
+        `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
     );
 
     if (!response.ok) {
@@ -45,112 +41,57 @@ async function fetchWordData(word) {
 
     const data = await response.json();
     
-    if (typeof data[0] === 'string') {
-        throw new Error('Word not found, got suggestions instead');
+    if (!data || data.length === 0) {
+        throw new Error('Word not found');
     }
     
     const entry = data[0];
     
-    // Extract syllables
-    const syllables = entry.hwi?.hw?.split('*').length - 1 || 1;
+    // Collect all parts of speech, definitions, and examples
+    const allDefinitions = [];
+    const allExamples = [];
+    const partsOfSpeech = new Set();
     
-    // Extract part of speech
-    const partOfSpeech = entry.fl ? [entry.fl] : [];
-    
-    // Extract example sentences
-    const sentences = [];
-    const wordStems = entry.meta?.stems || [word];
-
-    data.forEach((entryItem) => {
-        if (entryItem.def) {
-            entryItem.def.forEach((defSection) => {
-                if (defSection.sseq) {
-                    defSection.sseq.forEach((sense) => {
-                        sense.forEach((item) => {
-                            if (item[1]?.dt) {
-                                item[1].dt.forEach((defItem) => {
-                                    if (defItem[0] === 'vis' && defItem[1]) {
-                                        defItem[1].forEach((example) => {
-                                            if (example.t) {
-                                                let cleanText = example.t
-                                                    .replace(/\{wi\}/g, '')
-                                                    .replace(/\{\/wi\}/g, '')
-                                                    .replace(/\{it\}/g, '')
-                                                    .replace(/\{\/it\}/g, '')
-                                                    .replace(/\{bc\}/g, '')
-                                                    .trim();
-                                                
-                                                wordStems.forEach((stem) => {
-                                                    const regex = new RegExp(`\\b${stem}\\b`, 'gi');
-                                                    cleanText = cleanText.replace(regex, '_______');
-                                                });
-                                                
-                                                if (cleanText.length > 10 && cleanText.includes('_______')) {
-                                                    sentences.push(cleanText);
-                                                }
-                                            }
-                                        });
-                                    }
-                                });
-                            }
-                        });
-                    });
-                }
-            });
-        }
-    });
-    
-    // Extract definitions - GET MULTIPLE
-    const definitions = [];
-
-    // Try to get multiple definitions from shortdef first
-    if (entry.shortdef && entry.shortdef.length > 0) {
-        entry.shortdef.slice(0, 3).forEach(def => {
-            const cleanDef = def
-                .replace(/\s*:\s*such as\s*$/i, '')
-                .replace(/\s*such as\s*$/i, '')
-                .trim();
+    entry.meanings.forEach(meaning => {
+        partsOfSpeech.add(meaning.partOfSpeech);
+        
+        meaning.definitions.forEach(def => {
+            // Add definition
+            if (def.definition && def.definition.length >= 15) {
+                allDefinitions.push(def.definition);
+            }
             
-            if (cleanDef.length >= 15) {
-                definitions.push(cleanDef);
-            }
-        });
-    }
-
-    // If we don't have enough, try getting from full definitions
-    if (definitions.length < 3 && entry.def && entry.def[0]?.sseq) {
-        entry.def[0].sseq.slice(0, 3).forEach(sense => {
-            if (sense[0]?.[1]?.dt) {
-                const defText = sense[0][1].dt
-                    .filter((item) => item[0] === 'text')
-                    .map((item) => item[1])
-                    .join(' ')
-                    .replace(/\{bc\}/g, '')
-                    .replace(/\{[^}]+\}/g, '')
-                    .replace(/\s*:\s*such as\s*$/i, '')
-                    .trim();
+            // Add example if it exists
+            if (def.example) {
+                // Replace the word with blanks
+                let example = def.example;
+                const wordVariations = [
+                    word,
+                    word.toLowerCase(),
+                    word.toUpperCase(),
+                    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+                ];
                 
-                if (defText.length >= 15 && !definitions.includes(defText)) {
-                    definitions.push(defText);
+                wordVariations.forEach(variation => {
+                    const regex = new RegExp(`\\b${variation}\\b`, 'g');
+                    example = example.replace(regex, '_______');
+                });
+                
+                if (example.includes('_______')) {
+                    allExamples.push(example);
                 }
             }
         });
-    }
-
-    // Make sure we have at least one definition
-    if (definitions.length === 0) {
-        definitions.push("No definition available");
-    }
+    });
     
     return {
         word: word.toUpperCase(),
         numOfLetters: word.length,
-        numOfSyllables: syllables,
         definitions: {
             1: {
-                partOfSpeech: partOfSpeech,
-                sentence: sentences.slice(0, 3),
-                definition: definitions
+                partOfSpeech: Array.from(partsOfSpeech).slice(0, 3),
+                sentence: allExamples.slice(0, 3),
+                definition: allDefinitions.slice(0, 3)
             }
         }
     };
