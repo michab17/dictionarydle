@@ -51,6 +51,11 @@ Play at: [your-url]`;
     }
   };
 
+  const formatDateLabel = (dateString: String) => {
+    const [year, month, day] = dateString.split('-');
+    return `${parseInt(month)}/${parseInt(day)}`;
+  };
+
   const ScoreChart = () => {
     if (!playerStats || playerStats.scoreHistory.length === 0) return null;
 
@@ -76,7 +81,7 @@ Play at: [your-url]`;
                     <span className="bar-score">{game.score}</span>
                   </div>
                   <div className="bar-label">
-                    {(new Date(game.date).getMonth() + 1) + "/" + new Date(game.date).getDate()}
+                    {formatDateLabel(game.date)}
                   </div>
                 </div>
               );
