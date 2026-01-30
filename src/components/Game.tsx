@@ -156,8 +156,8 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             // Check if correct first (before deducting points)
             if (currentGuess === wordData.word) {
                 // WIN! Don't deduct points for correct guess
-                const newGuesses = [...guesses, currentGuess];
-                setGuesses(newGuesses);
+                // const newGuesses = [...guesses, currentGuess];
+                // setGuesses(newGuesses);
                 setGameOver(true);
 
                 // Update stats
@@ -165,7 +165,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                     date: getTodayString(),
                     score: score,
                     won: true,
-                    guesses: newGuesses.length,
+                    guesses: guesses.length + 1,
                     hintsUsed: hintsUnlocked
                 });
                 setPlayerStats(updatedStats);

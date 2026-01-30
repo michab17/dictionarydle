@@ -119,7 +119,7 @@ Play at: [your-url]`;
 
       <div className="stats-container">
         <div className="stat-item">
-          <div className="stat-value">{stats!.guesses}</div>
+          <div className="stat-value">{stats!.guesses + 1}</div>
           <div className="stat-label">{stats!.guesses === 1 ? 'Guess' : 'Guesses'}</div>
         </div>
         <div className="stat-item">
