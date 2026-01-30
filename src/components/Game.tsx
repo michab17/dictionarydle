@@ -4,6 +4,7 @@ import Hints from "./Hints";
 import HintButton from "./HintButton";
 import ScoreDisplay from "./ScoreDisplay";
 import Modal from "./Modal";
+import Toast from "./Toast";
 import '../css/Game.css';
 import { useEffect, useState } from "react";
 import { updateStats, loadStats, getTodayString, type PlayerStats } from '../utils/statsManager';
@@ -68,6 +69,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [playerStats, setPlayerStats] = useState<PlayerStats>(loadStats());
     const [, setError] = useState<string | null>(null);
     const [hasPlayedToday, setHasPlayedToday] = useState(false);
+    const [showToast, setShowToast] = useState(false);
     
 
     // Get today's date as a string (YYYY-MM-DD)
@@ -119,7 +121,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             setHasPlayedToday(true);
             setGameOver(true);
             setScore(todayGame.score);
-            setGuesses(Array(todayGame.guesses).fill(''));
+            // setGuesses(Array(todayGame.guesses).fill(''));
             setHintsUnlocked(todayGame.hintsUsed);
             setModalOpen(true);
             setModalType(todayGame.won ? 'win' : 'lose');
@@ -155,24 +157,22 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
 
             // Check if correct first (before deducting points)
             if (currentGuess === wordData.word) {
-                // WIN! Don't deduct points for correct guess
-                // const newGuesses = [...guesses, currentGuess];
-                // setGuesses(newGuesses);
+                // WIN! Don't add to guesses array
+                setCurrentGuess('');
                 setGameOver(true);
 
-                // Update stats
+                // Update stats with the correct count
                 const updatedStats = updateStats({
                     date: getTodayString(),
                     score: score,
                     won: true,
-                    guesses: guesses.length + 1,
+                    guesses: guesses.length + 1, // Count includes the winning guess
                     hintsUsed: hintsUnlocked
                 });
                 setPlayerStats(updatedStats);
 
                 setModalOpen(true);
                 setModalType('win');
-                setCurrentGuess('');
                 return;
             }
 
@@ -275,6 +275,15 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
         }
     };
 
+    const handleShareSuccess = () => {
+        setShowToast(true);
+        setTimeout(() => handleCloseToast, 3000);
+    };
+
+    const handleCloseToast = () => {
+        setShowToast(false);
+    };
+
     // Listen for physical keyboard input
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
@@ -308,6 +317,12 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
 
     return (
         <div className="game-container">
+            {showToast && (
+                <Toast 
+                    message="Score copied to clipboard!" 
+                    onClose={handleCloseToast}
+                />
+            )}
             <ScoreDisplay score={score} />
             <GuessBar guesses={guesses} currentGuess={currentGuess} />
             <Keyboard onKeyPress={handleKeyPress} />
@@ -322,7 +337,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 isOpen={modalOpen}
                 type={modalType}
                 stats={{
-                    guesses: guesses.length,
+                    guesses: guesses.length + 1,
                     word: wordData.word,
                     hintsUsed: hintsUnlocked,
                     score: score
@@ -330,6 +345,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 playerStats={playerStats}
                 onPlayAgain={handlePlayAgain}
                 onClose={handleCloseModal}
+                onShareSuccess={handleShareSuccess}
             />
         </div>
     );

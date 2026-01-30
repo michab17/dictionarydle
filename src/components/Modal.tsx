@@ -13,9 +13,10 @@ interface ModalProps {
   playerStats?: PlayerStats;
   onPlayAgain?: () => void;
   onClose: () => void;
+  onShareSuccess?: () => void;
 }
 
-function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose }: ModalProps) {
+function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose, onShareSuccess }: ModalProps) {
   if (!isOpen || !type) return null;
 
   const getCongratsMessage = (guesses: number) => {
@@ -25,13 +26,6 @@ function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose }: Modal
     return "Victory! You persevered! 💪";
   };
 
-  // Dictionary-dle
-  // Score: 1000 points
-  // 1 guess
-  // Hints used: None! 🎯
-
-  // Play at: [your-url]
-
   const handleShare = () => {
     if (!stats) return;
     
@@ -39,7 +33,7 @@ function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose }: Modal
     const hintsDisplay = hints.slice(0, stats.hintsUsed).join('');
     const shareText = `Dictionary-dle
 Score: ${stats.score} points
-${stats.guesses + 1} ${stats.guesses + 1 === 1 ? 'guess' : 'guesses'}
+${stats.guesses} ${stats.guesses === 1 ? 'guess' : 'guesses'}
 Hints used: ${hintsDisplay || 'None! 🎯'}
 
 Play at: [your-url]`;
@@ -50,11 +44,11 @@ Play at: [your-url]`;
       }).catch(() => {
         // Fallback to clipboard
         navigator.clipboard.writeText(shareText);
-        alert('Score copied to clipboard!');
+        onShareSuccess?.();
       });
     } else {
       navigator.clipboard.writeText(shareText);
-      alert('Score copied to clipboard!');
+      onShareSuccess?.();
     }
   };
 
@@ -131,7 +125,7 @@ Play at: [your-url]`;
 
       <div className="stats-container">
         <div className="stat-item">
-          <div className="stat-value">{stats!.guesses + 1}</div>
+          <div className="stat-value">{stats!.guesses}</div>
           <div className="stat-label">{stats!.guesses === 1 ? 'Guess' : 'Guesses'}</div>
         </div>
         <div className="stat-item">
@@ -148,10 +142,10 @@ Play at: [your-url]`;
 
       <div className="modal-actions">
         <button className="btn btn-share" onClick={handleShare}>
-          Share Score 📤
+          Share Score
         </button>
         <button className="btn btn-primary" onClick={onPlayAgain}>
-          Play Again 🔄
+          Play Again
         </button>
       </div>
     </div>
@@ -161,7 +155,7 @@ Play at: [your-url]`;
     <div className="modal-content lose-modal">
       <button className="modal-close" onClick={onClose}>×</button>
       <h2 className="modal-title">Game Over</h2>
-      <p className="modal-message">Don't worry, you'll get the next one! 💪</p>
+      <p className="modal-message">Don't worry, you'll get the next one!</p>
       
       {playerStats && (
         <div className="streak-display">
