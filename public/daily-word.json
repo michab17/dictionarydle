@@ -1,0 +1,21 @@
+{
+  "date": "2026-01-30",
+  "wordData": {
+    "word": "WHICH",
+    "numOfLetters": 5,
+    "numOfSyllables": 1,
+    "definitions": {
+      "1": {
+        "partOfSpeech": [
+          "adjective"
+        ],
+        "sentence": [
+          "it will not fit, turn it _______ way you like",
+          "take _______ you like",
+          "Her eyes are hazel, _______ is to say they are greenish brown."
+        ],
+        "definition": "being what one or ones out of a group —used as an interrogative"
+      }
+    }
+  }
+}

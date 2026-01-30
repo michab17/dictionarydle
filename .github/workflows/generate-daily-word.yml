@@ -1,0 +1,35 @@
+name: Generate Daily Word
+
+on:
+  schedule:
+    # Runs at 00:01 UTC every day (adjust timezone as needed)
+    - cron: '1 0 * * *'
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  generate-word:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Generate daily word
+        env:
+          VITE_MERRIAM_WEBSTER_API_KEY: ${{ secrets.MERRIAM_WEBSTER_API_KEY }}
+        run: node scripts/generate-daily-word.js
+        
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add public/daily-word.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily word for $(date +'%Y-%m-%d')" && git push)
