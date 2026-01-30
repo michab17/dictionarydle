@@ -13,10 +13,15 @@ async function loadWords() {
     return text.split('\n').map(w => w.trim()).filter(w => w.length > 0);
 }
 
-// Get today's date string
+// Get today's date string in Mountain Time
 function getTodayString() {
     const today = new Date();
-    return today.toISOString().split('T')[0];
+    // Convert to Mountain Time (America/Denver)
+    const mountainTime = new Date(today.toLocaleString('en-US', { timeZone: 'America/Denver' }));
+    const year = mountainTime.getFullYear();
+    const month = String(mountainTime.getMonth() + 1).padStart(2, '0');
+    const day = String(mountainTime.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
 }
 
 // Get word for today (same logic as your frontend)
