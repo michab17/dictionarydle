@@ -25,14 +25,21 @@ function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose }: Modal
     return "Victory! You persevered! 💪";
   };
 
+  // Dictionary-dle
+  // Score: 1000 points
+  // 1 guess
+  // Hints used: None! 🎯
+
+  // Play at: [your-url]
+
   const handleShare = () => {
     if (!stats) return;
     
-    const hintEmojis = ['📊', '🔤', '📝', '📖'];
-    const hintsDisplay = hintEmojis.slice(0, stats.hintsUsed).join('');
+    const hints = ['\n1. Letters\n', '2. Parts of Speech\n', '3. Sentence\n', '4. Definition\n'];
+    const hintsDisplay = hints.slice(0, stats.hintsUsed).join('');
     const shareText = `Dictionary-dle
 Score: ${stats.score} points
-${stats.guesses} ${stats.guesses === 1 ? 'guess' : 'guesses'}
+${stats.guesses + 1} ${stats.guesses + 1 === 1 ? 'guess' : 'guesses'}
 Hints used: ${hintsDisplay || 'None! 🎯'}
 
 Play at: [your-url]`;
