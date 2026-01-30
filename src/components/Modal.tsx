@@ -1,19 +1,21 @@
 import '../css/Modal.css';
+import { type PlayerStats } from '../utils/statsManager';
 
 interface ModalProps {
   isOpen: boolean;
-  type: 'win' | 'lose' | 'howToPlay' | null;
+  type: 'win' | 'lose' | 'howToPlay' | 'alreadyPlayed' | null;
   stats?: {
     guesses: number;
     word: string;
     hintsUsed: number;
     score: number;
   };
+  playerStats?: PlayerStats;
   onPlayAgain?: () => void;
   onClose: () => void;
 }
 
-function Modal({ isOpen, type, stats, onPlayAgain, onClose }: ModalProps) {
+function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose }: ModalProps) {
   if (!isOpen || !type) return null;
 
   const getCongratsMessage = (guesses: number) => {
@@ -49,12 +51,67 @@ Play at: [your-url]`;
     }
   };
 
+  const ScoreChart = () => {
+    if (!playerStats || playerStats.scoreHistory.length === 0) return null;
+
+    const maxScore = 1000;
+    const history = [...playerStats.scoreHistory].reverse(); // Oldest to newest
+
+    return (
+      <div className="score-chart">
+        <h4>Recent Performance</h4>
+        <div className="chart-container">
+          <div className="chart-bars">
+            {history.map((game, index) => {
+              const heightPercent = (game.score / maxScore) * 100;
+              const barClass = game.won ? 'bar-win' : 'bar-loss';
+              
+              return (
+                <div key={index} className="chart-bar-wrapper">
+                  <div 
+                    className={`chart-bar ${barClass}`}
+                    style={{ height: `${heightPercent}%` }}
+                    title={`${game.date}: ${game.score} pts`}
+                  >
+                    <span className="bar-score">{game.score}</span>
+                  </div>
+                  <div className="bar-label">
+                    {(new Date(game.date).getMonth() + 1) + "/" + new Date(game.date).getDate()}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   const renderWinModal = () => (
     <div className="modal-content win-modal">
       <button className="modal-close" onClick={onClose}>×</button>
       <h2 className="modal-title">🎉 Victory! 🎉</h2>
       <p className="modal-message">{getCongratsMessage(stats!.guesses)}</p>
       
+      {playerStats && (
+        <div className="streak-display">
+          <div className="streak-item">
+            <div className="streak-icon">🔥</div>
+            <div className="streak-info">
+              <div className="streak-value">{playerStats.currentStreak}</div>
+              <div className="streak-label">Day Streak</div>
+            </div>
+          </div>
+          <div className="streak-item">
+            <div className="streak-icon">🏆</div>
+            <div className="streak-info">
+              <div className="streak-value">{playerStats.longestStreak}</div>
+              <div className="streak-label">Best Streak</div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="final-score">
         <div className="final-score-label">Final Score</div>
         <div className="final-score-value">{stats!.score}</div>
@@ -70,6 +127,8 @@ Play at: [your-url]`;
           <div className="stat-label">{stats!.hintsUsed === 1 ? 'Hint' : 'Hints'}</div>
         </div>
       </div>
+
+      <ScoreChart />
 
       <div className="word-reveal">
         <strong>The word was:</strong> {stats!.word}
@@ -92,13 +151,28 @@ Play at: [your-url]`;
       <h2 className="modal-title">Game Over</h2>
       <p className="modal-message">Don't worry, you'll get the next one! 💪</p>
       
+      {playerStats && (
+        <div className="streak-display">
+          <div className="streak-item">
+            <div className="streak-icon">🔥</div>
+            <div className="streak-info">
+              <div className="streak-value">{playerStats.currentStreak}</div>
+              <div className="streak-label">Day Streak</div>
+            </div>
+          </div>
+          <div className="streak-item">
+            <div className="streak-icon">🏆</div>
+            <div className="streak-info">
+              <div className="streak-value">{playerStats.longestStreak}</div>
+              <div className="streak-label">Best Streak</div>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="final-score lose">
         <div className="final-score-label">Final Score</div>
         <div className="final-score-value">{stats!.score}</div>
-      </div>
-
-      <div className="word-reveal">
-        <strong>The word was:</strong> {stats!.word}
       </div>
 
       <div className="stats-container">
@@ -110,6 +184,12 @@ Play at: [your-url]`;
           <div className="stat-value">{stats!.hintsUsed}</div>
           <div className="stat-label">{stats!.hintsUsed === 1 ? 'Hint Used' : 'Hints Used'}</div>
         </div>
+      </div>
+
+      <ScoreChart />
+
+      <div className="word-reveal">
+        <strong>The word was:</strong> {stats!.word}
       </div>
 
       <div className="modal-actions">
@@ -172,6 +252,11 @@ Play at: [your-url]`;
               <span className="hint-description">Definition</span>
             </div>
           </div>
+        </section>
+
+        <section className="howto-section">
+          <h3>🔥 Daily Streak</h3>
+          <p>Play every day to build your streak! Your streak continues whether you win or lose, as long as you play each day.</p>
         </section>
 
         <section className="howto-section">

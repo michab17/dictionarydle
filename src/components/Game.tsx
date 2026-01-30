@@ -2,10 +2,11 @@ import GuessBar from "./GuessBar";
 import Keyboard from "./Keyboard";
 import Hints from "./Hints";
 import HintButton from "./HintButton";
-import ScoreDisplay from "./Scoredisplay";
+import ScoreDisplay from "./ScoreDisplay";
 import Modal from "./Modal";
 import '../css/Game.css';
 import { useEffect, useState } from "react";
+import { updateStats, loadStats, getTodayString, type PlayerStats } from '../utils/statsManager';
 
 const fakeData: WordData = {
   word: 'DISCIPLINE',
@@ -61,10 +62,13 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [hintsUnlocked, setHintsUnlocked] = useState(0); // Track how many hints have been revealed
     const [score, setScore] = useState(STARTING_SCORE);
     const [modalOpen, setModalOpen] = useState(false);
-    const [modalType, setModalType] = useState<'win' | 'lose' | 'howToPlay' | null>(null);
+    const [modalType, setModalType] = useState<'win' | 'lose' | 'howToPlay' | 'alreadyPlayed' | null>(null);
     const [gameOver, setGameOver] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
+    const [playerStats, setPlayerStats] = useState<PlayerStats>(loadStats());
     const [, setError] = useState<string | null>(null);
+    const [hasPlayedToday, setHasPlayedToday] = useState(false);
+    
 
     // Get today's date as a string (YYYY-MM-DD)
     const getTodayString = () => {
@@ -105,6 +109,21 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
 
     useEffect(() => {
         fetchWordData();
+        
+        // Check if already played today
+        const stats = loadStats();
+        const today = getTodayString();
+        const todayGame = stats.scoreHistory.find(game => game.date === today);
+        
+        if (todayGame) {
+            setHasPlayedToday(true);
+            setGameOver(true);
+            setScore(todayGame.score);
+            setGuesses(Array(todayGame.guesses).fill(''));
+            setHintsUnlocked(todayGame.hintsUsed);
+            setModalOpen(true);
+            setModalType(todayGame.won ? 'win' : 'lose');
+        }
     }, []);
 
     // Check if first time user and show how-to-play modal
@@ -140,6 +159,17 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 const newGuesses = [...guesses, currentGuess];
                 setGuesses(newGuesses);
                 setGameOver(true);
+
+                // Update stats
+                const updatedStats = updateStats({
+                    date: getTodayString(),
+                    score: score,
+                    won: true,
+                    guesses: newGuesses.length,
+                    hintsUsed: hintsUnlocked
+                });
+                setPlayerStats(updatedStats);
+
                 setModalOpen(true);
                 setModalType('win');
                 setCurrentGuess('');
@@ -158,6 +188,17 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 // LOSE - ran out of points
                 setScore(0);
                 setGameOver(true);
+
+                // Update stats
+                const updatedStats = updateStats({
+                    date: getTodayString(),
+                    score: 0,
+                    won: false,
+                    guesses: newGuesses.length,
+                    hintsUsed: hintsUnlocked
+                });
+                setPlayerStats(updatedStats);
+
                 setModalOpen(true);
                 setModalType('lose');
             }
@@ -286,6 +327,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                     hintsUsed: hintsUnlocked,
                     score: score
                 }}
+                playerStats={playerStats}
                 onPlayAgain={handlePlayAgain}
                 onClose={handleCloseModal}
             />
