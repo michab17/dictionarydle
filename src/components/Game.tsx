@@ -19,7 +19,7 @@ const fakeData: WordData = {
         "The troops were praised for their dedication and ________.",
         "lacked the ________ to practice regularly"
       ],
-      definition: "control gained by enforcing obedience or order"
+      definition: ["control gained by enforcing obedience or order"]
     }
   }
 };
@@ -27,7 +27,7 @@ const fakeData: WordData = {
 interface Definition {
   partOfSpeech: string[];
   sentence: string[];
-  definition: string;
+  definition: string[];
 }
 
 interface WordData {
@@ -66,7 +66,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [modalType, setModalType] = useState<'win' | 'lose' | 'howToPlay' | null>(null);
     const [gameOver, setGameOver] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState<string | null>(null);
+    const [, setError] = useState<string | null>(null);
 
     // Get today's date as a string (YYYY-MM-DD)
     const getTodayString = () => {

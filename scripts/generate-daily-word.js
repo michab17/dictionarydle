@@ -100,30 +100,46 @@ async function fetchWordData(word) {
         }
     });
     
-    // Extract definition
-    let definition = '';
-    if (entry.shortdef && entry.shortdef[0]) {
-        definition = entry.shortdef[0]
-            .replace(/\s*:\s*such as\s*$/i, '')
-            .replace(/\s*such as\s*$/i, '')
-            .trim();
-    }
-    
-    if (!definition || definition.length < 15) {
-        if (entry.def && entry.def[0]?.sseq && entry.def[0].sseq[0]?.[0]?.[1]?.dt) {
-            const defText = entry.def[0].sseq[0][0][1].dt
-                .filter((item) => item[0] === 'text')
-                .map((item) => item[1])
-                .join(' ')
-                .replace(/\{bc\}/g, '')
-                .replace(/\{[^}]+\}/g, '')
+    // Extract definitions - GET MULTIPLE
+    const definitions = [];
+
+    // Try to get multiple definitions from shortdef first
+    if (entry.shortdef && entry.shortdef.length > 0) {
+        entry.shortdef.slice(0, 3).forEach(def => {
+            const cleanDef = def
                 .replace(/\s*:\s*such as\s*$/i, '')
+                .replace(/\s*such as\s*$/i, '')
                 .trim();
             
-            if (defText.length > definition.length) {
-                definition = defText;
+            if (cleanDef.length >= 15) {
+                definitions.push(cleanDef);
             }
-        }
+        });
+    }
+
+    // If we don't have enough, try getting from full definitions
+    if (definitions.length < 3 && entry.def && entry.def[0]?.sseq) {
+        entry.def[0].sseq.slice(0, 3).forEach(sense => {
+            if (sense[0]?.[1]?.dt) {
+                const defText = sense[0][1].dt
+                    .filter((item) => item[0] === 'text')
+                    .map((item) => item[1])
+                    .join(' ')
+                    .replace(/\{bc\}/g, '')
+                    .replace(/\{[^}]+\}/g, '')
+                    .replace(/\s*:\s*such as\s*$/i, '')
+                    .trim();
+                
+                if (defText.length >= 15 && !definitions.includes(defText)) {
+                    definitions.push(defText);
+                }
+            }
+        });
+    }
+
+    // Make sure we have at least one definition
+    if (definitions.length === 0) {
+        definitions.push("No definition available");
     }
     
     return {
@@ -134,7 +150,7 @@ async function fetchWordData(word) {
             1: {
                 partOfSpeech: partOfSpeech,
                 sentence: sentences.slice(0, 3),
-                definition: definition
+                definition: definitions
             }
         }
     };

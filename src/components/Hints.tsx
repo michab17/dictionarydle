@@ -24,7 +24,14 @@ function Hints({ hints }: HintsProps) {
       if (Array.isArray(hint)) {
         return (
           <div key={index} className="hint-item">
-            <strong>{hintLabels[index]}:</strong> {hint.join(', ')}
+            <strong>{hintLabels[index]}:</strong>
+            <div className="hint-sentences">
+              {hint.map((sentence, i) => (
+                <div key={i} className="sentence-item">
+                  {i + 1}. {sentence}
+                </div>
+              ))}
+            </div>
           </div>
         );
       }
