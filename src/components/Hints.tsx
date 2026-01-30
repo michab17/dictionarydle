@@ -12,7 +12,6 @@ interface HintsProps {
 function Hints({ hints }: HintsProps) {
   const hintLabels = [
     "Number of letters",
-    "Number of syllables", 
     "Parts of speech",
     "Word used in a sentence",
     "Definition"

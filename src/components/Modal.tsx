@@ -157,7 +157,11 @@ Play at: [your-url]`;
           <div className="hint-progression">
             <div className="hint-step">
               <span className="hint-number">Hint 1:</span>
-              <span className="hint-description">Number of letters, syllables & part of speech</span>
+              <span className="hint-description">Number of letters,</span>
+            </div>
+            <div className="hint-step">
+              <span className="hint-number">Hint 2:</span>
+              <span className="hint-description">Parts of speech</span>
             </div>
             <div className="hint-step">
               <span className="hint-number">Hint 3:</span>

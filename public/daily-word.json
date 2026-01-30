@@ -3,21 +3,20 @@
   "wordData": {
     "word": "WHICH",
     "numOfLetters": 5,
-    "numOfSyllables": 1,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "pronoun"
         ],
         "sentence": [
-          "it will not fit, turn it _______ way you like",
-          "take _______ you like",
-          "Her eyes are hazel, _______ is to say they are greenish brown."
+          "By now, you must surely know _______ is _______.",
+          "Please take _______ you please.",
+          "He had to leave, _______ was very difficult."
         ],
         "definition": [
-          "being what one or ones out of a group —used as an interrogative",
-          "—used as a function word to introduce a nonrestrictive relative clause and to modify a noun in that clause and to refer together with that noun to a word or word group in a preceding clause or to an entire preceding clause or sentence or longer unit of discourse",
-          "being what one or ones out of a group"
+          "(interrogative) What one or ones (of those mentioned or implied).",
+          "The/Any ones that; whichever.",
+          "(relative) Introduces a relative clause giving further information about something previously mentioned."
         ]
       }
     }
