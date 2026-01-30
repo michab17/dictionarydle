@@ -2,13 +2,15 @@ name: Generate Daily Word
 
 on:
   schedule:
-    # Runs at 00:01 UTC every day (adjust timezone as needed)
     - cron: '1 0 * * *'
-  workflow_dispatch: # Allows manual triggering from GitHub UI
+  workflow_dispatch:
 
 jobs:
   generate-word:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
