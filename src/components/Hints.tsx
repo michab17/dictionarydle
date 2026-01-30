@@ -20,21 +20,22 @@ function Hints({ hints }: HintsProps) {
 
   const formatHints = (hints: any[]) => {
     return hints.map((hint, index) => {
-      // Check if hint is an array (like sentences)
+      // Check if hint is an array (like sentences OR definitions)
       if (Array.isArray(hint)) {
         return (
           <div key={index} className="hint-item">
             <strong>{hintLabels[index]}:</strong>
             <div className="hint-sentences">
-              {hint.map((sentence, i) => (
+              {hint.map((item, i) => (
                 <div key={i} className="sentence-item">
-                  {i + 1}. {sentence}
+                  {i + 1}. {item}
                 </div>
               ))}
             </div>
           </div>
         );
       }
+      
       // Otherwise it's a string or number
       return (
         <div key={index} className="hint-item">
