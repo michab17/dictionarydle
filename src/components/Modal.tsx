@@ -53,7 +53,7 @@ Play at: [your-url]`;
   };
 
   const formatDateLabel = (dateString: String) => {
-    const [year, month, day] = dateString.split('-');
+    const [_year, month, day] = dateString.split('-');
     return `${parseInt(month)}/${parseInt(day)}`;
   };
 
