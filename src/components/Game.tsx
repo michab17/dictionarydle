@@ -7,7 +7,7 @@ import Modal from "./Modal";
 import Toast from "./Toast";
 import '../css/Game.css';
 import { useEffect, useState } from "react";
-import { updateStats, loadStats, getTodayString, type PlayerStats } from '../utils/statsManager';
+import { updateStats, loadStats, type PlayerStats } from '../utils/statsManager';
 
 const fakeData: WordData = {
   word: 'DISCIPLINE',
@@ -68,14 +68,17 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [isLoading, setIsLoading] = useState(false);
     const [playerStats, setPlayerStats] = useState<PlayerStats>(loadStats());
     const [, setError] = useState<string | null>(null);
-    const [hasPlayedToday, setHasPlayedToday] = useState(false);
+    const [, setHasPlayedToday] = useState(false);
     const [showToast, setShowToast] = useState(false);
     
 
     // Get today's date as a string (YYYY-MM-DD)
     const getTodayString = () => {
         const today = new Date();
-        return today.toISOString().split('T')[0]; // "2025-01-27"
+        const year = today.getFullYear();
+        const month = String(today.getMonth() + 1).padStart(2, '0');
+        const day = String(today.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
     };
 
     const fetchWordData = async () => {
