@@ -1,4 +1,4 @@
-import '../css/Keyboard.css';
+import '../css/KeyBoard.css';
 
 interface KeyboardProps {
   onKeyPress: (key: string) => void;
