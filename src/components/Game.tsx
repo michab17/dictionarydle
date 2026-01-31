@@ -70,6 +70,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
     const [, setError] = useState<string | null>(null);
     const [, setHasPlayedToday] = useState(false);
     const [showToast, setShowToast] = useState(false);
+    const [actualGuessCount, setActualGuessCount] = useState(0);
     
 
     // Get today's date as a string (YYYY-MM-DD)
@@ -125,6 +126,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             setGameOver(true);
             setScore(todayGame.score);
             // setGuesses(Array(todayGame.guesses).fill(''));
+            setActualGuessCount(todayGame.guesses);
             setHintsUnlocked(todayGame.hintsUsed);
             setModalOpen(true);
             setModalType(todayGame.won ? 'win' : 'lose');
@@ -161,6 +163,8 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             // Check if correct first (before deducting points)
             if (currentGuess === wordData.word) {
                 // WIN! Don't add to guesses array
+                const finalGuessCount = guesses.length + 1;
+                setActualGuessCount(finalGuessCount);
                 setCurrentGuess('');
                 setGameOver(true);
 
@@ -169,7 +173,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                     date: getTodayString(),
                     score: score,
                     won: true,
-                    guesses: guesses.length + 1, // Count includes the winning guess
+                    guesses: finalGuessCount, // Count includes the winning guess
                     hintsUsed: hintsUnlocked
                 });
                 setPlayerStats(updatedStats);
@@ -191,6 +195,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 // LOSE - ran out of points
                 setScore(0);
                 setGameOver(true);
+                setActualGuessCount(newGuesses.length);
 
                 // Update stats
                 const updatedStats = updateStats({
@@ -225,6 +230,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
             // Not enough points for a hint - game over
             setScore(0);
             setGameOver(true);
+            setActualGuessCount(guesses.length);
             setModalOpen(true);
             setModalType('lose');
             return;
@@ -266,6 +272,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
         setGameOver(false);
         setModalOpen(false);
         setModalType(null);
+        setActualGuessCount(0);
         fetchWordData();
     };
 
@@ -340,7 +347,7 @@ function Game({ showHelpModal, onHelpModalClose }: GameProps) {
                 isOpen={modalOpen}
                 type={modalType}
                 stats={{
-                    guesses: guesses.length + 1,
+                    guesses: actualGuessCount,
                     word: wordData.word,
                     hintsUsed: hintsUnlocked,
                     score: score
