@@ -1,22 +1,22 @@
 {
-  "date": "2026-01-30",
+  "date": "2026-01-31",
   "wordData": {
-    "word": "WHICH",
-    "numOfLetters": 5,
+    "word": "ABSENCE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "pronoun"
+          "noun"
         ],
         "sentence": [
-          "By now, you must surely know _______ is _______.",
-          "Please take _______ you please.",
-          "He had to leave, _______ was very difficult."
+          "_______ makes the heart grow fonder.",
+          "He had an _______ of enthusiasm.",
+          "_______ of mind"
         ],
         "definition": [
-          "(interrogative) What one or ones (of those mentioned or implied).",
-          "The/Any ones that; whichever.",
-          "(relative) Introduces a relative clause giving further information about something previously mentioned."
+          "A state of being away or withdrawn from a place or from companionship; the period of being away.",
+          "Failure to be present where one is expected, wanted, or needed; nonattendance; deficiency.",
+          "Lack; deficiency; nonexistence."
         ]
       }
     }
