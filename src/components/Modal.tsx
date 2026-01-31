@@ -29,7 +29,7 @@ Score: ${stats.score} points
 ${stats.guesses} ${stats.guesses === 1 ? 'guess' : 'guesses'}
 Hints used: ${hintsDisplay || 'None! 🎯'}
 
-Play at: [your-url]`;
+Play at: https://dictionarydle.vercel.app/`;
     
     if (navigator.share) {
       navigator.share({
