@@ -24,16 +24,6 @@ function getTodayString() {
     return `${year}-${month}-${day}`;
 }
 
-// Get word for today (same logic as your frontend)
-function getWordForToday(availableWords) {
-    const today = getTodayString();
-    const startDate = new Date('2026-01-27');
-    const currentDate = new Date(today);
-    const daysSinceStart = Math.floor((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
-    const wordIndex = daysSinceStart % availableWords.length;
-    return availableWords[wordIndex];
-}
-
 // Fetch word data from Free Dictionary API
 async function fetchWordData(word) {
     const response = await fetch(
@@ -89,6 +79,19 @@ async function fetchWordData(word) {
         });
     });
     
+    // Validate that we have all required data
+    if (partsOfSpeech.size === 0) {
+        throw new Error('No parts of speech found');
+    }
+    
+    if (allExamples.length === 0) {
+        throw new Error('No example sentences found');
+    }
+    
+    if (allDefinitions.length === 0) {
+        throw new Error('No definitions found');
+    }
+    
     return {
         word: word.toUpperCase(),
         numOfLetters: word.length,
@@ -102,19 +105,47 @@ async function fetchWordData(word) {
     };
 }
 
+// Get word with retry logic - tries subsequent words if one fails
+async function getValidWord(availableWords, startIndex) {
+    const maxRetries = 50; // Try up to 50 words before giving up
+    
+    for (let i = 0; i < maxRetries; i++) {
+        const wordIndex = (startIndex + i) % availableWords.length;
+        const word = availableWords[wordIndex];
+        
+        console.log(`📖 Trying word: ${word}`);
+        
+        try {
+            const wordData = await fetchWordData(word);
+            console.log(`✅ Found valid word: ${word}`);
+            return wordData;
+        } catch (error) {
+            console.warn(`⚠️  Word "${word}" failed: ${error.message}`);
+            // Continue to next word
+        }
+    }
+    
+    throw new Error(`Failed to find a valid word after ${maxRetries} attempts`);
+}
+
 // Main function
 async function main() {
     try {
         console.log('🎯 Generating daily word...');
         
-        // Load words and get today's word
+        // Load words and get today's starting index
         const availableWords = await loadWords();
-        const todaysWord = getWordForToday(availableWords);
+        const today = getTodayString();
+        const startDate = new Date('2026-01-27');
+        const currentDate = new Date(today);
+        const daysSinceStart = Math.floor((currentDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24));
+        const startIndex = daysSinceStart % availableWords.length;
         
-        console.log(`📖 Today's word: ${todaysWord}`);
+        console.log(`📆 Days since start: ${daysSinceStart}`);
+        console.log(`🎲 Starting at index: ${startIndex}`);
         
-        // Fetch word data from API
-        const wordData = await fetchWordData(todaysWord);
+        // Try to get a valid word, starting from today's index
+        const wordData = await getValidWord(availableWords, startIndex);
         
         // Create the output object
         const output = {
@@ -128,6 +159,7 @@ async function main() {
         
         console.log('✅ Successfully generated daily-word.json');
         console.log(`📅 Date: ${output.date}`);
+        console.log(`📝 Word: ${wordData.word}`);
         
     } catch (error) {
         console.error('❌ Error generating daily word:', error);
