@@ -19,13 +19,6 @@ interface ModalProps {
 function Modal({ isOpen, type, stats, playerStats, onPlayAgain, onClose, onShareSuccess }: ModalProps) {
   if (!isOpen || !type) return null;
 
-  const getCongratsMessage = (guesses: number) => {
-    if (guesses === 1) return "Incredible! Psychic powers detected! 🔮";
-    if (guesses <= 3) return "Brilliant! You're a word master! 🌟";
-    if (guesses <= 5) return "Well done! You got there! 🎉";
-    return "Victory! You persevered! 💪";
-  };
-
   const handleShare = () => {
     if (!stats) return;
     
@@ -97,7 +90,6 @@ Play at: [your-url]`;
     <div className="modal-content win-modal">
       <button className="modal-close" onClick={onClose}>×</button>
       <h2 className="modal-title">🎉 Victory! 🎉</h2>
-      <p className="modal-message">{getCongratsMessage(stats!.guesses)}</p>
       
       {playerStats && (
         <div className="streak-display">

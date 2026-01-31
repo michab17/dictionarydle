@@ -18,7 +18,7 @@ function Header({ onHelpClick }: HeaderProps) {
                     <button>About Me</button>
                 </li> */}
                 <li>
-                    <a href="https://ko-fi.com/yourname" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ko-fi.com/michabernhard" target="_blank" rel="noopener noreferrer">
                         Ko-fi
                     </a>
                 </li>
