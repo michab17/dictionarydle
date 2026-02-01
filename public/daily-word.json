@@ -1,22 +1,23 @@
 {
-  "date": "2026-01-31",
+  "date": "2026-02-01",
   "wordData": {
-    "word": "ABSENCE",
-    "numOfLetters": 7,
+    "word": "ABSOLUTE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "_______ makes the heart grow fonder.",
-          "He had an _______ of enthusiasm.",
-          "_______ of mind"
+          "1658, Samuel Hoard, God[']s Love to Mankind, Manifested, by disprooving his _______ decree for their damnation",
+          "_______ purity, _______ liberty",
+          "_______ alcohol"
         ],
         "definition": [
-          "A state of being away or withdrawn from a place or from companionship; the period of being away.",
-          "Failure to be present where one is expected, wanted, or needed; nonattendance; deficiency.",
-          "Lack; deficiency; nonexistence."
+          "That which is independent of context-dependent interpretation, inviolate, fundamental.",
+          "Anything that is absolute.",
+          "In a plane, the two imaginary circular points at infinity; in space of three dimensions, the imaginary circle at infinity."
         ]
       }
     }
