@@ -1,23 +1,21 @@
 {
-  "date": "2026-02-01",
+  "date": "2026-02-02",
   "wordData": {
-    "word": "ABSOLUTE",
-    "numOfLetters": 8,
+    "word": "ABSOLUTELY",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "adverb",
+          "interjection"
         ],
         "sentence": [
-          "1658, Samuel Hoard, God[']s Love to Mankind, Manifested, by disprooving his _______ decree for their damnation",
-          "_______ purity, _______ liberty",
-          "_______ alcohol"
+          "Do you want a free cookie with that coffee?\n_______!"
         ],
         "definition": [
-          "That which is independent of context-dependent interpretation, inviolate, fundamental.",
-          "Anything that is absolute.",
-          "In a plane, the two imaginary circular points at infinity; in space of three dimensions, the imaginary circle at infinity."
+          "In an absolute or unconditional manner; utterly, positively, wholly.",
+          "Independently; viewed without relation to other things or factors.",
+          "(grammar) In a manner that does not take an object."
         ]
       }
     }
