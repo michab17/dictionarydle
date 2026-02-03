@@ -1,21 +1,20 @@
 {
-  "date": "2026-02-02",
+  "date": "2026-02-03",
   "wordData": {
-    "word": "ABSOLUTELY",
-    "numOfLetters": 10,
+    "word": "ABUSE",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
-          "interjection"
+          "noun"
         ],
         "sentence": [
-          "Do you want a free cookie with that coffee?\n_______!"
+          "All _______, whether physical, verbal, psychological or sexual, is bad."
         ],
         "definition": [
-          "In an absolute or unconditional manner; utterly, positively, wholly.",
-          "Independently; viewed without relation to other things or factors.",
-          "(grammar) In a manner that does not take an object."
+          "Improper treatment or usage; application to a wrong or bad purpose; an unjust, corrupt or wrongful practice or custom.",
+          "Misuse; improper use; perversion.",
+          "A delusion; an imposture; misrepresentation; deception."
         ]
       }
     }
