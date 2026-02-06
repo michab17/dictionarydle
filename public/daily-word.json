@@ -1,23 +1,23 @@
 {
-  "date": "2026-02-05",
+  "date": "2026-02-06",
   "wordData": {
-    "word": "ACADEMIC",
-    "numOfLetters": 8,
+    "word": "ACCEPT",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
+          "verb",
           "adjective"
         ],
         "sentence": [
-          "the _______ sect or philosophy",
-          "I have always had an _______ interest in hacking.",
-          "I'm more _______ than athletic — I get lower marks in phys. ed. than in anything else."
+          "The Boy Scouts were going to _______ him as a member.",
+          "I _______ the notion that Christ lived.",
+          "I _______ your proposal, amendment, or excuse."
         ],
         "definition": [
-          "(usually capitalized) A follower of Plato, a Platonist.",
-          "A senior member of an academy, college, or university; a person who attends an academy; a person engaged in scholarly pursuits; one who is academic in practice.",
-          "A member of the Academy; an academician."
+          "To receive, especially with a consent, with favour, or with approval.",
+          "To admit to a place or a group.",
+          "To regard as proper, usual, true, or to believe in."
         ]
       }
     }
