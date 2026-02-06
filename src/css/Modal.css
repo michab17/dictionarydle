@@ -24,14 +24,6 @@
   }
 }
 
-/* Modal Wrapper */
-.modal-wrapper {
-  animation: slideUp 0.3s ease-out;
-  max-width: 90%;
-  max-height: 90vh;
-  overflow-y: auto;
-}
-
 @keyframes slideUp {
   from {
     transform: translateY(3.125rem);
@@ -43,22 +35,59 @@
   }
 }
 
+/* Modal Wrapper */
+.modal-wrapper {
+  animation: slideUp 0.3s ease-out;
+  width: 100%;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-sizing: border-box; /* ADD THIS */
+}
+
 /* Modal Content */
 .modal-content {
   background: var(--color-white);
   border-radius: 1rem;
   padding: 2rem;
-  min-width: 25rem;
+  width: 100%; /* Changed from 90vw */
   max-width: 37.5rem;
   position: relative;
   box-shadow: var(--shadow-xl);
+  box-sizing: border-box; /* ADD THIS */
+}
+
+@media (max-width: 48rem) {
+  .modal-wrapper {
+    max-width: 95%;
+  }
+  
+  .modal-content {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+  }
 }
 
 @media (max-width: 31.25rem) {
+  .modal-wrapper {
+    max-width: 98%;
+  }
+  
   .modal-content {
-    min-width: auto;
-    width: 95vw;
-    padding: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+  }
+  
+  /* Fix the hint grid that's too wide */
+  .hint-step {
+    grid-template-columns: 6rem 1fr; /* Reduced from 8.75rem */
+    gap: 0.5rem;
+  }
+  
+  /* Fix button min-width */
+  .btn {
+    min-width: 0; /* Remove the 9.375rem min-width */
+    width: 100%;
   }
 }
 
