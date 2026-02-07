@@ -1,23 +1,20 @@
 {
-  "date": "2026-02-06",
+  "date": "2026-02-07",
   "wordData": {
-    "word": "ACCEPT",
+    "word": "ACCESS",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "The Boy Scouts were going to _______ him as a member.",
-          "I _______ the notion that Christ lived.",
-          "I _______ your proposal, amendment, or excuse."
+          "an _______ of territory"
         ],
         "definition": [
-          "To receive, especially with a consent, with favour, or with approval.",
-          "To admit to a place or a group.",
-          "To regard as proper, usual, true, or to believe in."
+          "A way or means of approaching or entering; an entrance; a passage.",
+          "The act of approaching or entering; an advance.",
+          "The right or ability of approaching or entering; admittance; admission; accessibility."
         ]
       }
     }
