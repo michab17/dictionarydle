@@ -1,20 +1,22 @@
 {
-  "date": "2026-02-07",
+  "date": "2026-02-08",
   "wordData": {
-    "word": "ACCESS",
-    "numOfLetters": 6,
+    "word": "ACCIDENT",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "an _______ of territory"
+          "to die by an _______",
+          "My insurance went up after the second _______ in three months.",
+          "Beauty is an _______."
         ],
         "definition": [
-          "A way or means of approaching or entering; an entrance; a passage.",
-          "The act of approaching or entering; an advance.",
-          "The right or ability of approaching or entering; admittance; admission; accessibility."
+          "An unexpected event with negative consequences occurring without the intention of the one suffering the consequences.",
+          "Especially, a collision or similar unintended event that causes damage or death.",
+          "Any chance event."
         ]
       }
     }
