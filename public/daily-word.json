@@ -1,22 +1,20 @@
 {
-  "date": "2026-02-08",
+  "date": "2026-02-09",
   "wordData": {
-    "word": "ACCIDENT",
-    "numOfLetters": 8,
+    "word": "ACCOMPANY",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "to die by an _______",
-          "My insurance went up after the second _______ in three months.",
-          "Beauty is an _______."
+          "I will _______ her on the oboe."
         ],
         "definition": [
-          "An unexpected event with negative consequences occurring without the intention of the one suffering the consequences.",
-          "Especially, a collision or similar unintended event that causes damage or death.",
-          "Any chance event."
+          "To go with or attend as a companion or associate; to keep company with; to go along with.",
+          "To supplement with; add to.",
+          "To perform an accompanying part or parts in a composition."
         ]
       }
     }
