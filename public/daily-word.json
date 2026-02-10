@@ -1,20 +1,20 @@
 {
-  "date": "2026-02-09",
+  "date": "2026-02-10",
   "wordData": {
-    "word": "ACCOMPANY",
-    "numOfLetters": 9,
+    "word": "ACCOMPLISH",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "verb"
         ],
         "sentence": [
-          "I will _______ her on the oboe."
+          "to _______ a design, an object, a promise"
         ],
         "definition": [
-          "To go with or attend as a companion or associate; to keep company with; to go along with.",
-          "To supplement with; add to.",
-          "To perform an accompanying part or parts in a composition."
+          "To finish successfully.",
+          "To complete, as time or distance.",
+          "To execute fully; to fulfill; to complete successfully."
         ]
       }
     }
