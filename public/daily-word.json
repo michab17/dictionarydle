@@ -1,20 +1,22 @@
 {
-  "date": "2026-02-10",
+  "date": "2026-02-11",
   "wordData": {
-    "word": "ACCOMPLISH",
-    "numOfLetters": 10,
+    "word": "ACCORDING",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "verb",
+          "adjective",
+          "adverb"
         ],
         "sentence": [
-          "to _______ a design, an object, a promise"
+          "This _______ voice of national wisdom."
         ],
         "definition": [
-          "To finish successfully.",
-          "To complete, as time or distance.",
-          "To execute fully; to fulfill; to complete successfully."
+          "To make to agree or correspond; to suit one thing to another; to adjust.",
+          "To bring (people) to an agreement; to reconcile, settle, adjust or harmonize.",
+          "To agree or correspond; to be in harmony; to be concordant."
         ]
       }
     }
