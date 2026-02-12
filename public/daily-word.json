@@ -1,22 +1,22 @@
 {
-  "date": "2026-02-11",
+  "date": "2026-02-12",
   "wordData": {
-    "word": "ACCORDING",
-    "numOfLetters": 9,
+    "word": "ACCOUNT",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective",
-          "adverb"
+          "noun"
         ],
         "sentence": [
-          "This _______ voice of national wisdom."
+          "to keep one's _______ at the bank.",
+          "No satisfactory _______ has been given of these phenomena.",
+          "Don't trouble yourself on my _______."
         ],
         "definition": [
-          "To make to agree or correspond; to suit one thing to another; to adjust.",
-          "To bring (people) to an agreement; to reconcile, settle, adjust or harmonize.",
-          "To agree or correspond; to be in harmony; to be concordant."
+          "A registry of pecuniary transactions; a written or printed statement of business dealings or debts and credits, and also of other things subjected to a reckoning or review.",
+          "A sum of money deposited at a bank and subject to withdrawal.",
+          "A statement in general of reasons, causes, grounds, etc., explanatory of some event; a reason of an action to be done."
         ]
       }
     }
