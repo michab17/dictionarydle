@@ -1,22 +1,21 @@
 {
-  "date": "2026-02-12",
+  "date": "2026-02-13",
   "wordData": {
-    "word": "ACCOUNT",
-    "numOfLetters": 7,
+    "word": "ACCURATE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adjective"
         ],
         "sentence": [
-          "to keep one's _______ at the bank.",
-          "No satisfactory _______ has been given of these phenomena.",
-          "Don't trouble yourself on my _______."
+          "_______ knowledge",
+          "My horoscopes I read last week were surprisingly _______."
         ],
         "definition": [
-          "A registry of pecuniary transactions; a written or printed statement of business dealings or debts and credits, and also of other things subjected to a reckoning or review.",
-          "A sum of money deposited at a bank and subject to withdrawal.",
-          "A statement in general of reasons, causes, grounds, etc., explanatory of some event; a reason of an action to be done."
+          "Telling the truth or giving a true result; exact; not defective or faulty",
+          "Deviating only slightly or within acceptable limits.",
+          "Precisely fixed; executed with care; careful."
         ]
       }
     }
