@@ -1,21 +1,22 @@
 {
-  "date": "2026-02-13",
+  "date": "2026-02-14",
   "wordData": {
-    "word": "ACCURATE",
-    "numOfLetters": 8,
+    "word": "ACKNOWLEDGE",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "_______ knowledge",
-          "My horoscopes I read last week were surprisingly _______."
+          "to _______ the being of a god",
+          "to _______ a favor",
+          "This is to _______ your kind invitation to participate in the upcoming debate."
         ],
         "definition": [
-          "Telling the truth or giving a true result; exact; not defective or faulty",
-          "Deviating only slightly or within acceptable limits.",
-          "Precisely fixed; executed with care; careful."
+          "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in",
+          "To own or recognize in a particular quality, character or relationship; to admit the claims or authority of; to give recognition to.",
+          "To be grateful of (e.g. a benefit or a favour)"
         ]
       }
     }
