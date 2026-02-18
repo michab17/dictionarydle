@@ -1,22 +1,24 @@
 {
-  "date": "2026-02-17",
+  "date": "2026-02-18",
   "wordData": {
-    "word": "ACKNOWLEDGE",
-    "numOfLetters": 11,
+    "word": "ACROSS",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun",
+          "adverb",
+          "preposition"
         ],
         "sentence": [
-          "to _______ the being of a god",
-          "to _______ a favor",
-          "This is to _______ your kind invitation to participate in the upcoming debate."
+          "she helped the blind man _______;  the river is half a mile _______",
+          "If we sail off at noon, when will we be _______?",
+          "He leaned _______ for a book."
         ],
         "definition": [
-          "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in",
-          "To own or recognize in a particular quality, character or relationship; to admit the claims or authority of; to give recognition to.",
-          "To be grateful of (e.g. a benefit or a favour)"
+          "(crosswords, often in combination) A word that runs horizontally in the completed puzzle grid or its associated clue.",
+          "From one side to the other.",
+          "On the other side."
         ]
       }
     }
