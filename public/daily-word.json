@@ -1,24 +1,24 @@
 {
-  "date": "2026-02-19",
+  "date": "2026-02-20",
   "wordData": {
-    "word": "ACROSS",
+    "word": "ACTION",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "adverb",
-          "preposition"
+          "verb",
+          "interjection"
         ],
         "sentence": [
-          "she helped the blind man _______;  the river is half a mile _______",
-          "If we sail off at noon, when will we be _______?",
-          "He leaned _______ for a book."
+          "Knead bread with a rocking _______.",
+          "a movie full of exciting _______",
+          "a rifle _______"
         ],
         "definition": [
-          "(crosswords, often in combination) A word that runs horizontally in the completed puzzle grid or its associated clue.",
-          "From one side to the other.",
-          "On the other side."
+          "Something done so as to accomplish a purpose.",
+          "A way of motion or functioning.",
+          "Fast-paced activity."
         ]
       }
     }
