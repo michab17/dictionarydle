@@ -1,23 +1,21 @@
 {
-  "date": "2026-02-21",
+  "date": "2026-02-22",
   "wordData": {
-    "word": "ACTIVE",
-    "numOfLetters": 6,
+    "word": "ACTIVITY",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "certain _______ principles",
-          "an _______ child or animal",
-          "_______ hostilities"
+          "Pit row was abuzz with _______.",
+          "The _______ for the morning was a walk to the store."
         ],
         "definition": [
-          "A person or thing that is acting or capable of acting.",
-          "Any component that is not passive. See Passivity (engineering).",
-          "Having the power or quality of acting; causing change; communicating action or motion; acting;—opposed to passive, that receives."
+          "The state or quality of being active; activeness.",
+          "Something done as an action or a movement.",
+          "Something done for pleasure or entertainment, especially one involving movement or an excursion."
         ]
       }
     }
