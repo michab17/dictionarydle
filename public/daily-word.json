@@ -1,21 +1,21 @@
 {
-  "date": "2026-02-23",
+  "date": "2026-02-24",
   "wordData": {
-    "word": "ACTIVITY",
-    "numOfLetters": 8,
+    "word": "ACTUAL",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "Pit row was abuzz with _______.",
-          "The _______ for the morning was a walk to the store."
+          "The _______ government expenses dramatically exceed the budget."
         ],
         "definition": [
-          "The state or quality of being active; activeness.",
-          "Something done as an action or a movement.",
-          "Something done for pleasure or entertainment, especially one involving movement or an excursion."
+          "An actual, real one; notably:",
+          "Relating to a person's acts or deeds; active, practical",
+          "Existing in reality, not just potentially; really acted or acting; occurring in fact."
         ]
       }
     }
