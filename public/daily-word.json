@@ -1,21 +1,18 @@
 {
-  "date": "2026-02-26",
+  "date": "2026-02-27",
   "wordData": {
-    "word": "ACTUAL",
-    "numOfLetters": 6,
+    "word": "ACTUALLY",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "adverb"
         ],
         "sentence": [
-          "The _______ government expenses dramatically exceed the budget."
+          "_______, I had nothing to do with that incident."
         ],
         "definition": [
-          "An actual, real one; notably:",
-          "Relating to a person's acts or deeds; active, practical",
-          "Existing in reality, not just potentially; really acted or acting; occurring in fact."
+          "(modal) In act or in fact; really; in truth; positively."
         ]
       }
     }
