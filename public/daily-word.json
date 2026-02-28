@@ -1,18 +1,22 @@
 {
-  "date": "2026-02-27",
+  "date": "2026-02-28",
   "wordData": {
-    "word": "ACTUALLY",
-    "numOfLetters": 8,
+    "word": "ADAPT",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "_______, I had nothing to do with that incident."
+          "to _______ a story for the stage",
+          "They could not _______ to the new climate and so perished."
         ],
         "definition": [
-          "(modal) In act or in fact; really; in truth; positively."
+          "To make suitable; to make to correspond; to fit or suit",
+          "To fit by alteration; to modify or remodel for a different purpose; to adjust",
+          "To make by altering or fitting something else; to produce by change of form or character"
         ]
       }
     }
