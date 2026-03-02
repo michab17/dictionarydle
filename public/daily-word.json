@@ -1,20 +1,20 @@
 {
-  "date": "2026-03-01",
+  "date": "2026-03-02",
   "wordData": {
-    "word": "ADDITION",
+    "word": "ADEQUATE",
     "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "The _______ of five more items to the agenda will make the meeting unbearably long."
+          "an _______ definition"
         ],
         "definition": [
-          "The act of adding anything.",
-          "Anything that is added.",
-          "The arithmetic operation of adding."
+          "To equalize; to make adequate.",
+          "Equal to or fulfilling some requirement."
         ]
       }
     }
