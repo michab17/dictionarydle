@@ -1,20 +1,20 @@
 {
-  "date": "2026-03-04",
+  "date": "2026-03-05",
   "wordData": {
-    "word": "ADEQUATE",
-    "numOfLetters": 8,
+    "word": "ADJUST",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "an _______ definition"
+          "Most immigrants _______ quickly to a new community.   She waited for her eyes to _______ to the darkness."
         ],
         "definition": [
-          "To equalize; to make adequate.",
-          "Equal to or fulfilling some requirement."
+          "To improve or rectify.",
+          "To settle an insurance claim.",
+          "To change to fit circumstances."
         ]
       }
     }
