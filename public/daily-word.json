@@ -1,20 +1,21 @@
 {
-  "date": "2026-03-05",
+  "date": "2026-03-06",
   "wordData": {
-    "word": "ADJUST",
-    "numOfLetters": 6,
+    "word": "ADJUSTMENT",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "Most immigrants _______ quickly to a new community.   She waited for her eyes to _______ to the darkness."
+          "The credit card company made an _______ to my account to waive the late fee.",
+          "When Jim graduated, he found _______ to the working world difficult."
         ],
         "definition": [
-          "To improve or rectify.",
-          "To settle an insurance claim.",
-          "To change to fit circumstances."
+          "The action of adjusting something",
+          "The result of adjusting something; a small change; a minor correction; a modification or alteration",
+          "The settling or balancing of a financial account"
         ]
       }
     }
