@@ -1,21 +1,21 @@
 {
-  "date": "2026-03-06",
+  "date": "2026-03-07",
   "wordData": {
-    "word": "ADJUSTMENT",
-    "numOfLetters": 10,
+    "word": "ADMINISTRATION",
+    "numOfLetters": 14,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "The credit card company made an _______ to my account to waive the late fee.",
-          "When Jim graduated, he found _______ to the working world difficult."
+          "oral _______ of insulin",
+          "The company went into voluntary _______ last week."
         ],
         "definition": [
-          "The action of adjusting something",
-          "The result of adjusting something; a small change; a minor correction; a modification or alteration",
-          "The settling or balancing of a financial account"
+          "The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction.",
+          "A body that administers; the executive part of government; the persons collectively who are entrusted with the execution of laws and the superintendence of public affairs; the chief magistrate and his cabinet or council; or the council, or ministry, alone, as in Great Britain.",
+          "The act of administering, or tendering something to another; dispensation."
         ]
       }
     }
