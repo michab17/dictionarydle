@@ -1,21 +1,21 @@
 {
-  "date": "2026-03-10",
+  "date": "2026-03-11",
   "wordData": {
-    "word": "ADMISSION",
-    "numOfLetters": 9,
+    "word": "ADMIT",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "I request _______ for two adults",
-          "There is no way he has seen that show, the _______ is more than he makes in a week."
+          "the words do not _______ such a construction.",
+          "circumstances do not _______ of this"
         ],
         "definition": [
-          "The act or practice of admitting.",
-          "Permission to enter, or the entrance itself; admittance; entrance; access",
-          "The granting of an argument or position not fully proved; the act of acknowledging something asserted; acknowledgement; concession."
+          "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
+          "To allow (someone) to enter a profession or to enjoy a privilege; to recognize as qualified for a franchise.",
+          "To concede as true; to acknowledge or assent to, as an allegation which it is impossible to deny"
         ]
       }
     }
