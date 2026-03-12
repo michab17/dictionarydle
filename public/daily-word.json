@@ -1,21 +1,24 @@
 {
-  "date": "2026-03-11",
+  "date": "2026-03-12",
   "wordData": {
-    "word": "ADMIT",
+    "word": "ADULT",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun",
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "the words do not _______ such a construction.",
-          "circumstances do not _______ of this"
+          "an _______ human, animal, or plant",
+          "_______ clothes",
+          "This program contains _______ content. Parental discretion is advised."
         ],
         "definition": [
-          "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration",
-          "To allow (someone) to enter a profession or to enjoy a privilege; to recognize as qualified for a franchise.",
-          "To concede as true; to acknowledge or assent to, as an allegation which it is impossible to deny"
+          "A fully grown human or animal.",
+          "A person who has reached the legal age of majority.",
+          "To (cause to) be or become an adult."
         ]
       }
     }
