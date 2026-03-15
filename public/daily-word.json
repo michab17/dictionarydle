@@ -1,8 +1,8 @@
 {
-  "date": "2026-03-14",
+  "date": "2026-03-15",
   "wordData": {
-    "word": "ADULT",
-    "numOfLetters": 5,
+    "word": "ADVANCE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -11,14 +11,14 @@
           "adjective"
         ],
         "sentence": [
-          "an _______ human, animal, or plant",
-          "_______ clothes",
-          "This program contains _______ content. Parental discretion is advised."
+          "an _______ in health or knowledge",
+          "an _______ on the prime cost of goods",
+          "He made an _______ payment on the prior shipment to show good faith."
         ],
         "definition": [
-          "A fully grown human or animal.",
-          "A person who has reached the legal age of majority.",
-          "To (cause to) be or become an adult."
+          "A forward move; improvement or progression.",
+          "An amount of money or credit, especially given as a loan, or paid before it is due; an advancement.",
+          "An addition to the price; rise in price or value."
         ]
       }
     }
