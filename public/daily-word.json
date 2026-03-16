@@ -1,24 +1,22 @@
 {
-  "date": "2026-03-15",
+  "date": "2026-03-16",
   "wordData": {
-    "word": "ADVANCE",
-    "numOfLetters": 7,
+    "word": "ADVANTAGE",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "an _______ in health or knowledge",
-          "an _______ on the prime cost of goods",
-          "He made an _______ payment on the prior shipment to show good faith."
+          "The enemy had the _______ of a more elevated position.",
+          "Having the faster car is of little _______."
         ],
         "definition": [
-          "A forward move; improvement or progression.",
-          "An amount of money or credit, especially given as a loan, or paid before it is due; an advancement.",
-          "An addition to the price; rise in price or value."
+          "Any condition, circumstance, opportunity or means, particularly favorable to success, or to any desired end.",
+          "Superiority; mastery; — used with of to specify its nature or with over to specify the other party.",
+          "Superiority of state, or that which gives it; benefit; gain; profit"
         ]
       }
     }
