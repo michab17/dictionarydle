@@ -1,20 +1,22 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-19",
   "wordData": {
-    "word": "ADVENTURE",
-    "numOfLetters": 9,
+    "word": "ADVICE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "his sense of _______"
+          "She was offered various piece of _______ on what to do with her new-found wealth.",
+          "An _______ of an incoming settlement payment order may be given to an off-line receiving bank.",
+          "a letter of _______"
         ],
         "definition": [
-          "The encountering of risks; a bold undertaking, in which dangers are likely to be encountered, and the issue is staked upon unforeseen events; a daring feat.",
-          "A remarkable occurrence; a striking event.",
-          "A mercantile or speculative enterprise of hazard; a venture; a shipment by a merchant on his own account."
+          "An opinion offered in an effort to be helpful.",
+          "Deliberate consideration; knowledge.",
+          "(commonly in plural) Information or news given; intelligence"
         ]
       }
     }
