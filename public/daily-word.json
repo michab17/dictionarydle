@@ -1,22 +1,22 @@
 {
-  "date": "2026-03-20",
+  "date": "2026-03-21",
   "wordData": {
-    "word": "ADVICE",
-    "numOfLetters": 6,
+    "word": "ADVOCATE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "She was offered various piece of _______ on what to do with her new-found wealth.",
-          "An _______ of an incoming settlement payment order may be given to an off-line receiving bank.",
-          "a letter of _______"
+          "Since she started working with her _______, she has become much more confident.",
+          "I like trees, but I do not _______ living in them."
         ],
         "definition": [
-          "An opinion offered in an effort to be helpful.",
-          "Deliberate consideration; knowledge.",
-          "(commonly in plural) Information or news given; intelligence"
+          "Someone whose job is to speak for someone's case in a court of law; a counsel.",
+          "Anyone who argues the case of another; an intercessor.",
+          "A person who speaks in support of something."
         ]
       }
     }
