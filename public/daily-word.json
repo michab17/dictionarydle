@@ -1,22 +1,22 @@
 {
-  "date": "2026-03-23",
+  "date": "2026-03-24",
   "wordData": {
-    "word": "ADVOCATE",
-    "numOfLetters": 8,
+    "word": "AFFAIR",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "Since she started working with her _______, she has become much more confident.",
-          "I like trees, but I do not _______ living in them."
+          "a difficult _______ to manage",
+          "an _______ of honor, a duel;  an _______ of love, an intrigue",
+          "He used a hook-shaped _______ with a long handle to unlock the car."
         ],
         "definition": [
-          "Someone whose job is to speak for someone's case in a court of law; a counsel.",
-          "Anyone who argues the case of another; an intercessor.",
-          "A person who speaks in support of something."
+          "(often in the plural) Something which is done or is to be done; business of any kind, commercial, professional, or public.",
+          "Any proceeding or action which it is wished to refer to or characterize vaguely.",
+          "An action or engagement not of sufficient magnitude to be called a battle."
         ]
       }
     }
