@@ -1,22 +1,21 @@
 {
-  "date": "2026-03-24",
+  "date": "2026-03-25",
   "wordData": {
-    "word": "AFFAIR",
+    "word": "AFFORD",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "a difficult _______ to manage",
-          "an _______ of honor, a duel;  an _______ of love, an intrigue",
-          "He used a hook-shaped _______ with a long handle to unlock the car."
+          "I think we can _______ the extra hour it will take.  We can only _______ to buy a small car at the moment.",
+          "Grapes _______ wine.  Olives _______ oil.  The earth affords fruit.  The sea affords an abundant supply of fish."
         ],
         "definition": [
-          "(often in the plural) Something which is done or is to be done; business of any kind, commercial, professional, or public.",
-          "Any proceeding or action which it is wished to refer to or characterize vaguely.",
-          "An action or engagement not of sufficient magnitude to be called a battle."
+          "To incur, stand, or bear without serious detriment, as an act which might under other circumstances be injurious;—with an auxiliary, as can, could, might, etc.; to be able or rich enough.",
+          "To offer, provide, or supply, as in selling, granting, expending, with profit, or without loss or too great injury.",
+          "To give forth; to supply, yield, or produce as the natural result, fruit, or issue."
         ]
       }
     }
