@@ -1,21 +1,23 @@
 {
-  "date": "2026-03-27",
+  "date": "2026-03-28",
   "wordData": {
-    "word": "AFRAID",
-    "numOfLetters": 6,
+    "word": "AGAIN",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "adverb",
+          "preposition"
         ],
         "sentence": [
-          "He is _______ of death.",
-          "I am _______ I cannot help you in this matter."
+          "Great, thanks _______!",
+          "Bring us word _______.",
+          "The South will rise _______."
         ],
         "definition": [
-          "(usually used predicatively, not attributively, be afraid) Impressed with fear or apprehension; in fear.",
-          "Regretful, sorry.",
-          "(used with for) Worried about, feeling concern for, fearing for (someone or something)."
+          "Another time; once more.",
+          "Over and above a factor of one.",
+          "Used metalinguistically, with the repetition being in the discussion, or in the linguistic or pragmatic context of the discussion, rather than in the subject of discussion."
         ]
       }
     }
