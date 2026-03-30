@@ -1,23 +1,23 @@
 {
-  "date": "2026-03-29",
+  "date": "2026-03-30",
   "wordData": {
-    "word": "AGAIN",
-    "numOfLetters": 5,
+    "word": "AGAINST",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
-          "preposition"
+          "preposition",
+          "conjunction"
         ],
         "sentence": [
-          "Great, thanks _______!",
-          "Bring us word _______.",
-          "The South will rise _______."
+          "It is hard work to swim _______ the current.",
+          "The rain pounds _______ the window.",
+          "The kennel was put _______ the back wall."
         ],
         "definition": [
-          "Another time; once more.",
-          "Over and above a factor of one.",
-          "Used metalinguistically, with the repetition being in the discussion, or in the linguistic or pragmatic context of the discussion, rather than in the subject of discussion."
+          "In a contrary direction to.",
+          "In physical opposition to; in collision with.",
+          "In physical contact with, so as to abut or be supported by."
         ]
       }
     }
