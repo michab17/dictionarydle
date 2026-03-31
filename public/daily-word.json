@@ -1,23 +1,22 @@
 {
-  "date": "2026-03-30",
+  "date": "2026-03-31",
   "wordData": {
-    "word": "AGAINST",
-    "numOfLetters": 7,
+    "word": "AGENCY",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "preposition",
-          "conjunction"
+          "noun"
         ],
         "sentence": [
-          "It is hard work to swim _______ the current.",
-          "The rain pounds _______ the window.",
-          "The kennel was put _______ the back wall."
+          "individual _______",
+          "authority of _______",
+          "_______ for Toxic Substances and Disease Registry"
         ],
         "definition": [
-          "In a contrary direction to.",
-          "In physical opposition to; in collision with.",
-          "In physical contact with, so as to abut or be supported by."
+          "The capacity, condition, or state of acting or of exerting power.",
+          "The capacity of individuals to act independently and to make their own free choices.",
+          "A medium through which power is exerted or an end is achieved."
         ]
       }
     }
