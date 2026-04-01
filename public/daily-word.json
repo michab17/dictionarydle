@@ -1,22 +1,20 @@
 {
-  "date": "2026-03-31",
+  "date": "2026-04-01",
   "wordData": {
-    "word": "AGENCY",
-    "numOfLetters": 6,
+    "word": "AGGRESSIVE",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adjective"
         ],
         "sentence": [
-          "individual _______",
-          "authority of _______",
-          "_______ for Toxic Substances and Disease Registry"
+          "an _______ policy, war, person, nation"
         ],
         "definition": [
-          "The capacity, condition, or state of acting or of exerting power.",
-          "The capacity of individuals to act independently and to make their own free choices.",
-          "A medium through which power is exerted or an end is achieved."
+          "Characterized by aggression; unjustly attacking; prone to behave in a way that involves attacking or arguing.",
+          "Of heuristics, source code optimization techniques, etc.: exploiting every opportunity to be applied.",
+          "(of a tumour or disease) That spreads quickly or extensively; virulent; malignant."
         ]
       }
     }
