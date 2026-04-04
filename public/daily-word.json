@@ -1,20 +1,22 @@
 {
-  "date": "2026-04-03",
+  "date": "2026-04-04",
   "wordData": {
-    "word": "AGGRESSIVE",
-    "numOfLetters": 10,
+    "word": "AGREE",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "an _______ policy, war, person, nation"
+          "all parties _______ in the expediency of the law.",
+          "to _______ to an offer, or to opinion.",
+          "the picture does not _______ with the original; the two scales _______ exactly."
         ],
         "definition": [
-          "Characterized by aggression; unjustly attacking; prone to behave in a way that involves attacking or arguing.",
-          "Of heuristics, source code optimization techniques, etc.: exploiting every opportunity to be applied.",
-          "(of a tumour or disease) That spreads quickly or extensively; virulent; malignant."
+          "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
+          "To yield assent; to accede;—followed by to.",
+          "To yield assent to; to approve."
         ]
       }
     }
