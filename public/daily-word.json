@@ -1,22 +1,21 @@
 {
-  "date": "2026-04-04",
+  "date": "2026-04-05",
   "wordData": {
-    "word": "AGREE",
-    "numOfLetters": 5,
+    "word": "AGREEMENT",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "all parties _______ in the expediency of the law.",
-          "to _______ to an offer, or to opinion.",
-          "the picture does not _______ with the original; the two scales _______ exactly."
+          "to enter an _______;  the UK and US negotiators nearing _______;  he nodded his _______.",
+          "The results of my experiment are in _______ with those of Michelson and with the law of General Relativity."
         ],
         "definition": [
-          "To harmonize in opinion, statement, or action; to be in unison or concord; to be or become united or consistent; to concur.",
-          "To yield assent; to accede;—followed by to.",
-          "To yield assent to; to approve."
+          "An understanding between entities to follow a specific course of conduct.",
+          "A state whereby several parties share a view or opinion; the state of not contradicting one another.",
+          "A legally binding contract enforceable in a court of law."
         ]
       }
     }
