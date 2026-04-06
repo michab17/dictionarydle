@@ -1,21 +1,21 @@
 {
-  "date": "2026-04-05",
+  "date": "2026-04-06",
   "wordData": {
-    "word": "AGREEMENT",
-    "numOfLetters": 9,
+    "word": "AGRICULTURAL",
+    "numOfLetters": 12,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "to enter an _______;  the UK and US negotiators nearing _______;  he nodded his _______.",
-          "The results of my experiment are in _______ with those of Michelson and with the law of General Relativity."
+          "An _______ tool"
         ],
         "definition": [
-          "An understanding between entities to follow a specific course of conduct.",
-          "A state whereby several parties share a view or opinion; the state of not contradicting one another.",
-          "A legally binding contract enforceable in a court of law."
+          "A product or commodity from agriculture.",
+          "Of or pertaining to agriculture",
+          "As if played with a scythe"
         ]
       }
     }
