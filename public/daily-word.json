@@ -1,21 +1,22 @@
 {
-  "date": "2026-04-06",
+  "date": "2026-04-07",
   "wordData": {
-    "word": "AGRICULTURAL",
-    "numOfLetters": 12,
+    "word": "AHEAD",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "adverb"
         ],
         "sentence": [
-          "An _______ tool"
+          "Just _______ you can see the cliffs.",
+          "There may be tough times _______.",
+          "He paid his rent _______."
         ],
         "definition": [
-          "A product or commodity from agriculture.",
-          "Of or pertaining to agriculture",
-          "As if played with a scythe"
+          "In or to the front; in advance; onward.",
+          "In the direction one is facing or moving.",
+          "In or for the future."
         ]
       }
     }
