@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-07",
+  "date": "2026-04-08",
   "wordData": {
-    "word": "AHEAD",
+    "word": "ALIVE",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "adjective"
         ],
         "sentence": [
-          "Just _______ you can see the cliffs.",
-          "There may be tough times _______.",
-          "He paid his rent _______."
+          "As long as the plant is _______, he will continue to water it.",
+          "to keep the affections _______",
+          "Although quite dull during the day, the main street comes _______ at night, with many bars and clubs opening."
         ],
         "definition": [
-          "In or to the front; in advance; onward.",
-          "In the direction one is facing or moving.",
-          "In or for the future."
+          "Having life; living; not dead",
+          "In a state of action; in force or operation; existent",
+          "Busy with activity of many living beings; swarming; thronged; busy."
         ]
       }
     }
