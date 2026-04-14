@@ -1,22 +1,21 @@
 {
-  "date": "2026-04-13",
+  "date": "2026-04-14",
   "wordData": {
-    "word": "ALIVE",
-    "numOfLetters": 5,
+    "word": "ALLIANCE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "As long as the plant is _______, he will continue to water it.",
-          "to keep the affections _______",
-          "Although quite dull during the day, the main street comes _______ at night, with many bars and clubs opening."
+          "matrimonial alliances; an _______ between church and state, or between two countries"
         ],
         "definition": [
-          "Having life; living; not dead",
-          "In a state of action; in force or operation; existent",
-          "Busy with activity of many living beings; swarming; thronged; busy."
+          "The state of being allied.",
+          "The act of allying or uniting.",
+          "A union or connection of interests between families, states, parties, etc., especially between families by marriage and states by compact, treaty, or league."
         ]
       }
     }
