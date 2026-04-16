@@ -1,22 +1,20 @@
 {
-  "date": "2026-04-15",
+  "date": "2026-04-16",
   "wordData": {
-    "word": "ALLOW",
-    "numOfLetters": 5,
+    "word": "ALMOST",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun",
+          "adverb"
         ],
         "sentence": [
-          "to _______ a servant his liberty;  to _______ a free passage;  to _______ one day for rest",
-          "to _______ a right;  to _______ a claim;  to _______ the truth of a proposition",
-          "To _______ a sum for leakage."
+          "_______ all people went there. - Not all but very close to it."
         ],
         "definition": [
-          "To grant, give, admit, accord, afford, or yield; to let one have.",
-          "To acknowledge; to accept as true; to concede; to accede to an opinion.",
-          "To grant (something) as a deduction or an addition; especially to abate or deduct."
+          "Something or someone that doesn't quite make it.",
+          "Very close to, not quite."
         ]
       }
     }
