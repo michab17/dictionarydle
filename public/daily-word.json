@@ -1,20 +1,23 @@
 {
-  "date": "2026-04-16",
+  "date": "2026-04-17",
   "wordData": {
-    "word": "ALMOST",
-    "numOfLetters": 6,
+    "word": "ALONE",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
+          "adjective",
           "adverb"
         ],
         "sentence": [
-          "_______ all people went there. - Not all but very close to it."
+          "I can't ask for help because I am _______.",
+          "Jones _______ could do it.",
+          "She walked home _______."
         ],
         "definition": [
-          "Something or someone that doesn't quite make it.",
-          "Very close to, not quite."
+          "By oneself, solitary.",
+          "Apart from, or exclusive of, others.",
+          "Considered separately."
         ]
       }
     }
