@@ -1,23 +1,18 @@
 {
-  "date": "2026-04-17",
+  "date": "2026-04-18",
   "wordData": {
-    "word": "ALONE",
-    "numOfLetters": 5,
+    "word": "ALREADY",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective",
           "adverb"
         ],
         "sentence": [
-          "I can't ask for help because I am _______.",
-          "Jones _______ could do it.",
-          "She walked home _______."
+          "Are you quitting _______?"
         ],
         "definition": [
-          "By oneself, solitary.",
-          "Apart from, or exclusive of, others.",
-          "Considered separately."
+          "Prior to some specified time, either past, present, or future; by this time; previously."
         ]
       }
     }
