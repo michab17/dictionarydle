@@ -1,18 +1,21 @@
 {
-  "date": "2026-04-18",
+  "date": "2026-04-19",
   "wordData": {
-    "word": "ALREADY",
-    "numOfLetters": 7,
+    "word": "ALTERNATIVE",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "Are you quitting _______?"
+          "an _______ proposition"
         ],
         "definition": [
-          "Prior to some specified time, either past, present, or future; by this time; previously."
+          "A situation which allows a mutually exclusive choice between two or more possibilities; a choice between two or more possibilities.",
+          "One of several mutually exclusive things which can be chosen.",
+          "The remaining option; something available after other possibilities have been exhausted."
         ]
       }
     }
