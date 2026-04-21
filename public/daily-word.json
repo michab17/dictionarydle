@@ -1,21 +1,19 @@
 {
-  "date": "2026-04-20",
+  "date": "2026-04-21",
   "wordData": {
-    "word": "ALTERNATIVE",
-    "numOfLetters": 11,
+    "word": "ALTHOUGH",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "conjunction"
         ],
         "sentence": [
-          "an _______ proposition"
+          "_______ it was very muddy, the football game went on.",
+          "It was difficult, _______ not as difficult as we had expected."
         ],
         "definition": [
-          "A situation which allows a mutually exclusive choice between two or more possibilities; a choice between two or more possibilities.",
-          "One of several mutually exclusive things which can be chosen.",
-          "The remaining option; something available after other possibilities have been exhausted."
+          "Though, even though, in spite of or despite the fact that: introducing a clause that expresses a concession."
         ]
       }
     }
