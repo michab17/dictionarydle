@@ -1,19 +1,21 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "wordData": {
-    "word": "ALTHOUGH",
-    "numOfLetters": 8,
+    "word": "AMAZING",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "conjunction"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "_______ it was very muddy, the football game went on.",
-          "It was difficult, _______ not as difficult as we had expected."
+          "2015, June 10, Lindsey Bever, \"Morning Mix: Another reason seeing-eye dogs are _______\"http//www.washingtonpost.com/news/morning-mix/wp/2015/06/10/another-heroic-story-showing-why-seeing-eye-dogs-are-_______/"
         ],
         "definition": [
-          "Though, even though, in spite of or despite the fact that: introducing a clause that expresses a concession."
+          "To fill with wonder and surprise; to astonish, astound, surprise or perplex.",
+          "To undergo amazement; to be astounded.",
+          "To stupefy; to knock unconscious."
         ]
       }
     }
