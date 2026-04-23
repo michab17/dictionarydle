@@ -1,21 +1,22 @@
 {
-  "date": "2026-04-22",
+  "date": "2026-04-23",
   "wordData": {
-    "word": "AMAZING",
-    "numOfLetters": 7,
+    "word": "AMOUNT",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "2015, June 10, Lindsey Bever, \"Morning Mix: Another reason seeing-eye dogs are _______\"http//www.washingtonpost.com/news/morning-mix/wp/2015/06/10/another-heroic-story-showing-why-seeing-eye-dogs-are-_______/"
+          "The _______ of atmospheric pollution threatens a health crisis.",
+          "Pour a small _______ of water into the dish."
         ],
         "definition": [
-          "To fill with wonder and surprise; to astonish, astound, surprise or perplex.",
-          "To undergo amazement; to be astounded.",
-          "To stupefy; to knock unconscious."
+          "The total, aggregate or sum of material (not applicable to discrete numbers or units or items in standard English).",
+          "A quantity or volume.",
+          "(sometimes proscribed) The number (the sum) of elements in a set."
         ]
       }
     }
