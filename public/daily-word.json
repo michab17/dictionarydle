@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-25",
   "wordData": {
-    "word": "AMOUNT",
-    "numOfLetters": 6,
+    "word": "ANCIENT",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "The _______ of atmospheric pollution threatens a health crisis.",
-          "Pour a small _______ of water into the dish."
+          "an _______ city  an _______ forest",
+          "an _______ author  an _______ empire"
         ],
         "definition": [
-          "The total, aggregate or sum of material (not applicable to discrete numbers or units or items in standard English).",
-          "A quantity or volume.",
-          "(sometimes proscribed) The number (the sum) of elements in a set."
+          "A person who is very old.",
+          "A person who lived in ancient times.",
+          "One of the senior members of the Inns of Court or of Chancery."
         ]
       }
     }
