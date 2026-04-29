@@ -1,22 +1,22 @@
 {
-  "date": "2026-04-28",
+  "date": "2026-04-29",
   "wordData": {
-    "word": "ANCIENT",
-    "numOfLetters": 7,
+    "word": "ANGER",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "an _______ city  an _______ forest",
-          "an _______ author  an _______ empire"
+          "You need to control your _______.",
+          "You _______ too easily."
         ],
         "definition": [
-          "A person who is very old.",
-          "A person who lived in ancient times.",
-          "One of the senior members of the Inns of Court or of Chancery."
+          "A strong feeling of displeasure, hostility or antagonism towards someone or something, usually combined with an urge to harm.",
+          "Pain or stinging.",
+          "To cause such a feeling of antagonism in."
         ]
       }
     }
