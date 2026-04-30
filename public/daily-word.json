@@ -1,7 +1,7 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "wordData": {
-    "word": "ANGER",
+    "word": "ANGLE",
     "numOfLetters": 5,
     "definitions": {
       "1": {
@@ -10,13 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "You need to control your _______.",
-          "You _______ too easily."
+          "the _______ between lines A and B",
+          "The _______ between lines A and B is π/4 radians, or 45 degrees.",
+          "an _______ of a building"
         ],
         "definition": [
-          "A strong feeling of displeasure, hostility or antagonism towards someone or something, usually combined with an urge to harm.",
-          "Pain or stinging.",
-          "To cause such a feeling of antagonism in."
+          "A figure formed by two rays which start from a common point (a plane angle) or by three planes that intersect (a solid angle).",
+          "The measure of such a figure. In the case of a plane angle, this is the ratio (or proportional to the ratio) of the arc length to the radius of a section of a circle cut by the two rays, centered at their common point. In the case of a solid angle, this is the ratio of the surface area to the square of the radius of the section of a sphere.",
+          "A corner where two walls intersect."
         ]
       }
     }
