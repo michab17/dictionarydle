@@ -1,23 +1,22 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "wordData": {
-    "word": "ANGLE",
+    "word": "ANGRY",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "the _______ between lines A and B",
-          "The _______ between lines A and B is π/4 radians, or 45 degrees.",
-          "an _______ of a building"
+          "An _______ mob started looting the warehouse.",
+          "The broken glass left two _______ cuts across my arm.",
+          "_______ clouds raced across the sky."
         ],
         "definition": [
-          "A figure formed by two rays which start from a common point (a plane angle) or by three planes that intersect (a solid angle).",
-          "The measure of such a figure. In the case of a plane angle, this is the ratio (or proportional to the ratio) of the arc length to the radius of a section of a circle cut by the two rays, centered at their common point. In the case of a solid angle, this is the ratio of the surface area to the square of the radius of the section of a sphere.",
-          "A corner where two walls intersect."
+          "Displaying or feeling anger.",
+          "(said about a wound or a rash) Inflamed and painful.",
+          "(said about the elements, like the sky or the sea) Dark and stormy, menacing."
         ]
       }
     }
