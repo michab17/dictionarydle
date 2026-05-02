@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-01",
+  "date": "2026-05-02",
   "wordData": {
-    "word": "ANGRY",
-    "numOfLetters": 5,
+    "word": "ANIMAL",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "An _______ mob started looting the warehouse.",
-          "The broken glass left two _______ cuts across my arm.",
-          "_______ clouds raced across the sky."
+          "A cat is an _______, not a plant. Humans are also animals, under the scientific definition, as we are not plants.",
+          "He's a political _______.",
+          "a whole different _______"
         ],
         "definition": [
-          "Displaying or feeling anger.",
-          "(said about a wound or a rash) Inflamed and painful.",
-          "(said about the elements, like the sky or the sea) Dark and stormy, menacing."
+          "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants).",
+          "In non-scientific usage, any member of the kingdom Animalia other than a human.",
+          "In non-scientific usage, any land-living vertebrate (i.e. not fishes, insects, etc.)."
         ]
       }
     }
