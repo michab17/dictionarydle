@@ -1,22 +1,19 @@
 {
-  "date": "2026-05-02",
+  "date": "2026-05-03",
   "wordData": {
-    "word": "ANIMAL",
-    "numOfLetters": 6,
+    "word": "ANNIVERSARY",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "A cat is an _______, not a plant. Humans are also animals, under the scientific definition, as we are not plants.",
-          "He's a political _______.",
-          "a whole different _______"
+          "Today is the fiftieth _______ of the end of the war."
         ],
         "definition": [
-          "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants).",
-          "In non-scientific usage, any member of the kingdom Animalia other than a human.",
-          "In non-scientific usage, any land-living vertebrate (i.e. not fishes, insects, etc.)."
+          "A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years.",
+          "(loosely) A day subsequent in time to a given event by some significant period other than a year (especially as prefixed by the amount of time in question)."
         ]
       }
     }
