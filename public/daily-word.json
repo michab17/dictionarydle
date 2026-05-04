@@ -1,19 +1,22 @@
 {
-  "date": "2026-05-03",
+  "date": "2026-05-04",
   "wordData": {
-    "word": "ANNIVERSARY",
-    "numOfLetters": 11,
+    "word": "ANNUAL",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "Today is the fiftieth _______ of the end of the war."
+          "an _______ general meeting;  an _______ publication",
+          "an _______ salary;  average _______ profits;  the _______ course of the sun"
         ],
         "definition": [
-          "A day that is an exact number of years (to the day) since a given significant event occurred. Often preceded by an ordinal number indicating the number of years.",
-          "(loosely) A day subsequent in time to a given event by some significant period other than a year (especially as prefixed by the amount of time in question)."
+          "An annual publication; a book, periodical, journal, report, comic book, yearbook, etc., which is published serially once a year, which may or may not be in addition to regular weekly or monthly publication.",
+          "An annual plant; a plant with a life span of just one growing season; a plant which naturally germinates, flowers and dies in one year. Compare biennial, perennial.",
+          "A medical checkup taking place once a year."
         ]
       }
     }
