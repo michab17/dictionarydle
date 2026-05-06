@@ -1,22 +1,21 @@
 {
-  "date": "2026-05-05",
+  "date": "2026-05-06",
   "wordData": {
-    "word": "ANNUAL",
+    "word": "ANSWER",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "an _______ general meeting;  an _______ publication",
-          "an _______ salary;  average _______ profits;  the _______ course of the sun"
+          "Her _______ to his proposal was a slap in the face.",
+          "There is no simple _______ to corruption."
         ],
         "definition": [
-          "An annual publication; a book, periodical, journal, report, comic book, yearbook, etc., which is published serially once a year, which may or may not be in addition to regular weekly or monthly publication.",
-          "An annual plant; a plant with a life span of just one growing season; a plant which naturally germinates, flowers and dies in one year. Compare biennial, perennial.",
-          "A medical checkup taking place once a year."
+          "A response or reply; something said or done in reaction to a statement or question.",
+          "A solution to a problem.",
+          "A document filed in response to a complaint, responding to each point raised in the complaint and raising counterpoints."
         ]
       }
     }
