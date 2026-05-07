@@ -1,21 +1,22 @@
 {
-  "date": "2026-05-06",
+  "date": "2026-05-07",
   "wordData": {
-    "word": "ANSWER",
-    "numOfLetters": 6,
+    "word": "ANTICIPATE",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "Her _______ to his proposal was a slap in the face.",
-          "There is no simple _______ to corruption."
+          "The advocate plans to _______ a part of her argument.",
+          "Please _______ a journey of an hour from your house to the airport",
+          "Little Johnny started to _______ the arrival of Santa Claus a week before Christmas."
         ],
         "definition": [
-          "A response or reply; something said or done in reaction to a statement or question.",
-          "A solution to a problem.",
-          "A document filed in response to a complaint, responding to each point raised in the complaint and raising counterpoints."
+          "To act before (someone), especially to prevent an action.",
+          "To take up or introduce (something) prematurely.",
+          "To know of (something) before it happens; to expect."
         ]
       }
     }
