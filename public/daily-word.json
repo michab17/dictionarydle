@@ -1,20 +1,19 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "wordData": {
-    "word": "ANYBODY",
+    "word": "ANYMORE",
     "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "pronoun"
+          "adverb"
         ],
         "sentence": [
-          "_______ will do.",
-          "Everybody who wants to be _______ will come to Jake's party."
+          "I eat fish _______."
         ],
         "definition": [
-          "Any one out of an indefinite number of persons; anyone; any person.",
-          "A person of some consideration or standing."
+          "(in negative or interrogative constructions) From a given time onwards; longer, again.",
+          "(in positive constructions) Now, from now on."
         ]
       }
     }
