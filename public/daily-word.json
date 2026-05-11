@@ -1,19 +1,18 @@
 {
-  "date": "2026-05-10",
+  "date": "2026-05-11",
   "wordData": {
-    "word": "ANYMORE",
-    "numOfLetters": 7,
+    "word": "ANYONE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "pronoun"
         ],
         "sentence": [
-          "I eat fish _______."
+          "Almost _______ can change a light bulb."
         ],
         "definition": [
-          "(in negative or interrogative constructions) From a given time onwards; longer, again.",
-          "(in positive constructions) Now, from now on."
+          "Any person; anybody."
         ]
       }
     }
