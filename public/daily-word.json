@@ -1,18 +1,21 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "wordData": {
-    "word": "ANYONE",
-    "numOfLetters": 6,
+    "word": "ANYTHING",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
+          "noun",
           "pronoun"
         ],
         "sentence": [
-          "Almost _______ can change a light bulb."
+          "I would not do it for _______."
         ],
         "definition": [
-          "Any person; anybody."
+          "Someone or something of importance.",
+          "Any object, act, state, event, or fact whatever; a thing of any kind; something or other.",
+          "(with “as” or “like”) Expressing an indefinite comparison."
         ]
       }
     }
