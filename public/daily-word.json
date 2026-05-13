@@ -1,21 +1,21 @@
 {
-  "date": "2026-05-12",
+  "date": "2026-05-13",
   "wordData": {
-    "word": "ANYTHING",
-    "numOfLetters": 8,
+    "word": "ANYWAY",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "pronoun"
+          "adverb"
         ],
         "sentence": [
-          "I would not do it for _______."
+          "He didn't enjoy washing his car, but it was so dirty that he did it _______.",
+          "I don't think that's true. I haven't found any evidence, _______."
         ],
         "definition": [
-          "Someone or something of importance.",
-          "Any object, act, state, event, or fact whatever; a thing of any kind; something or other.",
-          "(with “as” or “like”) Expressing an indefinite comparison."
+          "Regardless; anyhow.",
+          "Used to indicate that a statement explains or supports a previous statement. See anyhow and at least.",
+          "Used to indicate a change of subject."
         ]
       }
     }
