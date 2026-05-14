@@ -1,21 +1,23 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "wordData": {
-    "word": "ANYWAY",
-    "numOfLetters": 6,
+    "word": "ANYWHERE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "adverb",
+          "pronoun"
         ],
         "sentence": [
-          "He didn't enjoy washing his car, but it was so dirty that he did it _______.",
-          "I don't think that's true. I haven't found any evidence, _______."
+          "I don't know where I left my keys. They could be _______.",
+          "_______ you go in France, there will be bread and wine with dinner.",
+          "_______ is better than here!"
         ],
         "definition": [
-          "Regardless; anyhow.",
-          "Used to indicate that a statement explains or supports a previous statement. See anyhow and at least.",
-          "Used to indicate a change of subject."
+          "In or at any location or an unknown location.",
+          "To (in the direction of) any location or an unknown location.",
+          "Any location or an unknown location."
         ]
       }
     }
