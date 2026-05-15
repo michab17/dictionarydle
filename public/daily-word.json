@@ -1,23 +1,23 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "wordData": {
-    "word": "ANYWHERE",
-    "numOfLetters": 8,
+    "word": "APART",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
-          "pronoun"
+          "adjective",
+          "adverb"
         ],
         "sentence": [
-          "I don't know where I left my keys. They could be _______.",
-          "_______ you go in France, there will be bread and wine with dinner.",
-          "_______ is better than here!"
+          "a world _______",
+          "Consider the two propositions _______.",
+          "We took the computer _______ and put it back together."
         ],
         "definition": [
-          "In or at any location or an unknown location.",
-          "To (in the direction of) any location or an unknown location.",
-          "Any location or an unknown location."
+          "(Used after a noun or in the predicate) Exceptional, distinct.",
+          "Having been taken apart; disassembled, in pieces.",
+          "Placed separately (in regard to space or time)."
         ]
       }
     }
