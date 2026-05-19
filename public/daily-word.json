@@ -1,21 +1,22 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "wordData": {
-    "word": "APPARENTLY",
-    "numOfLetters": 10,
+    "word": "APPEAL",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "A man may be _______ friendly, yet malicious in heart.",
-          "_______ you are quite a good dancer."
+          "He made an _______ for volunteers to help at the festival.",
+          "I _______ to all of you to help the orphans."
         ],
         "definition": [
-          "Plainly; clearly; manifestly; evidently.",
-          "Seemingly; in appearance only.",
-          "According to what the speaker has read or heard."
+          "An application for the removal of a cause or suit from an inferior to a superior judge or court for re-examination or review.",
+          "The mode of proceeding by which such removal is effected.",
+          "The right of appeal."
         ]
       }
     }
