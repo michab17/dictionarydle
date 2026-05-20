@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "wordData": {
-    "word": "APPEAL",
-    "numOfLetters": 6,
+    "word": "APPEARANCE",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "He made an _______ for volunteers to help at the festival.",
-          "I _______ to all of you to help the orphans."
+          "His sudden _______ surprised me.",
+          "There was a strange _______ in the sky.",
+          "Some people say I'm shallow because I care so much about my _______."
         ],
         "definition": [
-          "An application for the removal of a cause or suit from an inferior to a superior judge or court for re-examination or review.",
-          "The mode of proceeding by which such removal is effected.",
-          "The right of appeal."
+          "The act of appearing or coming into sight; the act of becoming visible to the eye.",
+          "A thing seen; a phenomenon; an apparition.",
+          "The way something looks; personal presence"
         ]
       }
     }
