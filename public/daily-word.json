@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "wordData": {
-    "word": "APPEARANCE",
-    "numOfLetters": 10,
+    "word": "APPLICATION",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "His sudden _______ surprised me.",
-          "There was a strange _______ in the sky.",
-          "Some people say I'm shallow because I care so much about my _______."
+          "The _______ of this cream should reduce the swelling.",
+          "I make the remark, and leave you to make the _______.",
+          "This iPhone _______ can connect to most social networks."
         ],
         "definition": [
-          "The act of appearing or coming into sight; the act of becoming visible to the eye.",
-          "A thing seen; a phenomenon; an apparition.",
-          "The way something looks; personal presence"
+          "The act of applying or laying on, in a literal sense",
+          "The substance applied.",
+          "The act of applying as a means; the employment of means to accomplish an end; specific use."
         ]
       }
     }
