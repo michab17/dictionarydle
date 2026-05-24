@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-23",
+  "date": "2026-05-24",
   "wordData": {
-    "word": "APPLICATION",
-    "numOfLetters": 11,
+    "word": "APPLY",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "The _______ of this cream should reduce the swelling.",
-          "I make the remark, and leave you to make the _______.",
-          "This iPhone _______ can connect to most social networks."
+          "to _______ cream to a rash",
+          "to _______ funds to the repayment of a debt",
+          "We need to _______ the skills we've learned to solve this problem"
         ],
         "definition": [
-          "The act of applying or laying on, in a literal sense",
-          "The substance applied.",
-          "The act of applying as a means; the employment of means to accomplish an end; specific use."
+          "To lay or place; to put (one thing to another)",
+          "To put to use; to use or employ for a particular purpose, or in a particular case",
+          "To make use of, declare, or pronounce, as suitable, fitting, or relative"
         ]
       }
     }
