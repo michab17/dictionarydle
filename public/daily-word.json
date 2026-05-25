@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "wordData": {
-    "word": "APPLY",
-    "numOfLetters": 5,
+    "word": "APPOINTMENT",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "to _______ cream to a rash",
-          "to _______ funds to the repayment of a debt",
-          "We need to _______ the skills we've learned to solve this problem"
+          "His _______ was deemed suitable",
+          "the _______ of treasurer",
+          "I'm leaving work early because I have a doctor's _______."
         ],
         "definition": [
-          "To lay or place; to put (one thing to another)",
-          "To put to use; to use or employ for a particular purpose, or in a particular case",
-          "To make use of, declare, or pronounce, as suitable, fitting, or relative"
+          "The act of appointing a person to hold an office or to have a position of trust",
+          "The state of being appointed to a service or office; an office to which one is appointed",
+          "Stipulation; agreement; the act of fixing by mutual agreement."
         ]
       }
     }
