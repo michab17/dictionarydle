@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-27",
   "wordData": {
-    "word": "APPOINTMENT",
-    "numOfLetters": 11,
+    "word": "APPRECIATE",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "His _______ was deemed suitable",
-          "the _______ of treasurer",
-          "I'm leaving work early because I have a doctor's _______."
+          "I _______ your efforts",
+          "You must learn to _______ time",
+          "I _______ that what I'm asking you to do is very difficult."
         ],
         "definition": [
-          "The act of appointing a person to hold an office or to have a position of trust",
-          "The state of being appointed to a service or office; an office to which one is appointed",
-          "Stipulation; agreement; the act of fixing by mutual agreement."
+          "To be grateful or thankful for.",
+          "To view as valuable.",
+          "To be fully conscious of; understand; be aware of; detect."
         ]
       }
     }
