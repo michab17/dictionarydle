@@ -1,22 +1,22 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "wordData": {
-    "word": "APPRECIATE",
-    "numOfLetters": 10,
+    "word": "APPROACH",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
+          "noun",
           "verb"
         ],
         "sentence": [
-          "I _______ your efforts",
-          "You must learn to _______ time",
-          "I _______ that what I'm asking you to do is very difficult."
+          "1991, Carol Lee Johnston, Jeanne Lazaris, Plane Trigonometry, A New _______.",
+          "\"Would counsel please _______ the bench?\" asked the judge."
         ],
         "definition": [
-          "To be grateful or thankful for.",
-          "To view as valuable.",
-          "To be fully conscious of; understand; be aware of; detect."
+          "The act of drawing near; a coming or advancing near.",
+          "An access, or opportunity of drawing near.",
+          "(in plural) Movements to gain favor; advances."
         ]
       }
     }
