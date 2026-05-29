@@ -1,22 +1,23 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "wordData": {
-    "word": "APPROACH",
-    "numOfLetters": 8,
+    "word": "APPROPRIATE",
+    "numOfLetters": 11,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "1991, Carol Lee Johnston, Jeanne Lazaris, Plane Trigonometry, A New _______.",
-          "\"Would counsel please _______ the bench?\" asked the judge."
+          "Let no man _______ the use of a common benefit.",
+          "The headmaster wondered what an _______ measure would be to make the pupil behave better.",
+          "I don't think it was _______ for the cashier to tell me out loud in front of all those people at the check-out that my hair-piece looked like it was falling out of place."
         ],
         "definition": [
-          "The act of drawing near; a coming or advancing near.",
-          "An access, or opportunity of drawing near.",
-          "(in plural) Movements to gain favor; advances."
+          "To make suitable; to suit.",
+          "To take to oneself; to claim or use, especially as by an exclusive right.",
+          "To set apart for, or assign to, a particular person or use, especially in exclusion of all others; with to or for."
         ]
       }
     }
