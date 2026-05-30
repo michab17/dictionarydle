@@ -1,23 +1,21 @@
 {
-  "date": "2026-05-29",
+  "date": "2026-05-30",
   "wordData": {
-    "word": "APPROPRIATE",
-    "numOfLetters": 11,
+    "word": "APPROVAL",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "Let no man _______ the use of a common benefit.",
-          "The headmaster wondered what an _______ measure would be to make the pupil behave better.",
-          "I don't think it was _______ for the cashier to tell me out loud in front of all those people at the check-out that my hair-piece looked like it was falling out of place."
+          "I need to get an _______ on this purchase order.",
+          "Words of _______ never seem to come from him."
         ],
         "definition": [
-          "To make suitable; to suit.",
-          "To take to oneself; to claim or use, especially as by an exclusive right.",
-          "To set apart for, or assign to, a particular person or use, especially in exclusion of all others; with to or for."
+          "An expression granting permission; an indication of agreement with a proposal; an acknowledgement that a person, thing or event meets requirements.",
+          "An expression of favorable acceptance and encouragement; a compliment that also condones.",
+          "Something mailed by a seller to a collector to match their stated interests; the collector can approve of or return the item."
         ]
       }
     }
