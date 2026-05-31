@@ -1,21 +1,21 @@
 {
-  "date": "2026-05-30",
+  "date": "2026-05-31",
   "wordData": {
-    "word": "APPROVAL",
-    "numOfLetters": 8,
+    "word": "APPROVE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "I need to get an _______ on this purchase order.",
-          "Words of _______ never seem to come from him."
+          "Although we may disagree with it, we must nevertheless _______ the sentence handed down by the court-martial.",
+          "We _______ the measure of the administration, for it is an excellent decision."
         ],
         "definition": [
-          "An expression granting permission; an indication of agreement with a proposal; an acknowledgement that a person, thing or event meets requirements.",
-          "An expression of favorable acceptance and encouragement; a compliment that also condones.",
-          "Something mailed by a seller to a collector to match their stated interests; the collector can approve of or return the item."
+          "To sanction officially; to ratify; to confirm; to set as satisfactory.",
+          "To regard as good; to commend; to be pleased with; to think well of.",
+          "To make proof of; to demonstrate; to prove or show practically."
         ]
       }
     }
