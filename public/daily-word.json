@@ -1,21 +1,18 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "wordData": {
-    "word": "APPROVE",
-    "numOfLetters": 7,
+    "word": "APPROXIMATELY",
+    "numOfLetters": 13,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "adverb"
         ],
         "sentence": [
-          "Although we may disagree with it, we must nevertheless _______ the sentence handed down by the court-martial.",
-          "We _______ the measure of the administration, for it is an excellent decision."
+          "..._______ 60 beats per minute."
         ],
         "definition": [
-          "To sanction officially; to ratify; to confirm; to set as satisfactory.",
-          "To regard as good; to commend; to be pleased with; to think well of.",
-          "To make proof of; to demonstrate; to prove or show practically."
+          "Imprecise but close to in quantity or amount."
         ]
       }
     }
