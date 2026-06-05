@@ -1,21 +1,20 @@
 {
-  "date": "2026-06-04",
+  "date": "2026-06-05",
   "wordData": {
-    "word": "ARGUMENT",
-    "numOfLetters": 8,
+    "word": "ARISE",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
           "verb"
         ],
         "sentence": [
-          "The altitude is the _______ of the refraction."
+          "to _______ from a kneeling posture"
         ],
         "definition": [
-          "A fact or statement used to support a proposition; a reason.",
-          "A verbal dispute; a quarrel.",
-          "A process of reasoning."
+          "To come up from a lower to a higher position.",
+          "To come up from one's bed or place of repose; to get up.",
+          "To spring up; to come into action, being, or notice; to become operative, sensible, or visible; to begin to act a part; to present itself."
         ]
       }
     }
