@@ -1,20 +1,22 @@
 {
-  "date": "2026-06-05",
+  "date": "2026-06-06",
   "wordData": {
-    "word": "ARISE",
+    "word": "ARMED",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "to _______ from a kneeling posture"
+          "The king _______ his knights with swords and shields.",
+          "nuclear-_______"
         ],
         "definition": [
-          "To come up from a lower to a higher position.",
-          "To come up from one's bed or place of repose; to get up.",
-          "To spring up; to come into action, being, or notice; to become operative, sensible, or visible; to begin to act a part; to present itself."
+          "To take by the arm; to take up in one's arms.",
+          "To supply with armour or (later especially) weapons.",
+          "To prepare a tool or a weapon for action; to activate."
         ]
       }
     }
