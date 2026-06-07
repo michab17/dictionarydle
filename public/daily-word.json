@@ -1,22 +1,24 @@
 {
-  "date": "2026-06-06",
+  "date": "2026-06-07",
   "wordData": {
-    "word": "ARMED",
-    "numOfLetters": 5,
+    "word": "AROUND",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
-          "adjective"
+          "adjective",
+          "adverb",
+          "preposition"
         ],
         "sentence": [
-          "The king _______ his knights with swords and shields.",
-          "nuclear-_______"
+          "Is Clare _______ today?",
+          "\"How is old Bob? I heard that his health is failing.\"  \"Oh, he's still _______. He's feeling better now.\"",
+          "High above, vultures circled _______."
         ],
         "definition": [
-          "To take by the arm; to take up in one's arms.",
-          "To supply with armour or (later especially) weapons.",
-          "To prepare a tool or a weapon for action; to activate."
+          "(with the verb \"to be\") Present in the vicinity.",
+          "(with the verb \"to be\") Alive; existing.",
+          "So as to form a circle or trace a circular path, or approximation thereof."
         ]
       }
     }
