@@ -1,24 +1,20 @@
 {
-  "date": "2026-06-07",
+  "date": "2026-06-08",
   "wordData": {
-    "word": "AROUND",
-    "numOfLetters": 6,
+    "word": "ARRANGE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective",
-          "adverb",
-          "preposition"
+          "verb"
         ],
         "sentence": [
-          "Is Clare _______ today?",
-          "\"How is old Bob? I heard that his health is failing.\"  \"Oh, he's still _______. He's feeling better now.\"",
-          "High above, vultures circled _______."
+          "to _______ to meet;   to _______ for supper"
         ],
         "definition": [
-          "(with the verb \"to be\") Present in the vicinity.",
-          "(with the verb \"to be\") Alive; existing.",
-          "So as to form a circle or trace a circular path, or approximation thereof."
+          "To set up; to organize; to put into an orderly sequence or arrangement.",
+          "To plan; to prepare in advance.",
+          "To prepare and adapt an already-written composition for presentation in other than its original form."
         ]
       }
     }
