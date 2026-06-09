@@ -1,20 +1,21 @@
 {
-  "date": "2026-06-08",
+  "date": "2026-06-09",
   "wordData": {
-    "word": "ARRANGE",
+    "word": "ARRIVAL",
     "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "to _______ to meet;   to _______ for supper"
+          "The early _______ of the bride created a stir.",
+          "The _______ of the railway made the local tourist industry viable."
         ],
         "definition": [
-          "To set up; to organize; to put into an orderly sequence or arrangement.",
-          "To plan; to prepare in advance.",
-          "To prepare and adapt an already-written composition for presentation in other than its original form."
+          "The act of arriving or something that has arrived.",
+          "The attainment of an objective, especially as a result of effort.",
+          "A person who has arrived."
         ]
       }
     }
