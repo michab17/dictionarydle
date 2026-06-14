@@ -1,23 +1,21 @@
 {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "wordData": {
-    "word": "ARTICLE",
-    "numOfLetters": 7,
+    "word": "ASIDE",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb"
+          "adverb"
         ],
         "sentence": [
-          "a sales _______",
-          "a shrewd _______",
-          "She's a prime _______ (whip slang), she's a devilish good piece, a hell of a goer."
+          "Move _______, please, so that these people can come through."
         ],
         "definition": [
-          "A piece of nonfictional writing such as a story, report, opinion piece, or entry in a newspaper, magazine, journal, dictionary, encyclopedia, etc.",
-          "An object, a member of a group or class.",
-          "(grammar) A part of speech that indicates, specifies and limits a noun (a, an, or the in English). In some languages the article may appear as an ending (e.g. definite article in Swedish) or there may be none (e.g. Russian, Pashto)."
+          "An incidental remark made quietly so as to be heard by the person to whom it is said and not by any others in the vicinity.",
+          "A brief comment by a character addressing the audience, unheard by other characters.",
+          "A minor related mention, an afterthought."
         ]
       }
     }
