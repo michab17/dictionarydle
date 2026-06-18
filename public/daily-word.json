@@ -1,21 +1,21 @@
 {
-  "date": "2026-06-17",
+  "date": "2026-06-18",
   "wordData": {
-    "word": "ASIDE",
-    "numOfLetters": 5,
+    "word": "ASLEEP",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adverb"
+          "adjective"
         ],
         "sentence": [
-          "Move _______, please, so that these people can come through."
+          "I was _______ when you called.",
+          "How could you miss that? Were you _______?",
+          "My arm fell _______. You know, like pins and needles."
         ],
         "definition": [
-          "An incidental remark made quietly so as to be heard by the person to whom it is said and not by any others in the vicinity.",
-          "A brief comment by a character addressing the audience, unheard by other characters.",
-          "A minor related mention, an afterthought."
+          "In a state of sleep; also, broadly, resting.",
+          "(of a body part) Having a numb or prickling sensation accompanied by a degree of unresponsiveness."
         ]
       }
     }
