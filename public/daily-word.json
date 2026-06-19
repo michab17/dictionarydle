@@ -1,21 +1,22 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "wordData": {
-    "word": "ASLEEP",
+    "word": "ASPECT",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "I was _______ when you called.",
-          "How could you miss that? Were you _______?",
-          "My arm fell _______. You know, like pins and needles."
+          "Japan's aging population is an important _______ of its economy.",
+          "The house has a southern _______, i.e. a position which faces the south."
         ],
         "definition": [
-          "In a state of sleep; also, broadly, resting.",
-          "(of a body part) Having a numb or prickling sensation accompanied by a degree of unresponsiveness."
+          "Any specific feature, part, or element of something.",
+          "The way something appears when viewed from a certain direction or perspective.",
+          "The way something appears when considered from a certain point of view."
         ]
       }
     }
