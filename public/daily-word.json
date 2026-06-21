@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-20",
+  "date": "2026-06-21",
   "wordData": {
-    "word": "ASSAULT",
-    "numOfLetters": 7,
+    "word": "ASSERT",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,13 +10,13 @@
           "verb"
         ],
         "sentence": [
-          "to make _______ upon a man, a house, or a town",
-          "to make an _______ on the prerogatives of a prince, or on the constitution of a government"
+          "He would often _______ that there was life on other planets.",
+          "to _______ our rights and liberties"
         ],
         "definition": [
-          "A violent onset or attack with physical means, for example blows, weapons, etc.",
-          "A violent onset or attack with moral weapons, for example words, arguments, appeals, and the like",
-          "An attempt to commit battery: a violent attempt, or willful effort with force or violence, to do hurt to another, but without necessarily touching his person, as by lifting a fist in a threatening manner, or by striking at him and missing him."
+          "An assertion; a section of source code which tests whether an expected condition is true.",
+          "To declare with assurance or plainly and strongly; to state positively.",
+          "To use or exercise and thereby prove the existence of."
         ]
       }
     }
