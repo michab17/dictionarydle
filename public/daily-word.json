@@ -1,20 +1,20 @@
 {
-  "date": "2026-06-22",
+  "date": "2026-06-23",
   "wordData": {
-    "word": "ASSESS",
-    "numOfLetters": 6,
+    "word": "ASSET",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "Once you've submitted a tax return, the Tax Department will _______ the amount of tax you still owe."
+          "These shares are a valuable _______."
         ],
         "definition": [
-          "To determine, estimate or judge the value of; to evaluate",
-          "To impose or charge, especially as punishment for an infraction.",
-          "To calculate and demand (the tax money due) from a person or entity."
+          "Something or someone of any value; any portion of one's property or effects so considered.",
+          "Any component, model, process or framework of value that can be leveraged or reused.",
+          "An intelligence asset."
         ]
       }
     }
