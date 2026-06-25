@@ -1,20 +1,23 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "wordData": {
-    "word": "ASSET",
-    "numOfLetters": 5,
+    "word": "ASSIGN",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "These shares are a valuable _______."
+          "to _______ a day for trial",
+          "to _______ counsel for a prisoner",
+          "We _______ 100 to x."
         ],
         "definition": [
-          "Something or someone of any value; any portion of one's property or effects so considered.",
-          "Any component, model, process or framework of value that can be leveraged or reused.",
-          "An intelligence asset."
+          "A thing relating or belonging to something else; an appurtenance.",
+          "An assignment or appointment.",
+          "A design or purpose."
         ]
       }
     }
