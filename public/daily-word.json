@@ -1,23 +1,22 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "wordData": {
-    "word": "ASSIGN",
-    "numOfLetters": 6,
+    "word": "ASSIGNMENT",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "to _______ a day for trial",
-          "to _______ counsel for a prisoner",
-          "We _______ 100 to x."
+          "This flow chart represents the _______ of tasks in our committee.",
+          "We should not condone the _______ of asylum seekers to that of people smugglers.",
+          "The _______ the department gave him proved to be quite challenging."
         ],
         "definition": [
-          "A thing relating or belonging to something else; an appurtenance.",
-          "An assignment or appointment.",
-          "A design or purpose."
+          "The act of assigning; the allocation of a job or a set of tasks.",
+          "The categorization of something as belonging to a specific category.",
+          "An assigned task."
         ]
       }
     }
