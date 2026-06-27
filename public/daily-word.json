@@ -1,22 +1,22 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-27",
   "wordData": {
-    "word": "ASSIGNMENT",
-    "numOfLetters": 10,
+    "word": "ASSIST",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "This flow chart represents the _______ of tasks in our committee.",
-          "We should not condone the _______ of asylum seekers to that of people smugglers.",
-          "The _______ the department gave him proved to be quite challenging."
+          "The foundation gave a much needed _______ to the shelter.",
+          "This book will _______ you in getting your life in order."
         ],
         "definition": [
-          "The act of assigning; the allocation of a job or a set of tasks.",
-          "The categorization of something as belonging to a specific category.",
-          "An assigned task."
+          "A helpful action or an act of giving.",
+          "The act of helping another player score points or goals",
+          "To make a pass that leads directly towards scoring."
         ]
       }
     }
