@@ -1,22 +1,21 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-06-28",
   "wordData": {
-    "word": "ASSIST",
-    "numOfLetters": 6,
+    "word": "ASSISTANT",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "The foundation gave a much needed _______ to the shelter.",
-          "This book will _______ you in getting your life in order."
+          "an _______ surgeon"
         ],
         "definition": [
-          "A helpful action or an act of giving.",
-          "The act of helping another player score points or goals",
-          "To make a pass that leads directly towards scoring."
+          "Someone who is present; a bystander, a witness.",
+          "A person who assists or helps someone else.",
+          "Sales assistant."
         ]
       }
     }
