@@ -1,21 +1,24 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "wordData": {
-    "word": "ASSISTANT",
+    "word": "ASSOCIATE",
     "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
+          "verb",
           "adjective"
         ],
         "sentence": [
-          "an _______ surgeon"
+          "The _______ editor is someone who has some experience in editing but not sufficient experience to qualify for a senior post.",
+          "He is an _______ member of the club.",
+          "_______ motions: those that occur sympathetically, in consequence of preceding motions"
         ],
         "definition": [
-          "Someone who is present; a bystander, a witness.",
-          "A person who assists or helps someone else.",
-          "Sales assistant."
+          "A person united with another or others in an act, enterprise, or business; a partner.",
+          "Somebody with whom one works, coworker, colleague.",
+          "A companion; a comrade."
         ]
       }
     }
