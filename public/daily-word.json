@@ -1,24 +1,21 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "wordData": {
-    "word": "ASSOCIATE",
-    "numOfLetters": 9,
+    "word": "ASSUME",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "The _______ editor is someone who has some experience in editing but not sufficient experience to qualify for a senior post.",
-          "He is an _______ member of the club.",
-          "_______ motions: those that occur sympathetically, in consequence of preceding motions"
+          "We _______ that, as her parents were dentists, she knows quite a bit about dentistry.",
+          "Mr. Jones will _______ the position of a lifeguard until a proper replacement is found."
         ],
         "definition": [
-          "A person united with another or others in an act, enterprise, or business; a partner.",
-          "Somebody with whom one works, coworker, colleague.",
-          "A companion; a comrade."
+          "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof",
+          "To take on a position, duty or form",
+          "To adopt a feigned quality or manner; to claim without right; to arrogate"
         ]
       }
     }
