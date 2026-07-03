@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-02",
+  "date": "2026-07-03",
   "wordData": {
-    "word": "ASSUME",
-    "numOfLetters": 6,
+    "word": "ASSUMPTION",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "We _______ that, as her parents were dentists, she knows quite a bit about dentistry.",
-          "Mr. Jones will _______ the position of a lifeguard until a proper replacement is found."
+          "His _______ of secretarial duties was timely.",
+          "Their _______ of his guilt disqualified them from jury duty."
         ],
         "definition": [
-          "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof",
-          "To take on a position, duty or form",
-          "To adopt a feigned quality or manner; to claim without right; to arrogate"
+          "The act of assuming, or taking to or upon oneself; the act of taking up or adopting.",
+          "The act of taking for granted, or supposing a thing without proof; a supposition; an unwarrantable claim.",
+          "The thing supposed; a postulate, or proposition assumed; a supposition."
         ]
       }
     }
