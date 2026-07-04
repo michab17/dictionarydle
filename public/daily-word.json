@@ -1,21 +1,20 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "wordData": {
-    "word": "ASSUMPTION",
-    "numOfLetters": 10,
+    "word": "ATHLETE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "His _______ of secretarial duties was timely.",
-          "Their _______ of his guilt disqualified them from jury duty."
+          "She's the first _______ in her sport to obtain a corporate sponsor."
         ],
         "definition": [
-          "The act of assuming, or taking to or upon oneself; the act of taking up or adopting.",
-          "The act of taking for granted, or supposing a thing without proof; a supposition; an unwarrantable claim.",
-          "The thing supposed; a postulate, or proposition assumed; a supposition."
+          "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
+          "A person who actively participates in physical sports, especially with great skill; a sportsperson.",
+          "An exceptionally physically fit person."
         ]
       }
     }
