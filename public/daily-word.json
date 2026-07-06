@@ -1,20 +1,22 @@
 {
-  "date": "2026-07-05",
+  "date": "2026-07-06",
   "wordData": {
-    "word": "ATHLETE",
-    "numOfLetters": 7,
+    "word": "ATHLETIC",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adjective"
         ],
         "sentence": [
-          "She's the first _______ in her sport to obtain a corporate sponsor."
+          "Are you a member of the American _______ Association?",
+          "Since you're such an _______ person, you may wish to consider joining.",
+          "You have such an _______ build—you must work out regularly."
         ],
         "definition": [
-          "A participant in a group of sporting activities which includes track and field, road running, cross country running and racewalking.",
-          "A person who actively participates in physical sports, especially with great skill; a sportsperson.",
-          "An exceptionally physically fit person."
+          "Having to do with athletes.",
+          "Physically active.",
+          "Having a muscular, well developed body, being in shape."
         ]
       }
     }
