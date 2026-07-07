@@ -1,22 +1,21 @@
 {
-  "date": "2026-07-06",
+  "date": "2026-07-07",
   "wordData": {
-    "word": "ATHLETIC",
-    "numOfLetters": 8,
+    "word": "ATTACH",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "Are you a member of the American _______ Association?",
-          "Since you're such an _______ person, you may wish to consider joining.",
-          "You have such an _______ build—you must work out regularly."
+          "Dower will _______.",
+          "to _______ great importance to a particular circumstance"
         ],
         "definition": [
-          "Having to do with athletes.",
-          "Physically active.",
-          "Having a muscular, well developed body, being in shape."
+          "To fasten, to join to (literally and figuratively).",
+          "To adhere; to be attached.",
+          "To come into legal operation in connection with anything; to vest."
         ]
       }
     }
