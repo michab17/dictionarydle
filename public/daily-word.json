@@ -1,21 +1,23 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-09",
   "wordData": {
-    "word": "ATTACH",
+    "word": "ATTACK",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
+          "noun",
           "verb"
         ],
         "sentence": [
-          "Dower will _______.",
-          "to _______ great importance to a particular circumstance"
+          "They claimed the censorship of the article was an _______ on free speech.",
+          "The army timed their _______ to coincide with the local celebrations.",
+          "Having washed the plates from dinner, I made an _______ on the laundry."
         ],
         "definition": [
-          "To fasten, to join to (literally and figuratively).",
-          "To adhere; to be attached.",
-          "To come into legal operation in connection with anything; to vest."
+          "An attempt to cause damage, injury to, or death of opponent or enemy.",
+          "An attempt to detract from the worth or credibility of, a person, position, idea, object, or thing, by physical, verbal, emotional, or other assault.",
+          "A time in which one attacks; the offence of a battle."
         ]
       }
     }
