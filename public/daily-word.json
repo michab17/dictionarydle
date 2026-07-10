@@ -1,8 +1,8 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "wordData": {
-    "word": "ATTACK",
-    "numOfLetters": 6,
+    "word": "ATTEMPT",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "They claimed the censorship of the article was an _______ on free speech.",
-          "The army timed their _______ to coincide with the local celebrations.",
-          "Having washed the plates from dinner, I made an _______ on the laundry."
+          "It was worth the _______.",
+          "1584 No man can charge us of any _______ against the realm. (Allen's Defence Of English Catholics, cited after Edinburgh review 1883, p. 378)",
+          "to _______ the enemy's camp"
         ],
         "definition": [
-          "An attempt to cause damage, injury to, or death of opponent or enemy.",
-          "An attempt to detract from the worth or credibility of, a person, position, idea, object, or thing, by physical, verbal, emotional, or other assault.",
-          "A time in which one attacks; the offence of a battle."
+          "The action of trying at something.",
+          "An assault or attack, especially an assassination attempt.",
+          "To try to move, by entreaty, by afflictions, or by temptations; to tempt."
         ]
       }
     }
