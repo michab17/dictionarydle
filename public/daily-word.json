@@ -1,23 +1,22 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "wordData": {
-    "word": "ATTEMPT",
-    "numOfLetters": 7,
+    "word": "ATTEND",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
           "verb"
         ],
         "sentence": [
-          "It was worth the _______.",
-          "1584 No man can charge us of any _______ against the realm. (Allen's Defence Of English Catholics, cited after Edinburgh review 1883, p. 378)",
-          "to _______ the enemy's camp"
+          "Secretaries _______ to correspondence.",
+          "Servants _______ the king day and night.",
+          "Children must _______ primary school."
         ],
         "definition": [
-          "The action of trying at something.",
-          "An assault or attack, especially an assassination attempt.",
-          "To try to move, by entreaty, by afflictions, or by temptations; to tempt."
+          "To listen to (something or someone); to pay attention to; regard; heed.",
+          "To listen (to, unto).",
+          "To turn one's consideration (to); to deal with (a task, problem, concern etc.), to look after."
         ]
       }
     }
