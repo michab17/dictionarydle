@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "wordData": {
-    "word": "ATTEND",
-    "numOfLetters": 6,
+    "word": "ATTENTION",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun",
+          "interjection"
         ],
         "sentence": [
-          "Secretaries _______ to correspondence.",
-          "Servants _______ the king day and night.",
-          "Children must _______ primary school."
+          "Please direct your _______ to the following words.",
+          "The company will now come to _______."
         ],
         "definition": [
-          "To listen to (something or someone); to pay attention to; regard; heed.",
-          "To listen (to, unto).",
-          "To turn one's consideration (to); to deal with (a task, problem, concern etc.), to look after."
+          "An action or remark expressing concern for or interest in someone or something, especially romantic interest.",
+          "A state of alertness in the standing position.",
+          "Used as a command to bring soldiers to the attention position."
         ]
       }
     }
