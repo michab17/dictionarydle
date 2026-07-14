@@ -1,23 +1,21 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "wordData": {
-    "word": "ATTITUDE",
-    "numOfLetters": 8,
+    "word": "ATTRACT",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
           "verb"
         ],
         "sentence": [
-          "The ballet dancer walked with a graceful _______.",
-          "Don't give me your negative _______.",
-          "The airliner had to land with a nose-up _______ after the incident."
+          "Advertising is designed to _______ customers.",
+          "to _______ admirers;   His big smile and brown eyes instantly attracted me."
         ],
         "definition": [
-          "The position of the body or way of carrying oneself.",
-          "Disposition or state of mind.",
-          "The orientation of a vehicle or other object relative to the horizon, direction of motion, other objects, etc."
+          "To pull toward without touching.",
+          "To arouse interest.",
+          "To draw by moral, emotional or sexual influence; to engage or fix, as the mind, attention, etc.; to invite or allure."
         ]
       }
     }
