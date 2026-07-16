@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "wordData": {
-    "word": "ATTRACT",
-    "numOfLetters": 7,
+    "word": "ATTRACTIVE",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "Advertising is designed to _______ customers.",
-          "to _______ admirers;   His big smile and brown eyes instantly attracted me."
+          "That's a very _______ offer.",
+          "He is an _______ fellow with a trim figure."
         ],
         "definition": [
-          "To pull toward without touching.",
-          "To arouse interest.",
-          "To draw by moral, emotional or sexual influence; to engage or fix, as the mind, attention, etc.; to invite or allure."
+          "Causing attraction; having the quality of attracting by inherent force.",
+          "Having the power of charming or alluring by agreeable qualities; enticing.",
+          "Pleasing or appealing to the senses, especially of the opposite sex."
         ]
       }
     }
