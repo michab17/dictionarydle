@@ -1,23 +1,22 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "wordData": {
-    "word": "ATTRIBUTE",
-    "numOfLetters": 9,
+    "word": "AUDIENCE",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "His finest _______ is his kindness.",
-          "In the clause \"My jacket is more expensive than yours\", \"My\" is the _______ of \"jacket\".",
-          "A file with the read-only _______ set cannot be overwritten."
+          "We joined the _______ just as the lights went down.",
+          "She managed to get an _______ with the Pope.",
+          "\"Private Eye\" has a small but faithful _______."
         ],
         "definition": [
-          "A characteristic or quality of a thing.",
-          "(grammar) A word that qualifies a noun, a qualifier.",
-          "That which is predicated or affirmed of a subject; a predicate; an accident."
+          "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc.",
+          "Hearing; the condition or state of hearing or listening.",
+          "A widespread or nationwide viewing or listening public, as of a TV or radio network or program."
         ]
       }
     }
