@@ -1,22 +1,21 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "wordData": {
-    "word": "AUDIENCE",
-    "numOfLetters": 8,
+    "word": "AUTHORITY",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "We joined the _______ just as the lights went down.",
-          "She managed to get an _______ with the Pope.",
-          "\"Private Eye\" has a small but faithful _______."
+          "I have the _______ to penalise the staff in my department, but not the _______ to sack them.",
+          "the world's foremost _______ on orangutans"
         ],
         "definition": [
-          "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc.",
-          "Hearing; the condition or state of hearing or listening.",
-          "A widespread or nationwide viewing or listening public, as of a TV or radio network or program."
+          "The power to enforce rules or give orders.",
+          "(used in singular or plural form) Persons in command; specifically, government.",
+          "A person accepted as a source of reliable information on a subject."
         ]
       }
     }
