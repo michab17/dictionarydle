@@ -1,21 +1,22 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "wordData": {
-    "word": "AUTHORITY",
+    "word": "AVAILABLE",
     "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adjective"
         ],
         "sentence": [
-          "I have the _______ to penalise the staff in my department, but not the _______ to sack them.",
-          "the world's foremost _______ on orangutans"
+          "We have an _______ candidate.",
+          "The list shows the _______ products in the store.",
+          "This is an _______ plea."
         ],
         "definition": [
-          "The power to enforce rules or give orders.",
-          "(used in singular or plural form) Persons in command; specifically, government.",
-          "A person accepted as a source of reliable information on a subject."
+          "Such as one may avail oneself of; capable of being used for the accomplishment of a purpose.",
+          "Readily obtainable.",
+          "Having sufficient power, force, or efficacy to achieve the purpose; availing, effective."
         ]
       }
     }
