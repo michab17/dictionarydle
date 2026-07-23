@@ -1,24 +1,20 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "wordData": {
-    "word": "AVERAGE",
-    "numOfLetters": 7,
+    "word": "AVOID",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "The _______ of 10, 20 and 24 is (10 + 20 + 24)/3 = 18.",
-          "batting _______",
-          "If you _______ 10, 20 and 24, you get 18."
+          "I try to _______ the company of gamblers."
         ],
         "definition": [
-          "The arithmetic mean.",
-          "Any measure of central tendency, especially any mean, the median, or the mode.",
-          "(marine) Financial loss due to damage to transported goods; compensation for damage or loss."
+          "To try not to meet or communicate with (a person); to shun",
+          "To keep away from; to keep clear of; to stay away from",
+          "To try not to do something or to have something happen"
         ]
       }
     }
