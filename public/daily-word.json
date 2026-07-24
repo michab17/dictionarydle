@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-24",
   "wordData": {
-    "word": "AVOID",
+    "word": "AWARE",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "I try to _______ the company of gamblers."
+          "Stay _______! Don't let your guard down.",
+          "Are you _______ of what is being said about you?"
         ],
         "definition": [
-          "To try not to meet or communicate with (a person); to shun",
-          "To keep away from; to keep clear of; to stay away from",
-          "To try not to do something or to have something happen"
+          "Vigilant or on one's guard against danger or difficulty.",
+          "Conscious or having knowledge of something."
         ]
       }
     }
