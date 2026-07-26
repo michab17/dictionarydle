@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-25",
+  "date": "2026-07-26",
   "wordData": {
-    "word": "AWARE",
-    "numOfLetters": 5,
+    "word": "AWARENESS",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "Stay _______! Don't let your guard down.",
-          "Are you _______ of what is being said about you?"
+          "I gradually passed from sleep to full _______.",
+          "The _______ of one type of idea naturally fosters an _______ of another idea"
         ],
         "definition": [
-          "Vigilant or on one's guard against danger or difficulty.",
-          "Conscious or having knowledge of something."
+          "The state or level of consciousness where sense data can be confirmed by an observer.",
+          "The state or quality of being aware of something"
         ]
       }
     }
