@@ -1,20 +1,23 @@
 {
-  "date": "2026-07-26",
+  "date": "2026-07-27",
   "wordData": {
-    "word": "AWARENESS",
-    "numOfLetters": 9,
+    "word": "AWFUL",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adjective",
+          "adverb"
         ],
         "sentence": [
-          "I gradually passed from sleep to full _______.",
-          "The _______ of one type of idea naturally fosters an _______ of another idea"
+          "My socks smell _______.",
+          "I have learnt an _______ amount today.",
+          "He was blubbering away something _______."
         ],
         "definition": [
-          "The state or level of consciousness where sense data can be confirmed by an observer.",
-          "The state or quality of being aware of something"
+          "Exceedingly great; usually applied intensively.",
+          "Causing fear or horror; appalling, terrible.",
+          "Inspiring awe; filling with profound reverence or respect; profoundly impressive."
         ]
       }
     }
