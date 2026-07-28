@@ -1,23 +1,24 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "wordData": {
-    "word": "AWFUL",
-    "numOfLetters": 5,
+    "word": "BACKGROUND",
+    "numOfLetters": 10,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective",
-          "adverb"
+          "noun",
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "My socks smell _______.",
-          "I have learnt an _______ amount today.",
-          "He was blubbering away something _______."
+          "The lawyer had a _______ in computer science.",
+          "The photographer let us pick a _______ for the portrait.",
+          "The antivirus program is running in the _______."
         ],
         "definition": [
-          "Exceedingly great; usually applied intensively.",
-          "Causing fear or horror; appalling, terrible.",
-          "Inspiring awe; filling with profound reverence or respect; profoundly impressive."
+          "One's social heritage, or previous life; what one did in the past.",
+          "A part of the picture that depicts scenery to the rear or behind the main subject; context.",
+          "Information relevant to the current situation about past events; history."
         ]
       }
     }
