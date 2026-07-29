@@ -1,24 +1,21 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "wordData": {
-    "word": "BACKGROUND",
-    "numOfLetters": 10,
+    "word": "BADLY",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb",
-          "adjective"
+          "adjective",
+          "adverb"
         ],
         "sentence": [
-          "The lawyer had a _______ in computer science.",
-          "The photographer let us pick a _______ for the portrait.",
-          "The antivirus program is running in the _______."
+          "He's never _______.",
+          "I want it so _______."
         ],
         "definition": [
-          "One's social heritage, or previous life; what one did in the past.",
-          "A part of the picture that depicts scenery to the rear or behind the main subject; context.",
-          "Information relevant to the current situation about past events; history."
+          "In a bad manner.",
+          "Very much; to a great degree."
         ]
       }
     }
