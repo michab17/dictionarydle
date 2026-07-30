@@ -1,21 +1,23 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "wordData": {
-    "word": "BADLY",
-    "numOfLetters": 5,
+    "word": "BALANCE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adjective",
-          "adverb"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "He's never _______.",
-          "I want it so _______."
+          "Blair thought he could provide a useful _______ to Bush's policies.",
+          "I think the _______ of opinion is that we should get out while we're ahead.",
+          "I just need to nip to a bank and check my _______."
         ],
         "definition": [
-          "In a bad manner.",
-          "Very much; to a great degree."
+          "A state in which opposing forces harmonise; equilibrium.",
+          "Mental equilibrium; mental health; calmness, a state of remaining clear-headed and unperturbed.",
+          "Something of equal weight used to provide equilibrium; counterweight."
         ]
       }
     }
