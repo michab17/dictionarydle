@@ -1,23 +1,19 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "wordData": {
-    "word": "BALANCE",
-    "numOfLetters": 7,
+    "word": "BARELY",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "adverb"
         ],
         "sentence": [
-          "Blair thought he could provide a useful _______ to Bush's policies.",
-          "I think the _______ of opinion is that we should get out while we're ahead.",
-          "I just need to nip to a bank and check my _______."
+          "The plane is so far away now I can _______ see it."
         ],
         "definition": [
-          "A state in which opposing forces harmonise; equilibrium.",
-          "Mental equilibrium; mental health; calmness, a state of remaining clear-headed and unperturbed.",
-          "Something of equal weight used to provide equilibrium; counterweight."
+          "(degree) By a small margin.",
+          "(degree) Almost not at all."
         ]
       }
     }
