@@ -1,23 +1,23 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "wordData": {
-    "word": "BARREL",
-    "numOfLetters": 6,
+    "word": "BASIC",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "a cracker _______",
-          "the _______ of a windlass;  the _______ of a watch, within which the spring is coiled.",
-          "Throw it into the trash _______."
+          "Rice is a _______ for many Asian villagers.",
+          "Arithmetic is a _______ for the study of mathematics.",
+          "The drill sergeants gave him hell in _______."
         ],
         "definition": [
-          "A round vessel or cask, of greater length than breadth, and bulging in the middle, made of staves bound with hoops, and having flat ends or heads. Sometimes applied to a similar cylindrical container made of metal, usually called a drum.",
-          "The quantity which constitutes a full barrel: the volume or weight this represents varies by local law and custom.",
-          "A solid drum, or a hollow cylinder or case"
+          "A necessary commodity, a staple requirement.",
+          "An elementary building block, e.g. a fundamental piece of knowledge.",
+          "Basic training."
         ]
       }
     }
