@@ -1,23 +1,21 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "wordData": {
-    "word": "BASIC",
-    "numOfLetters": 5,
+    "word": "BASICALLY",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "adverb"
         ],
         "sentence": [
-          "Rice is a _______ for many Asian villagers.",
-          "Arithmetic is a _______ for the study of mathematics.",
-          "The drill sergeants gave him hell in _______."
+          "They've added some fancy features, but it's _______ still a car.",
+          "I shouldn't have done it, _______."
         ],
         "definition": [
-          "A necessary commodity, a staple requirement.",
-          "An elementary building block, e.g. a fundamental piece of knowledge.",
-          "Basic training."
+          "In a fundamental, essential or basic manner",
+          "Mostly; generally; for the most part",
+          "(filler) used to refer to the most important or fundamental point the speaker is making; sometimes tending towards a meaningless filler word"
         ]
       }
     }
