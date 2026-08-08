@@ -1,23 +1,19 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-08",
   "wordData": {
-    "word": "BASKET",
-    "numOfLetters": 6,
+    "word": "BATHROOM",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "A _______ of fake fruit adorned the table.",
-          "The point guard drove toward the _______.",
-          "The last-second _______ sealed the victory."
+          "Most Americans don't know 'WC' and many Brits mock '_______' but almost everyone understands 'toilet' or 'lavatory'."
         ],
         "definition": [
-          "A lightweight container, generally round, open at the top, and tapering toward the bottom.",
-          "A wire or plastic container similar in shape to a basket, used for carrying articles for purchase in a shop.",
-          "In an online shop, a notional place to store items before ordering them."
+          "A room containing a shower and/or bathtub, and (typically but not necessarily) a toilet.",
+          "A lavatory: a room containing a toilet and (typically but not necessarily) a bathtub."
         ]
       }
     }
