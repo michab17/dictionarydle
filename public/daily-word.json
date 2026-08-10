@@ -1,19 +1,20 @@
 {
-  "date": "2026-08-09",
+  "date": "2026-08-10",
   "wordData": {
-    "word": "BATHROOM",
-    "numOfLetters": 8,
+    "word": "BATTERY",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "Most Americans don't know 'WC' and many Brits mock '_______' but almost everyone understands 'toilet' or 'lavatory'."
+          "Schoolchildren take a _______ of standard tests to measure their progress."
         ],
         "definition": [
-          "A room containing a shower and/or bathtub, and (typically but not necessarily) a toilet.",
-          "A lavatory: a room containing a toilet and (typically but not necessarily) a bathtub."
+          "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself.",
+          "The infliction of unlawful physical violence on a person, legally distinguished from assault, which includes the threat of impending violence.",
+          "A coordinated group of artillery weapons."
         ]
       }
     }
