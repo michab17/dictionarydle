@@ -1,20 +1,22 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "wordData": {
-    "word": "BATTERY",
-    "numOfLetters": 7,
+    "word": "BATTLE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "Schoolchildren take a _______ of standard tests to measure their progress."
+          "the _______ of life",
+          "Scientists always _______ over theories."
         ],
         "definition": [
-          "A device used to power electric devices, consisting of a set of electrically connected electrochemical or, archaically, electrostatic cells. A single such cell when used by itself.",
-          "The infliction of unlawful physical violence on a person, legally distinguished from assault, which includes the threat of impending violence.",
-          "A coordinated group of artillery weapons."
+          "A contest, a struggle.",
+          "A general action, fight, or encounter, in which all the divisions of an army are or may be engaged; a combat, an engagement.",
+          "A division of an army; a battalion."
         ]
       }
     }
