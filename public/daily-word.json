@@ -1,23 +1,24 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-14",
   "wordData": {
-    "word": "BEAUTIFUL",
-    "numOfLetters": 9,
+    "word": "BEAUTY",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
+          "verb",
           "adjective"
         ],
         "sentence": [
-          "Hey, _______!",
-          "Anyone who has ever met her thought she was absolutely _______.",
-          "It's _______ outside, let's go for a walk."
+          "1988, \"… _______ and recollection, like danger, glamour, greed, hunger- everything but disappointment and desire- were concepts belonging to other people.” -Second Son, Robert Ferro",
+          "Brigitte Bardot was a renowned _______.",
+          "What a goal! That was a real _______!"
         ],
         "definition": [
-          "Someone who is beautiful. Can be used as a term of address.",
-          "Attractive and possessing beauty.",
-          "(of the weather) Pleasant; clear."
+          "The quality of being (especially visually) attractive, pleasing, fine or good-looking; comeliness.",
+          "Someone who is beautiful.",
+          "Something that is particularly good or pleasing."
         ]
       }
     }
