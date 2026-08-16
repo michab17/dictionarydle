@@ -1,21 +1,18 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "wordData": {
-    "word": "BEGIN",
-    "numOfLetters": 5,
+    "word": "BEDROOM",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "noun"
         ],
         "sentence": [
-          "I began playing the piano at the age of five.   Now that everyone is here, we should _______ the presentation."
+          "Please don't enter my _______ without knocking."
         ],
         "definition": [
-          "Beginning; start.",
-          "To start, to initiate or take the first step into something.",
-          "To be in the first stage of some situation"
+          "A room in a house where a bed is kept for sleeping."
         ]
       }
     }
