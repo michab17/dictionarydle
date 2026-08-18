@@ -1,18 +1,24 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "wordData": {
-    "word": "BEDROOM",
-    "numOfLetters": 7,
+    "word": "BEFORE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adverb",
+          "preposition",
+          "conjunction"
         ],
         "sentence": [
-          "Please don't enter my _______ without knocking."
+          "I've never done this _______.",
+          "I want this done _______ Monday.",
+          "He stood _______ me."
         ],
         "definition": [
-          "A room in a house where a bed is kept for sleeping."
+          "At an earlier time.",
+          "At the front end.",
+          "Earlier than (in time)."
         ]
       }
     }
