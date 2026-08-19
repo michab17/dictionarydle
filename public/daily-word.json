@@ -1,24 +1,22 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "wordData": {
-    "word": "BEFORE",
+    "word": "BETTER",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
-          "preposition",
-          "conjunction"
+          "noun",
+          "adjective",
+          "adverb"
         ],
         "sentence": [
-          "I've never done this _______.",
-          "I want this done _______ Monday.",
-          "He stood _______ me."
+          "He quickly found Ali his _______ in the ring."
         ],
         "definition": [
-          "At an earlier time.",
-          "At the front end.",
-          "Earlier than (in time)."
+          "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
+          "Greater in amount or quantity",
+          "(of capabilities)"
         ]
       }
     }
