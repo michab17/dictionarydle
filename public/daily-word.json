@@ -1,22 +1,21 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "wordData": {
-    "word": "BETTER",
-    "numOfLetters": 6,
+    "word": "BEGINNING",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective",
-          "adverb"
+          "noun"
         ],
         "sentence": [
-          "He quickly found Ali his _______ in the ring."
+          "What was the _______ of the dispute?",
+          "That house is at the _______ of the street."
         ],
         "definition": [
-          "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
-          "Greater in amount or quantity",
-          "(of capabilities)"
+          "The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states.",
+          "That which is begun; a rudiment or element.",
+          "That which begins or originates something; the source or first cause."
         ]
       }
     }
