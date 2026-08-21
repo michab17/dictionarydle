@@ -1,21 +1,20 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "wordData": {
-    "word": "BEGINNING",
-    "numOfLetters": 9,
+    "word": "BEHAVIOR",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun"
         ],
         "sentence": [
-          "What was the _______ of the dispute?",
-          "That house is at the _______ of the street."
+          "He was on his best _______ when her family visited."
         ],
         "definition": [
-          "The act of doing that which begins anything; commencement of an action, state, or space of time; entrance into being or upon a course; the first act, effort, or state of a succession of acts or states.",
-          "That which is begun; a rudiment or element.",
-          "That which begins or originates something; the source or first cause."
+          "Human conduct relative to social norms.",
+          "The way a living creature behaves or acts generally.",
+          "A state of probation about one's conduct."
         ]
       }
     }
