@@ -1,20 +1,22 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "wordData": {
-    "word": "BEHAVIOR",
-    "numOfLetters": 8,
+    "word": "BESIDE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "adverb",
+          "preposition"
         ],
         "sentence": [
-          "He was on his best _______ when her family visited."
+          "A small table _______ the bed",
+          "That is _______ the point"
         ],
         "definition": [
-          "Human conduct relative to social norms.",
-          "The way a living creature behaves or acts generally.",
-          "A state of probation about one's conduct."
+          "Otherwise; else.",
+          "Next to; at the side of.",
+          "Not relevant to."
         ]
       }
     }
