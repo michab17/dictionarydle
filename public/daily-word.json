@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "wordData": {
-    "word": "BESIDE",
+    "word": "BELIEF",
     "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
-          "preposition"
+          "noun"
         ],
         "sentence": [
-          "A small table _______ the bed",
-          "That is _______ the point"
+          "It's my _______ that the thief is somebody known to us.",
+          "Based on this data, it is our _______ that X does not occur.",
+          "The ancient people have a _______ in many deities."
         ],
         "definition": [
-          "Otherwise; else.",
-          "Next to; at the side of.",
-          "Not relevant to."
+          "Mental acceptance of a claim as true.",
+          "Faith or trust in the reality of something; often based upon one's own reasoning, trust in a claim, desire of actuality, and/or evidence considered.",
+          "Something believed."
         ]
       }
     }
