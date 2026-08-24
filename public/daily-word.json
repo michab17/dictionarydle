@@ -1,22 +1,21 @@
 {
-  "date": "2026-08-23",
+  "date": "2026-08-24",
   "wordData": {
-    "word": "BELIEF",
-    "numOfLetters": 6,
+    "word": "BELIEVE",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb"
         ],
         "sentence": [
-          "It's my _______ that the thief is somebody known to us.",
-          "Based on this data, it is our _______ that X does not occur.",
-          "The ancient people have a _______ in many deities."
+          "I _______ there are faeries.",
+          "Why did I ever _______ you?"
         ],
         "definition": [
-          "Mental acceptance of a claim as true.",
-          "Faith or trust in the reality of something; often based upon one's own reasoning, trust in a claim, desire of actuality, and/or evidence considered.",
-          "Something believed."
+          "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
+          "To accept that someone is telling the truth.",
+          "To have religious faith; to believe in a greater truth."
         ]
       }
     }
