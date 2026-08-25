@@ -1,21 +1,20 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "wordData": {
-    "word": "BELIEVE",
-    "numOfLetters": 7,
+    "word": "BELONG",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "verb"
         ],
         "sentence": [
-          "I _______ there are faeries.",
-          "Why did I ever _______ you?"
+          "Where does this document _______?"
         ],
         "definition": [
-          "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
-          "To accept that someone is telling the truth.",
-          "To have religious faith; to believe in a greater truth."
+          "To have its proper place.",
+          "(followed by to) To be part of, or the property of.",
+          "(followed by to) To be the spouse or partner of."
         ]
       }
     }
