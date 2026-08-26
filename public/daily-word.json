@@ -1,20 +1,23 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "wordData": {
-    "word": "BELONG",
-    "numOfLetters": 6,
+    "word": "BENCH",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
+          "noun",
           "verb"
         ],
         "sentence": [
-          "Where does this document _______?"
+          "They sat on a park _______ and tossed bread crumbs to the ducks and pigeons.",
+          "They are awaiting a decision on the motion from the _______.",
+          "She sat on the _______ for 30 years before she retired."
         ],
         "definition": [
-          "To have its proper place.",
-          "(followed by to) To be part of, or the property of.",
-          "(followed by to) To be the spouse or partner of."
+          "A long seat with or without a back, found for example in parks and schools.",
+          "The people who decide on the verdict; the judiciary.",
+          "The place where the judges sit."
         ]
       }
     }
