@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "wordData": {
-    "word": "BENCH",
-    "numOfLetters": 5,
+    "word": "BENEFIT",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,12 @@
           "verb"
         ],
         "sentence": [
-          "They sat on a park _______ and tossed bread crumbs to the ducks and pigeons.",
-          "They are awaiting a decision on the motion from the _______.",
-          "She sat on the _______ for 30 years before she retired."
+          "It was for her _______.   His _______ was free beer."
         ],
         "definition": [
-          "A long seat with or without a back, found for example in parks and schools.",
-          "The people who decide on the verdict; the judiciary.",
-          "The place where the judges sit."
+          "An advantage; help or aid from something.",
+          "A payment made in accordance with an insurance policy or a public assistance scheme.",
+          "An event such as a performance, given to raise funds for some cause."
         ]
       }
     }
