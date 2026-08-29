@@ -1,21 +1,22 @@
 {
-  "date": "2026-08-28",
+  "date": "2026-08-29",
   "wordData": {
-    "word": "BENEFIT",
-    "numOfLetters": 7,
+    "word": "BESIDE",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "adverb",
+          "preposition"
         ],
         "sentence": [
-          "It was for her _______.   His _______ was free beer."
+          "A small table _______ the bed",
+          "That is _______ the point"
         ],
         "definition": [
-          "An advantage; help or aid from something.",
-          "A payment made in accordance with an insurance policy or a public assistance scheme.",
-          "An event such as a performance, given to raise funds for some cause."
+          "Otherwise; else.",
+          "Next to; at the side of.",
+          "Not relevant to."
         ]
       }
     }
