@@ -1,8 +1,8 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "wordData": {
-    "word": "BESIDE",
-    "numOfLetters": 6,
+    "word": "BESIDES",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,13 +10,14 @@
           "preposition"
         ],
         "sentence": [
-          "A small table _______ the bed",
-          "That is _______ the point"
+          "I don't feel like going out tonight. _______, I have to work tomorrow morning anyway.",
+          "I have been to Spain but nowhere _______.",
+          "I don't want to go anywhere _______ India."
         ],
         "definition": [
-          "Otherwise; else.",
-          "Next to; at the side of.",
-          "Not relevant to."
+          "Also; in addition.",
+          "Used to emphasize an additional point, especially an important or stronger reason; Moreover; furthermore.",
+          "Otherwise; else."
         ]
       }
     }
