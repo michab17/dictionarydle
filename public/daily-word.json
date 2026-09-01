@@ -1,23 +1,23 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-09-01",
   "wordData": {
-    "word": "BESIDES",
+    "word": "BETWEEN",
     "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb",
+          "noun",
           "preposition"
         ],
         "sentence": [
-          "I don't feel like going out tonight. _______, I have to work tomorrow morning anyway.",
-          "I have been to Spain but nowhere _______.",
-          "I don't want to go anywhere _______ India."
+          "I want to buy one that costs somewhere _______ forty and fifty dollars.",
+          "conversation _______ friends",
+          "_______ you and me, I think the boss is crazy.  Let's keep this _______ ourselves."
         ],
         "definition": [
-          "Also; in addition.",
-          "Used to emphasize an additional point, especially an important or stronger reason; Moreover; furthermore.",
-          "Otherwise; else."
+          "A kind of needle, shorter than a sharp, with a small rounded eye, used for making fine stitches on heavy fabrics.",
+          "In the position or interval that separates (two things), or intermediate in quantity or degree. (See Usage notes below.)",
+          "Done together or reciprocally."
         ]
       }
     }
