@@ -1,23 +1,24 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "wordData": {
-    "word": "BETWEEN",
-    "numOfLetters": 7,
+    "word": "BEYOND",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
+          "adverb",
           "preposition"
         ],
         "sentence": [
-          "I want to buy one that costs somewhere _______ forty and fifty dollars.",
-          "conversation _______ friends",
-          "_______ you and me, I think the boss is crazy.  Let's keep this _______ ourselves."
+          "2017 July 13, Joseph Gamp \"Marvel release stirring new set images of Black Panther and we are _______ excited\" Metro (UK)",
+          "She had no reason for the conviction _______ the very inadequate one that she had seen him around London.",
+          "No swimming _______ this point."
         ],
         "definition": [
-          "A kind of needle, shorter than a sharp, with a small rounded eye, used for making fine stitches on heavy fabrics.",
-          "In the position or interval that separates (two things), or intermediate in quantity or degree. (See Usage notes below.)",
-          "Done together or reciprocally."
+          "Something that is far beyond.",
+          "Farther along or away.",
+          "In addition; more."
         ]
       }
     }
