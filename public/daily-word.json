@@ -1,24 +1,24 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "wordData": {
-    "word": "BEYOND",
-    "numOfLetters": 6,
+    "word": "BLACK",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "adverb",
-          "preposition"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "2017 July 13, Joseph Gamp \"Marvel release stirring new set images of Black Panther and we are _______ excited\" Metro (UK)",
-          "She had no reason for the conviction _______ the very inadequate one that she had seen him around London.",
-          "No swimming _______ this point."
+          "At this point _______ makes a disastrous move.",
+          "_______ drinking fountain; _______ hospital",
+          "I was dealt two red queens, and he got one of the _______ queens."
         ],
         "definition": [
-          "Something that is far beyond.",
-          "Farther along or away.",
-          "In addition; more."
+          "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.",
+          "A black dye or pigment.",
+          "A pen, pencil, crayon, etc., made of black pigment."
         ]
       }
     }
