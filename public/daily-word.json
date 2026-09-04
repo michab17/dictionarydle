@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "wordData": {
-    "word": "BLACK",
+    "word": "BIRTH",
     "numOfLetters": 5,
     "definitions": {
       "1": {
@@ -11,14 +11,14 @@
           "adjective"
         ],
         "sentence": [
-          "At this point _______ makes a disastrous move.",
-          "_______ drinking fountain; _______ hospital",
-          "I was dealt two red queens, and he got one of the _______ queens."
+          "the _______ of an empire",
+          "He was of noble _______, but fortune had not favored him.",
+          "Her _______ father left when she was a baby; she was raised by her mother and stepfather."
         ],
         "definition": [
-          "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.",
-          "A black dye or pigment.",
-          "A pen, pencil, crayon, etc., made of black pigment."
+          "The process of childbearing; the beginning of life.",
+          "An instance of childbirth.",
+          "A beginning or start; a point of origin."
         ]
       }
     }
