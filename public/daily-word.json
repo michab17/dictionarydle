@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "wordData": {
-    "word": "BLACK",
+    "word": "BLIND",
     "numOfLetters": 5,
     "definitions": {
       "1": {
@@ -11,14 +11,14 @@
           "adjective"
         ],
         "sentence": [
-          "At this point _______ makes a disastrous move.",
-          "_______ drinking fountain; _______ hospital",
-          "I was dealt two red queens, and he got one of the _______ queens."
+          "a duck _______",
+          "Don't wave that pencil in my face - do you want to _______ me?",
+          "Authors are _______ to their own defects."
         ],
         "definition": [
-          "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed.",
-          "A black dye or pigment.",
-          "A pen, pencil, crayon, etc., made of black pigment."
+          "A covering for a window to keep out light. The covering may be made of cloth or of narrow slats that can block light or allow it to pass.",
+          "A destination sign mounted on a public transport vehicle displaying the route destination, number, name and/or via points, etc.",
+          "Any device intended to conceal or hide."
         ]
       }
     }
