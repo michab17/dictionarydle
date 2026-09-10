@@ -1,24 +1,22 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "wordData": {
-    "word": "BLIND",
+    "word": "BLAME",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "a duck _______",
-          "Don't wave that pencil in my face - do you want to _______ me?",
-          "Authors are _______ to their own defects."
+          "_______ came from all directions.",
+          "The _______ for starting the fire lies with the arsonist.",
+          "They accepted the _______, but it was an accident."
         ],
         "definition": [
-          "A covering for a window to keep out light. The covering may be made of cloth or of narrow slats that can block light or allow it to pass.",
-          "A destination sign mounted on a public transport vehicle displaying the route destination, number, name and/or via points, etc.",
-          "Any device intended to conceal or hide."
+          "Culpability for something negative or undesirable.",
+          "Responsibility for something meriting censure.",
+          "A source control feature that can show which user was responsible for a particular portion of the source code."
         ]
       }
     }
