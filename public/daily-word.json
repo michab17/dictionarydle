@@ -1,22 +1,23 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-12",
   "wordData": {
-    "word": "BLAME",
+    "word": "BLOCK",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "noun",
+          "verb"
         ],
         "sentence": [
-          "_______ came from all directions.",
-          "The _______ for starting the fire lies with the arsonist.",
-          "They accepted the _______, but it was an accident."
+          "a _______ of ice",
+          "Anne Boleyn placed her head on the _______ and awaited her execution.",
+          "I'm going for a walk around the _______."
         ],
         "definition": [
-          "Culpability for something negative or undesirable.",
-          "Responsibility for something meriting censure.",
-          "A source control feature that can show which user was responsible for a particular portion of the source code."
+          "A substantial, often approximately cuboid, piece of any substance.",
+          "A chopping block; cuboid base for cutting or beheading.",
+          "A group of urban lots of property, several acres in extent, not crossed by public streets."
         ]
       }
     }
