@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "wordData": {
-    "word": "BLOCK",
-    "numOfLetters": 5,
+    "word": "BRANCH",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "a _______ of ice",
-          "Anne Boleyn placed her head on the _______ and awaited her execution.",
-          "I'm going for a walk around the _______."
+          "the _______ of an antler, a chandelier, or a railway",
+          "Our main _______ is downtown, and we have branches in all major suburbs.",
+          "the English _______ of a family"
         ],
         "definition": [
-          "A substantial, often approximately cuboid, piece of any substance.",
-          "A chopping block; cuboid base for cutting or beheading.",
-          "A group of urban lots of property, several acres in extent, not crossed by public streets."
+          "The woody part of a tree arising from the trunk and usually dividing.",
+          "Any of the parts of something that divides like the branch of a tree.",
+          "A creek or stream which flows into a larger river. (compare Ohio, Pennsylvania and West Virginia run, and New York and New England brook.)"
         ]
       }
     }
