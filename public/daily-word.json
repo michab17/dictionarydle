@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-17",
   "wordData": {
-    "word": "BRANCH",
-    "numOfLetters": 6,
+    "word": "BRAIN",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "the _______ of an antler, a chandelier, or a railway",
-          "Our main _______ is downtown, and we have branches in all major suburbs.",
-          "the English _______ of a family"
+          "She was a total _______.",
+          "The computer's _______ is capable of millions of calculations a second.",
+          "I have too much on my _______ today."
         ],
         "definition": [
-          "The woody part of a tree arising from the trunk and usually dividing.",
-          "Any of the parts of something that divides like the branch of a tree.",
-          "A creek or stream which flows into a larger river. (compare Ohio, Pennsylvania and West Virginia run, and New York and New England brook.)"
+          "The control center of the central nervous system of an animal located in the skull which is responsible for perception, cognition, attention, memory, emotion, and action.",
+          "An intelligent person.",
+          "(in the plural) Intellect."
         ]
       }
     }
