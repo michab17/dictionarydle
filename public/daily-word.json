@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "wordData": {
-    "word": "BREAKFAST",
-    "numOfLetters": 9,
+    "word": "BRAIN",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,13 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "You should put more protein in her _______ so she will grow.",
-          "We serve _______ all day."
+          "She was a total _______.",
+          "The computer's _______ is capable of millions of calculations a second.",
+          "I have too much on my _______ today."
         ],
         "definition": [
-          "The first meal of the day, usually eaten in the morning.",
-          "(by extension) A meal consisting of food normally eaten in the morning, which may typically include eggs, sausages, toast, bacon, etc.",
-          "The celebratory meal served after a wedding (and occasionally after other solemnities e.g. a funeral)."
+          "The control center of the central nervous system of an animal located in the skull which is responsible for perception, cognition, attention, memory, emotion, and action.",
+          "An intelligent person.",
+          "(in the plural) Intellect."
         ]
       }
     }
