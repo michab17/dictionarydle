@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-28",
   "wordData": {
-    "word": "BRANCH",
-    "numOfLetters": 6,
+    "word": "BREAK",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "verb"
         ],
         "sentence": [
-          "the _______ of an antler, a chandelier, or a railway",
-          "Our main _______ is downtown, and we have branches in all major suburbs.",
-          "the English _______ of a family"
+          "The femur has a clean _______ and so should heal easily.",
+          "He waited minutes for a _______ in the traffic to cross the highway.",
+          "Let’s take a five-minute _______."
         ],
         "definition": [
-          "The woody part of a tree arising from the trunk and usually dividing.",
-          "Any of the parts of something that divides like the branch of a tree.",
-          "A creek or stream which flows into a larger river. (compare Ohio, Pennsylvania and West Virginia run, and New York and New England brook.)"
+          "An instance of breaking something into two or more pieces.",
+          "A physical space that opens up in something or between two things.",
+          "A rest or pause, usually from work."
         ]
       }
     }
