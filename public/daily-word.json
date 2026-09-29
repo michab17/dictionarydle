@@ -1,23 +1,22 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "wordData": {
-    "word": "BREAK",
-    "numOfLetters": 5,
+    "word": "BRIEFLY",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "verb"
+          "adverb"
         ],
         "sentence": [
-          "The femur has a clean _______ and so should heal easily.",
-          "He waited minutes for a _______ in the traffic to cross the highway.",
-          "Let’s take a five-minute _______."
+          "He covered the subject _______ in his book.",
+          "He only worked here _______.",
+          "_______, I am not happy about what happened, but no one will be losing their job."
         ],
         "definition": [
-          "An instance of breaking something into two or more pieces.",
-          "A physical space that opens up in something or between two things.",
-          "A rest or pause, usually from work."
+          "(manner) In a brief manner, summarily.",
+          "(duration) For a brief period.",
+          "To be brief, in short."
         ]
       }
     }
