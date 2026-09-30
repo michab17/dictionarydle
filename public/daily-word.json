@@ -1,22 +1,23 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "wordData": {
-    "word": "BRIEFLY",
-    "numOfLetters": 7,
+    "word": "BUSINESS",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "adverb"
+          "noun",
+          "adjective"
         ],
         "sentence": [
-          "He covered the subject _______ in his book.",
-          "He only worked here _______.",
-          "_______, I am not happy about what happened, but no one will be losing their job."
+          "I was left my father's _______.",
+          "He's such a poor cook, I can't believe he's still in _______!",
+          "_______ has been slow lately."
         ],
         "definition": [
-          "(manner) In a brief manner, summarily.",
-          "(duration) For a brief period.",
-          "To be brief, in short."
+          "A specific commercial enterprise or establishment.",
+          "A person's occupation, work, or trade.",
+          "Commercial, industrial, or professional activity."
         ]
       }
     }
