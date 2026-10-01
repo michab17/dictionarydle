@@ -1,23 +1,22 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "wordData": {
-    "word": "BUSINESS",
-    "numOfLetters": 8,
+    "word": "BRING",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "I was left my father's _______.",
-          "He's such a poor cook, I can't believe he's still in _______!",
-          "_______ has been slow lately."
+          "Waiter, please _______ me a single malt whiskey.",
+          "What does coal _______ per ton?",
+          "The closer Jones can really _______ it."
         ],
         "definition": [
-          "A specific commercial enterprise or establishment.",
-          "A person's occupation, work, or trade.",
-          "Commercial, industrial, or professional activity."
+          "(ditransitive) To transport toward somebody/somewhere.",
+          "To supply or contribute.",
+          "To occasion or bring about."
         ]
       }
     }
