@@ -1,22 +1,24 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "wordData": {
-    "word": "BRING",
+    "word": "BRICK",
     "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb"
+          "noun",
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "Waiter, please _______ me a single malt whiskey.",
-          "What does coal _______ per ton?",
-          "The closer Jones can really _______ it."
+          "This house is made of _______.",
+          "a plastic explosive _______",
+          "Thanks for helping me wash the car. You're a _______."
         ],
         "definition": [
-          "(ditransitive) To transport toward somebody/somewhere.",
-          "To supply or contribute.",
-          "To occasion or bring about."
+          "A hardened rectangular block of mud, clay etc., used for building.",
+          "Such hardened mud, clay, etc. considered collectively, as a building material.",
+          "Something shaped like a brick."
         ]
       }
     }
