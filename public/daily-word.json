@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "wordData": {
-    "word": "BRICK",
+    "word": "BRIEF",
     "numOfLetters": 5,
     "definitions": {
       "1": {
@@ -11,14 +11,14 @@
           "adjective"
         ],
         "sentence": [
-          "This house is made of _______.",
-          "a plastic explosive _______",
-          "Thanks for helping me wash the car. You're a _______."
+          "We got a news _______.",
+          "I wear boxers under trousers but for sports I usually wear a _______.",
+          "Her reign was _______ but spectacular."
         ],
         "definition": [
-          "A hardened rectangular block of mud, clay etc., used for building.",
-          "Such hardened mud, clay, etc. considered collectively, as a building material.",
-          "Something shaped like a brick."
+          "A writ summoning one to answer to any action.",
+          "An answer to any action.",
+          "A memorandum of points of fact or of law for use in conducting a case."
         ]
       }
     }
