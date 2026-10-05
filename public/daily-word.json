@@ -1,24 +1,23 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "wordData": {
-    "word": "BRIEF",
-    "numOfLetters": 5,
+    "word": "BRILLIANT",
+    "numOfLetters": 9,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb",
           "adjective"
         ],
         "sentence": [
-          "We got a news _______.",
-          "I wear boxers under trousers but for sports I usually wear a _______.",
-          "Her reign was _______ but spectacular."
+          "the _______ lights along the promenade",
+          "butterflies with _______ blue wings",
+          "The actor's performance in the play was simply _______."
         ],
         "definition": [
-          "A writ summoning one to answer to any action.",
-          "An answer to any action.",
-          "A memorandum of points of fact or of law for use in conducting a case."
+          "A finely cut gemstone, especially a diamond, cut in a particular form with numerous facets so as to maximize light return through the top (called \"table\") of the stone.",
+          "The size of type between excelsior and diamond, standardized as 4-point.",
+          "Most hummingbird species of the genus Heliodoxa."
         ]
       }
     }
