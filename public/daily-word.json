@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "wordData": {
-    "word": "BRILLIANT",
-    "numOfLetters": 9,
+    "word": "BRIGHT",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "adjective"
         ],
         "sentence": [
-          "the _______ lights along the promenade",
-          "butterflies with _______ blue wings",
-          "The actor's performance in the play was simply _______."
+          "Could you please dim the light? It's far too _______.",
+          "He's very _______. He was able to solve the problem without my help.",
+          "I woke up today feeling so _______ that I decided to have a little dance."
         ],
         "definition": [
-          "A finely cut gemstone, especially a diamond, cut in a particular form with numerous facets so as to maximize light return through the top (called \"table\") of the stone.",
-          "The size of type between excelsior and diamond, standardized as 4-point.",
-          "Most hummingbird species of the genus Heliodoxa."
+          "An artist's brush used in oil and acrylic painting with a long ferrule and a flat, somewhat tapering bristle head.",
+          "Splendour; brightness",
+          "A person with a naturalistic worldview with no supernatural or mystical elements."
         ]
       }
     }
