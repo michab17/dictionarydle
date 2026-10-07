@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "wordData": {
-    "word": "BRIGHT",
-    "numOfLetters": 6,
+    "word": "BRUSH",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "Could you please dim the light? It's far too _______.",
-          "He's very _______. He was able to solve the problem without my help.",
-          "I woke up today feeling so _______ that I decided to have a little dance."
+          "She gave her hair a quick _______.",
+          "_______ your teeth.",
+          "_______ your hair."
         ],
         "definition": [
-          "An artist's brush used in oil and acrylic painting with a long ferrule and a flat, somewhat tapering bristle head.",
-          "Splendour; brightness",
-          "A person with a naturalistic worldview with no supernatural or mystical elements."
+          "An implement consisting of multiple more or less flexible bristles or other filaments attached to a handle, used for any of various purposes including cleaning, painting, and arranging hair.",
+          "The act of brushing something.",
+          "A piece of conductive material, usually carbon, serving to maintain electrical contact between the stationary and rotating parts of a machine."
         ]
       }
     }
