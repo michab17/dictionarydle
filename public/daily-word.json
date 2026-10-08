@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "wordData": {
-    "word": "BRUSH",
-    "numOfLetters": 5,
+    "word": "BUSINESS",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "verb"
+          "adjective"
         ],
         "sentence": [
-          "She gave her hair a quick _______.",
-          "_______ your teeth.",
-          "_______ your hair."
+          "I was left my father's _______.",
+          "He's such a poor cook, I can't believe he's still in _______!",
+          "_______ has been slow lately."
         ],
         "definition": [
-          "An implement consisting of multiple more or less flexible bristles or other filaments attached to a handle, used for any of various purposes including cleaning, painting, and arranging hair.",
-          "The act of brushing something.",
-          "A piece of conductive material, usually carbon, serving to maintain electrical contact between the stationary and rotating parts of a machine."
+          "A specific commercial enterprise or establishment.",
+          "A person's occupation, work, or trade.",
+          "Commercial, industrial, or professional activity."
         ]
       }
     }
