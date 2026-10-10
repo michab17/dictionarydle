@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-10",
   "wordData": {
-    "word": "BUSINESS",
-    "numOfLetters": 8,
+    "word": "BROAD",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
@@ -10,14 +10,14 @@
           "adjective"
         ],
         "sentence": [
-          "I was left my father's _______.",
-          "He's such a poor cook, I can't believe he's still in _______!",
-          "_______ has been slow lately."
+          "the _______ expanse of ocean",
+          "a _______ hint",
+          "a _______ compliment; a _______ joke; _______ humour"
         ],
         "definition": [
-          "A specific commercial enterprise or establishment.",
-          "A person's occupation, work, or trade.",
-          "Commercial, industrial, or professional activity."
+          "A shallow lake, one of a number of bodies of water in eastern Norfolk and Suffolk.",
+          "A lathe tool for turning down the insides and bottoms of cylinders.",
+          "A British gold coin worth 20 shillings, issued by the Commonwealth of England in 1656."
         ]
       }
     }
