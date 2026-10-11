@@ -1,23 +1,20 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "wordData": {
-    "word": "BROAD",
-    "numOfLetters": 5,
+    "word": "BUILDING",
+    "numOfLetters": 8,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "the _______ expanse of ocean",
-          "a _______ hint",
-          "a _______ compliment; a _______ joke; _______ humour"
+          "The _______ of the bridge will be completed in a couple of weeks.",
+          "My sister lives in that apartment _______."
         ],
         "definition": [
-          "A shallow lake, one of a number of bodies of water in eastern Norfolk and Suffolk.",
-          "A lathe tool for turning down the insides and bottoms of cylinders.",
-          "A British gold coin worth 20 shillings, issued by the Commonwealth of England in 1656."
+          "The act or process by which something is built; construction.",
+          "A closed structure with walls and a roof."
         ]
       }
     }
