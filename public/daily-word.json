@@ -1,20 +1,23 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "wordData": {
-    "word": "BUILDING",
-    "numOfLetters": 8,
+    "word": "BROKEN",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun"
+          "verb",
+          "adjective"
         ],
         "sentence": [
-          "The _______ of the bridge will be completed in a couple of weeks.",
-          "My sister lives in that apartment _______."
+          "I had won four games in a row, but now you've _______ my streak of luck.",
+          "Morning has _______.",
+          "_______ promises of neutrality"
         ],
         "definition": [
-          "The act or process by which something is built; construction.",
-          "A closed structure with walls and a roof."
+          "To separate into two or more pieces, to fracture or crack, by a process that cannot easily be reversed for reassembly.",
+          "To divide (something, often money) into smaller units.",
+          "To cause (a person or animal) to lose spirit or will; to crush the spirits of."
         ]
       }
     }
