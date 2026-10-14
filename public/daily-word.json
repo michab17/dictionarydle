@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-14",
   "wordData": {
-    "word": "BROKEN",
-    "numOfLetters": 6,
+    "word": "CAPITAL",
+    "numOfLetters": 7,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "verb",
+          "noun",
           "adjective"
         ],
         "sentence": [
-          "I had won four games in a row, but now you've _______ my streak of luck.",
-          "Morning has _______.",
-          "_______ promises of neutrality"
+          "He does not have enough _______ to start a business.",
+          "The Welsh government claims that Cardiff is Europe’s youngest _______.",
+          "Interpreters need a good amount of cultural _______ in order to function efficiently in the profession."
         ],
         "definition": [
-          "To separate into two or more pieces, to fracture or crack, by a process that cannot easily be reversed for reassembly.",
-          "To divide (something, often money) into smaller units.",
-          "To cause (a person or animal) to lose spirit or will; to crush the spirits of."
+          "Already-produced durable goods available for use as a factor of production, such as steam shovels (equipment) and office buildings (structures).",
+          "Money and wealth. The means to acquire goods and services, especially in a non-barter system.",
+          "A city designated as a legislative seat by the government or some other authority, often the city in which the government is located; otherwise the most important city within a country or a subdivision of it."
         ]
       }
     }
