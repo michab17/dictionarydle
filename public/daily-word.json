@@ -1,23 +1,23 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "wordData": {
-    "word": "CAPITAL",
-    "numOfLetters": 7,
+    "word": "BRUSH",
+    "numOfLetters": 5,
     "definitions": {
       "1": {
         "partOfSpeech": [
           "noun",
-          "adjective"
+          "verb"
         ],
         "sentence": [
-          "He does not have enough _______ to start a business.",
-          "The Welsh government claims that Cardiff is Europe’s youngest _______.",
-          "Interpreters need a good amount of cultural _______ in order to function efficiently in the profession."
+          "She gave her hair a quick _______.",
+          "_______ your teeth.",
+          "_______ your hair."
         ],
         "definition": [
-          "Already-produced durable goods available for use as a factor of production, such as steam shovels (equipment) and office buildings (structures).",
-          "Money and wealth. The means to acquire goods and services, especially in a non-barter system.",
-          "A city designated as a legislative seat by the government or some other authority, often the city in which the government is located; otherwise the most important city within a country or a subdivision of it."
+          "An implement consisting of multiple more or less flexible bristles or other filaments attached to a handle, used for any of various purposes including cleaning, painting, and arranging hair.",
+          "The act of brushing something.",
+          "A piece of conductive material, usually carbon, serving to maintain electrical contact between the stationary and rotating parts of a machine."
         ]
       }
     }
