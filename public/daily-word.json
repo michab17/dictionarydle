@@ -1,23 +1,22 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "wordData": {
-    "word": "BUSINESS",
-    "numOfLetters": 8,
+    "word": "BUTTON",
+    "numOfLetters": 6,
     "definitions": {
       "1": {
         "partOfSpeech": [
-          "noun",
-          "adjective"
+          "noun"
         ],
         "sentence": [
-          "I was left my father's _______.",
-          "He's such a poor cook, I can't believe he's still in _______!",
-          "_______ has been slow lately."
+          "Pat pushed the _______ marked \"shred\" on the blender.",
+          "Click the _______ that looks like a house to return to your browser's home page.",
+          "The politician wore a bright yellow _______ with the slogan \"Vote Smart\" emblazoned on it."
         ],
         "definition": [
-          "A specific commercial enterprise or establishment.",
-          "A person's occupation, work, or trade.",
-          "Commercial, industrial, or professional activity."
+          "One who adjusts, especially for the insurance industry's employment title \"loss adjuster\" (or \"claims adjuster\" in the United States).",
+          "A knob or disc that is passed through a loop or (buttonhole), serving as a fastener.",
+          "A mechanical device meant to be pressed with a finger in order to open or close an electric circuit or to activate a mechanism."
         ]
       }
     }
